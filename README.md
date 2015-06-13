@@ -16,6 +16,13 @@ let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets,~/.vim/
 
 We can do something better, it is convenient to delete the arg's type tip
 ~~~vim
+" Map to nice work in PHP
+autocmd FileType php inoremap <buffer> ;; <End>;
+autocmd FileType php nnoremap <buffer> ;; <End>A;<esc>
+autocmd FileType php inoremap <buffer> $$ <C-Left>$<esc>ea
+autocmd FileType php inoremap <buffer> $g <C-Left>$<esc>ea->
+autocmd FileType php inoremap <buffer> -g <End>->
+autocmd FileType php inoremap <buffer> <C-Space> <C-Left>$<esc>ea = 
 autocmd FileType php smap <buffer> kk <Esc><C-Left><S-Left>viwdea
 ~~~
 
