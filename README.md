@@ -14,7 +14,7 @@ let g:neosnippet#enable_snipmate_compatibility = 1
 let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets,~/.vim/bundle/vim-php-snippets'
 ~~~
 
-We can do something better, it is convenient to delete the arg's type tip
+We can do something better, it is convenient to delete the arg's type tip and others
 ~~~vim
 " Map to nice work in PHP
 autocmd FileType php inoremap <buffer> ;; <End>;
