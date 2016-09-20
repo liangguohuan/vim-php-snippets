@@ -1,0 +1,4062 @@
+snippet abs
+	abs(${1:mixed $number})
+
+snippet acos
+	acos(${1:float $arg})
+
+snippet acosh
+	acosh(${1:float $arg})
+
+snippet addcslashes
+	addcslashes(${1:string $str}, ${2:string $charlist})
+
+snippet addslashes
+	addslashes(${1:string $str})
+
+snippet array_change_key_case
+	array_change_key_case(${1:array $array})
+
+snippet array_chunk
+	array_chunk(${1:array $array}, ${2:int $size})
+
+snippet array_column
+	array_column(${1:array $input}, ${2:mixed $column_key})
+
+snippet array_combine
+	array_combine(${1:array $keys}, ${2:array $values})
+
+snippet array_count_values
+	array_count_values(${1:array $array})
+
+snippet array_diff_assoc
+	array_diff_assoc(${1:array $array1}, ${2:array $array2})
+
+snippet array_diff_key
+	array_diff_key(${1:array $array1}, ${2:array $array2})
+
+snippet array_diff_uassoc
+	array_diff_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})
+
+snippet array_diff_ukey
+	array_diff_ukey(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})
+
+snippet array_diff
+	array_diff(${1:array $array1}, ${2:array $array2})
+
+snippet array_fill_keys
+	array_fill_keys(${1:array $keys}, ${2:mixed $value})
+
+snippet array_fill
+	array_fill(${1:int $start_index}, ${2:int $num}, ${3:mixed $value})
+
+snippet array_filter
+	array_filter(${1:array $array})
+
+snippet array_flip
+	array_flip(${1:array $array})
+
+snippet array_intersect_assoc
+	array_intersect_assoc(${1:array $array1}, ${2:array $array2})
+
+snippet array_intersect_key
+	array_intersect_key(${1:array $array1}, ${2:array $array2 ~})
+
+snippet array_intersect_uassoc
+	array_intersect_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})
+
+snippet array_intersect_ukey
+	array_intersect_ukey(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})
+
+snippet array_intersect
+	array_intersect(${1:array $array1}, ${2:array $array2})
+
+snippet array_key_exists
+	array_key_exists(${1:mixed $key}, ${2:array $array})
+
+snippet array_keys
+	array_keys(${1:array $array})
+
+snippet array_map
+	array_map(${1:callable $callback}, ${2:array $array1})
+
+snippet array_merge_recursive
+	array_merge_recursive(${1:array $array1})
+
+snippet array_merge
+	array_merge(${1:array $array1})
+
+snippet array_multisort
+	array_multisort(${1:array &$array1})
+
+snippet array_pad
+	array_pad(${1:array $array}, ${2:int $size}, ${3:mixed $value})
+
+snippet array_pop
+	array_pop(${1:array &$array})
+
+snippet array_product
+	array_product(${1:array $array})
+
+snippet array_push
+	array_push(${1:array &$array}, ${2:mixed $value1})
+
+snippet array_rand
+	array_rand(${1:array $array})
+
+snippet array_reduce
+	array_reduce(${1:array $array}, ${2:callable $callback})
+
+snippet array_replace_recursive
+	array_replace_recursive(${1:array $array1}, ${2:array $array2})
+
+snippet array_replace
+	array_replace(${1:array $array1}, ${2:array $array2})
+
+snippet array_reverse
+	array_reverse(${1:array $array})
+
+snippet array_search
+	array_search(${1:mixed $needle}, ${2:array $haystack})
+
+snippet array_shift
+	array_shift(${1:array &$array})
+
+snippet array_slice
+	array_slice(${1:array $array}, ${2:int $offset})
+
+snippet array_splice
+	array_splice(${1:array &$input}, ${2:int $offset})
+
+snippet array_sum
+	array_sum(${1:array $array})
+
+snippet array_udiff_assoc
+	array_udiff_assoc(${1:array $array1}, ${2:array $array2}, ${3:"some_comparison_func"})
+
+snippet array_udiff_uassoc
+	array_udiff_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func}, ${4:callable $key_compare_func})
+
+snippet array_udiff
+	array_udiff(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})
+
+snippet array_uintersect_assoc
+	array_uintersect_assoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})
+
+snippet array_uintersect_uassoc
+	array_uintersect_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func}, ${4:callable $key_compare_func})
+
+snippet array_uintersect
+	array_uintersect(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})
+
+snippet array_unique
+	array_unique(${1:array $array})
+
+snippet array_unshift
+	array_unshift(${1:array &$array}, ${2:mixed $value1})
+
+snippet array_values
+	array_values(${1:array $array})
+
+snippet array_walk_recursive
+	array_walk_recursive(${1:array &$array}, ${2:callable $callback})
+
+snippet array_walk
+	array_walk(${1:array &$array}, ${2:callable $callback})
+
+snippet array
+	array()
+
+snippet arsort
+	arsort(${1:array &$array})
+
+snippet asin
+	asin(${1:float $arg})
+
+snippet asinh
+	asinh(${1:float $arg})
+
+snippet asort
+	asort(${1:array &$array})
+
+snippet assert_options
+	assert_options(${1:int $what})
+
+snippet assert
+	assert(${1:mixed $assertion})
+
+snippet atan
+	atan(${1:float $arg})
+
+snippet atan2
+	atan2(${1:float $y}, ${2:float $x})
+
+snippet atanh
+	atanh(${1:float $arg})
+
+snippet autoload
+	autoload(${1:string $class})
+
+snippet base_convert
+	base_convert(${1:string $number}, ${2:int $frombase}, ${3:int $tobase})
+
+snippet base64_decode
+	base64_decode(${1:string $data})
+
+snippet base64_encode
+	base64_encode(${1:string $data})
+
+snippet basename
+	basename(${1:string $path})
+
+snippet bbcode_add_element
+	bbcode_add_element(${1:resource $bbcode_container}, ${2:string $tag_name}, ${3:array $tag_rules})
+
+snippet bbcode_add_smiley
+	bbcode_add_smiley(${1:resource $bbcode_container}, ${2:string $smiley}, ${3:string $replace_by})
+
+snippet bbcode_create
+	bbcode_create()
+
+snippet bbcode_destroy
+	bbcode_destroy(${1:resource $bbcode_container})
+
+snippet bbcode_parse
+	bbcode_parse(${1:resource $bbcode_container}, ${2:string $to_parse})
+
+snippet bbcode_set_arg_parser
+	bbcode_set_arg_parser(${1:resource $bbcode_container}, ${2:resource$bbcode_arg_parser})
+
+snippet bbcode_set_flags
+	bbcode_set_flags(${1:resource $bbcode_container}, ${2:int $flags})
+
+snippet bcadd
+	bcadd(${1:string $left_operand}, ${2:string $right_operand})
+
+snippet bccomp
+	bccomp(${1:string $left_operand}, ${2:string $right_operand})
+
+snippet bcdiv
+	bcdiv(${1:string $left_operand}, ${2:string $right_operand})
+
+snippet bcmod
+	bcmod(${1:string $left_operand}, ${2:string $modulus})
+
+snippet bcmul
+	bcmul(${1:string $left_operand}, ${2:string $right_operand})
+
+snippet bcpow
+	bcpow(${1:string $left_operand}, ${2:string $right_operand})
+
+snippet bcpowmod
+	bcpowmod(${1:string $left_operand}, ${2:string $right_operand}, ${3:string$modulus})
+
+snippet bcscale
+	bcscale(${1:int $scale})
+
+snippet bcsqrt
+	bcsqrt(${1:string $operand})
+
+snippet bcsub
+	bcsub(${1:string $left_operand}, ${2:string $right_operand})
+
+snippet bin2hex
+	bin2hex(${1:string $str})
+
+snippet bind_textdomain_codeset
+	bind_textdomain_codeset(${1:string $domain}, ${2:string $codeset})
+
+snippet bindec
+	bindec(${1:string $binary_string})
+
+snippet bindtextdomain
+	bindtextdomain(${1:string $domain}, ${2:string $directory})
+
+snippet blenc_encrypt
+	blenc_encrypt(${1:string $plaintext}, ${2:string $encodedfile})
+
+snippet boolval
+	boolval(${1:mixed $var})
+
+snippet bson_decode
+	bson_decode(${1:string $bson})
+
+snippet bson_encode
+	bson_encode(${1:mixed $anything})
+
+snippet bson_fromarray
+	bson_fromarray(${1:string $array})
+
+snippet bson_fromjson
+	bson_fromjson(${1:string $json})
+
+snippet bson_toarray
+	bson_toarray(${1:string $bson})
+
+snippet bson_tojson
+	bson_tojson(${1:string $bson})
+
+snippet bzclose
+	bzclose(${1:resource $bz})
+
+snippet bzcompress
+	bzcompress(${1:string $source})
+
+snippet bzdecompress
+	bzdecompress(${1:string $source})
+
+snippet bzerrno
+	bzerrno(${1:resource $bz})
+
+snippet bzerror
+	bzerror(${1:resource $bz})
+
+snippet bzerrstr
+	bzerrstr(${1:resource $bz})
+
+snippet bzflush
+	bzflush(${1:resource $bz})
+
+snippet bzopen
+	bzopen(${1:mixed $file}, ${2:string $mode})
+
+snippet bzread
+	bzread(${1:resource $bz})
+
+snippet bzwrite
+	bzwrite(${1:resource $bz}, ${2:string $data})
+
+snippet cal_days_in_month
+	cal_days_in_month(${1:int $calendar}, ${2:int $month}, ${3:int $year})
+
+snippet cal_from_jd
+	cal_from_jd(${1:int $jd}, ${2:int $calendar})
+
+snippet cal_info
+	cal_info()
+
+snippet cal_to_jd
+	cal_to_jd(${1:int $calendar}, ${2:int $month}, ${3:int $day}, ${4:int $year})
+
+snippet calcul_hmac
+	calcul_hmac(${1:string $clent}, ${2:string $siretcode}, ${3:string $price}, ${4:string $reference}, ${5:string $validity}, ${6:string $taxation}, ${7:string $devise}, ${8:string $language})
+
+snippet calculhmac
+	calculhmac(${1:string $clent}, ${2:string $data})
+
+snippet call_user_func_array
+	call_user_func_array(${1:callable $callback}, ${2:array $param_arr})
+
+snippet call_user_func
+	call_user_func(${1:callable $callback})
+
+snippet call_user_method_array
+	call_user_method_array(${1:string $method_name}, ${2:object &$obj}, ${3:array$params})
+
+snippet call_user_method
+	call_user_method(${1:string $method_name}, ${2:object &$obj})
+
+snippet ceil
+	ceil(${1:float $value})
+
+snippet chdb_create
+	chdb_create(${1:string $pathname}, ${2:array $data})
+
+snippet chdir
+	chdir(${1:string $directory})
+
+snippet checkdate
+	checkdate(${1:int $month}, ${2:int $day}, ${3:int $year})
+
+snippet checkdnsrr
+	checkdnsrr(${1:string $host})
+
+snippet chgrp
+	chgrp(${1:string $filename}, ${2:mixed $group})
+
+snippet chmod
+	chmod(${1:string $filename}, ${2:int $mode})
+
+snippet chown
+	chown(${1:string $filename}, ${2:mixed $user})
+
+snippet chr
+	chr(${1:int $ascii})
+
+snippet chroot
+	chroot(${1:string $directory})
+
+snippet chunk_split
+	chunk_split(${1:string $body})
+
+snippet class_alias
+	class_alias(${1:string $original}, ${2:string $alias})
+
+snippet class_exists
+	class_exists(${1:string $class_name})
+
+snippet class_implements
+	class_implements(${1:mixed $class})
+
+snippet class_parents
+	class_parents(${1:mixed $class})
+
+snippet class_uses
+	class_uses(${1:mixed $class})
+
+snippet clearstatcache
+	clearstatcache()
+
+snippet cli_get_process_title
+	cli_get_process_title(${1:void})
+
+snippet cli_set_process_title
+	cli_set_process_title(${1:string $title})
+
+snippet closedir
+	closedir()
+
+snippet closelog
+	closelog(${1:void})
+
+snippet compact
+	compact(${1:mixed $varname1})
+
+snippet connection_aborted
+	connection_aborted(${1:void})
+
+snippet connection_status
+	connection_status(${1:void})
+
+snippet constant
+	constant(${1:string $name})
+
+snippet convert_cyr_string
+	convert_cyr_string(${1:string $str}, ${2:string $from}, ${3:string $to})
+
+snippet convert_uudecode
+	convert_uudecode(${1:string $data})
+
+snippet convert_uuencode
+	convert_uuencode(${1:string $data})
+
+snippet copy
+	copy(${1:string $source}, ${2:string $dest})
+
+snippet cos
+	cos(${1:float $arg})
+
+snippet cosh
+	cosh(${1:float $arg})
+
+snippet count_chars
+	count_chars(${1:string $string})
+
+snippet count
+	count(${1:mixed $array_or_countable})
+
+snippet crack_check
+	crack_check(${1:resource $dictionary}, ${2:string $password})
+
+snippet crack_closedict
+	crack_closedict()
+
+snippet crack_getlastmessage
+	crack_getlastmessage(${1:void})
+
+snippet crack_opendict
+	crack_opendict(${1:string $dictionary})
+
+snippet crc32
+	crc32(${1:string $str})
+
+snippet create_function
+	create_function(${1:string $args}, ${2:string $code})
+
+snippet crypt
+	crypt(${1:string $str})
+
+snippet curl_close
+	curl_close(${1:resource $ch})
+
+snippet curl_copy_handle
+	curl_copy_handle(${1:resource $ch})
+
+snippet curl_errno
+	curl_errno(${1:resource $ch})
+
+snippet curl_error
+	curl_error(${1:resource $ch})
+
+snippet curl_escape
+	curl_escape(${1:resource $ch}, ${2:string $str})
+
+snippet curl_exec
+	curl_exec(${1:resource $ch})
+
+snippet curl_getinfo
+	curl_getinfo(${1:resource $ch})
+
+snippet curl_init
+	curl_init()
+
+snippet curl_multi_add_handle
+	curl_multi_add_handle(${1:resource $mh}, ${2:resource $ch})
+
+snippet curl_multi_close
+	curl_multi_close(${1:resource $mh})
+
+snippet curl_multi_exec
+	curl_multi_exec(${1:resource $mh}, ${2:int &$still_running})
+
+snippet curl_multi_getcontent
+	curl_multi_getcontent(${1:resource $ch})
+
+snippet curl_multi_info_read
+	curl_multi_info_read(${1:resource $mh ~})
+
+snippet curl_multi_init
+	curl_multi_init(${1:void})
+
+snippet curl_multi_remove_handle
+	curl_multi_remove_handle(${1:resource $mh}, ${2:resource $ch})
+
+snippet curl_multi_select
+	curl_multi_select(${1:resource $mh})
+
+snippet curl_multi_setopt
+	curl_multi_setopt(${1:resource $mh}, ${2:int $option}, ${3:mixed $value})
+
+snippet curl_multi_strerror
+	curl_multi_strerror(${1:int $errornum})
+
+snippet curl_pause
+	curl_pause(${1:resource $ch}, ${2:int $bitmask})
+
+snippet curl_reset
+	curl_reset(${1:resource $ch})
+
+snippet curl_setopt_array
+	curl_setopt_array(${1:resource $ch}, ${2:array $options})
+
+snippet curl_setopt
+	curl_setopt(${1:resource $ch}, ${2:int $option}, ${3:mixed $value})
+
+snippet curl_share_close
+	curl_share_close(${1:resource $sh})
+
+snippet curl_share_init
+	curl_share_init(${1:void})
+
+snippet curl_share_setopt
+	curl_share_setopt(${1:resource $sh}, ${2:int $option}, ${3:string $value})
+
+snippet curl_strerror
+	curl_strerror(${1:int $errornum})
+
+snippet curl_unescape
+	curl_unescape(${1:resource $ch}, ${2:string $str})
+
+snippet curl_version
+	curl_version()
+
+snippet current
+	current(${1:array &$array})
+
+snippet cyrus_authenticate
+	cyrus_authenticate(${1:resource $connection})
+
+snippet cyrus_bind
+	cyrus_bind(${1:resource $connection}, ${2:array $callbacks})
+
+snippet cyrus_close
+	cyrus_close(${1:resource $connection})
+
+snippet cyrus_connect
+	cyrus_connect(${1:~})
+
+snippet cyrus_query
+	cyrus_query(${1:resource $connection}, ${2:string $query})
+
+snippet cyrus_unbind
+	cyrus_unbind(${1:resource $connection}, ${2:string $trigger_name})
+
+snippet date_default_timezone_get
+	date_default_timezone_get(${1:void})
+
+snippet date_default_timezone_set
+	date_default_timezone_set(${1:string $timezone_identifier})
+
+snippet date_parse_from_format
+	date_parse_from_format(${1:string $format}, ${2:string $date})
+
+snippet date_parse
+	date_parse(${1:string $date})
+
+snippet date_sun_info
+	date_sun_info(${1:int $time}, ${2:float $latitude}, ${3:float $longitude})
+
+snippet date_sunrise
+	date_sunrise(${1:int $timestamp ~})
+
+snippet date_sunset
+	date_sunset(${1:int $timestamp ~})
+
+snippet date
+	date(${1:string $format})
+
+snippet dcgettext
+	dcgettext(${1:string $domain}, ${2:string $message}, ${3:int $category})
+
+snippet dcngettext
+	dcngettext(${1:string $domain}, ${2:string $msgid1}, ${3:string $msgid2}, ${4:int $n}, ${5:int $category})
+
+snippet debug_backtrace
+	debug_backtrace()
+
+snippet debug_print_backtrace
+	debug_print_backtrace()
+
+snippet debug_zval_dump
+	debug_zval_dump(${1:mixed $variable})
+
+snippet decbin
+	decbin(${1:int $number})
+
+snippet dechex
+	dechex(${1:int $number})
+
+snippet decoct
+	decoct(${1:int $number})
+
+snippet define_syslog_variables
+	define_syslog_variables(${1:void})
+
+snippet define
+	define(${1:string $name}, ${2:mixed $value})
+
+snippet defined
+	defined(${1:string $name})
+
+snippet deflate_add
+	deflate_add(${1:resource $context}, ${2:string $data})
+
+snippet deflate_init
+	deflate_init(${1:int $encoding})
+
+snippet deg2rad
+	deg2rad(${1:float $number})
+
+snippet dgettext
+	dgettext(${1:string $domain}, ${2:string $message})
+
+snippet dir
+	dir(${1:string $directory})
+
+snippet dirname
+	dirname(${1:string $path})
+
+snippet disk_free_space
+	disk_free_space(${1:string $directory})
+
+snippet disk_total_space
+	disk_total_space(${1:string $directory})
+
+snippet dl
+	dl(${1:string $library})
+
+snippet dngettext
+	dngettext(${1:string $domain}, ${2:string $msgid1}, ${3:string $msgid2}, ${4:int$n})
+
+snippet dns_get_record
+	dns_get_record(${1:string $hostname})
+
+snippet dom_import_simplexml
+	dom_import_simplexml(${1:SimpleXMLElement $node})
+
+snippet each
+	each(${1:array &$array})
+
+snippet easter_date
+	easter_date()
+
+snippet easter_days
+	easter_days()
+
+snippet echo
+	echo(${1:string $arg1})
+
+snippet empty
+	empty(${1:mixed $var})
+
+snippet end
+	end(${1:array &$array})
+
+snippet ereg_replace
+	ereg_replace(${1:string $pattern}, ${2:string $replacement}, ${3:string$string})
+
+snippet ereg
+	ereg(${1:string $pattern}, ${2:string $string})
+
+snippet eregi_replace
+	eregi_replace(${1:string $pattern}, ${2:string $replacement}, ${3:string$string})
+
+snippet eregi
+	eregi(${1:string $pattern}, ${2:string $string})
+
+snippet error_clear_last
+	error_clear_last(${1:void})
+
+snippet error_get_last
+	error_get_last(${1:void})
+
+snippet error_log
+	error_log(${1:string $message})
+
+snippet error_reporting
+	error_reporting()
+
+snippet escapeshellarg
+	escapeshellarg(${1:string $arg})
+
+snippet escapeshellcmd
+	escapeshellcmd(${1:string $command})
+
+snippet eval
+	eval(${1:string $code})
+
+snippet exec
+	exec(${1:string $command})
+
+snippet exif_imagetype
+	exif_imagetype(${1:string $filename})
+
+snippet exif_read_data
+	exif_read_data(${1:string $filename})
+
+snippet exif_tagname
+	exif_tagname(${1:int $index})
+
+snippet exif_thumbnail
+	exif_thumbnail(${1:string $filename})
+
+snippet exit
+	exit()
+
+snippet exp
+	exp(${1:float $arg})
+
+snippet expect_expectl
+	expect_expectl(${1:resource $expect}, ${2:array $cases})
+
+snippet expect_popen
+	expect_popen(${1:string $command})
+
+snippet explode
+	explode(${1:string $delimiter}, ${2:string $string})
+
+snippet expm1
+	expm1(${1:float $arg})
+
+snippet extension_loaded
+	extension_loaded(${1:string $name})
+
+snippet extract
+	extract(${1:array &$array})
+
+snippet ezmlm_hash
+	ezmlm_hash(${1:string $addr})
+
+snippet fastcgi_finish_request
+	fastcgi_finish_request(${1:void})
+
+snippet fclose
+	fclose(${1:resource $handle})
+
+snippet feof
+	feof(${1:resource $handle})
+
+snippet fflush
+	fflush(${1:resource $handle})
+
+snippet fgetc
+	fgetc(${1:resource $handle})
+
+snippet fgetcsv
+	fgetcsv(${1:resource $handle})
+
+snippet fgets
+	fgets(${1:resource $handle})
+
+snippet fgetss
+	fgetss(${1:resource $handle})
+
+snippet file_exists
+	file_exists(${1:string $filename})
+
+snippet file_get_contents
+	file_get_contents(${1:string $filename})
+
+snippet file_put_contents
+	file_put_contents(${1:string $filename}, ${2:mixed $data})
+
+snippet file
+	file(${1:string $filename})
+
+snippet fileatime
+	fileatime(${1:string $filename})
+
+snippet filectime
+	filectime(${1:string $filename})
+
+snippet filegroup
+	filegroup(${1:string $filename})
+
+snippet fileinode
+	fileinode(${1:string $filename})
+
+snippet filemtime
+	filemtime(${1:string $filename})
+
+snippet fileowner
+	fileowner(${1:string $filename})
+
+snippet fileperms
+	fileperms(${1:string $filename})
+
+snippet filepro
+	filepro(${1:string $directory})
+
+snippet filesize
+	filesize(${1:string $filename})
+
+snippet filetype
+	filetype(${1:string $filename})
+
+snippet filter_has_var
+	filter_has_var(${1:int $type}, ${2:string $variable_name})
+
+snippet filter_id
+	filter_id(${1:string $filtername})
+
+snippet filter_input_array
+	filter_input_array(${1:int $type})
+
+snippet filter_input
+	filter_input(${1:int $type}, ${2:string $variable_name})
+
+snippet filter_list
+	filter_list(${1:void})
+
+snippet filter_var_array
+	filter_var_array(${1:array $data})
+
+snippet filter_var
+	filter_var(${1:mixed $variable})
+
+snippet finfo_buffer
+	finfo_buffer(${1:resource $finfo}, ${2:string $string = NULL})
+
+snippet finfo_close
+	finfo_close(${1:resource $finfo})
+
+snippet finfo_file
+	finfo_file(${1:resource $finfo}, ${2:string $file_name = NULL})
+
+snippet finfo_open
+	finfo_open()
+
+snippet finfo_set_flags
+	finfo_set_flags(${1:resource $finfo}, ${2:int $options})
+
+snippet floatval
+	floatval(${1:mixed $var})
+
+snippet flock
+	flock(${1:resource $handle}, ${2:int $operation})
+
+snippet floor
+	floor(${1:float $value})
+
+snippet flush
+	flush(${1:void})
+
+snippet fmod
+	fmod(${1:float $x}, ${2:float $y})
+
+snippet fnmatch
+	fnmatch(${1:string $pattern}, ${2:string $string})
+
+snippet fopen
+	fopen(${1:string $filename}, ${2:string $mode})
+
+snippet forward_static_call_array
+	forward_static_call_array(${1:callable $function}, ${2:array $parameters~})
+
+snippet forward_static_call
+	forward_static_call(${1:callable $function})
+
+snippet fpassthru
+	fpassthru(${1:resource $handle})
+
+snippet fprintf
+	fprintf(${1:resource $handle}, ${2:string $format})
+
+snippet fputcsv
+	fputcsv(${1:resource $handle}, ${2:array $fields})
+
+snippet fread
+	fread(${1:resource $handle}, ${2:int $length})
+
+snippet frenchtojd
+	frenchtojd(${1:int $month}, ${2:int $day}, ${3:int $year})
+
+snippet fribidi_log2vis
+	fribidi_log2vis(${1:string $str}, ${2:string $direction}, ${3:int $charset})
+
+snippet fscanf
+	fscanf(${1:resource $handle}, ${2:string $format})
+
+snippet fseek
+	fseek(${1:resource $handle}, ${2:int $offset})
+
+snippet fsockopen
+	fsockopen(${1:string $hostname})
+
+snippet fstat
+	fstat(${1:resource $handle})
+
+snippet ftell
+	ftell(${1:resource $handle})
+
+snippet ftok
+	ftok(${1:string $pathname}, ${2:string $proj})
+
+snippet ftruncate
+	ftruncate(${1:resource $handle}, ${2:int $size})
+
+snippet func_get_arg
+	func_get_arg(${1:int $arg_num})
+
+snippet func_get_args
+	func_get_args(${1:void})
+
+snippet func_num_args
+	func_num_args(${1:void})
+
+snippet function_exists
+	function_exists(${1:string $function_name})
+
+snippet fwrite
+	fwrite(${1:resource $handle}, ${2:string $string})
+
+snippet gd_info
+	gd_info(${1:void})
+
+snippet get_browser
+	get_browser(${1:~})
+
+snippet get_called_class
+	get_called_class(${1:void})
+
+snippet get_cfg_var
+	get_cfg_var(${1:string $option})
+
+snippet get_class_methods
+	get_class_methods(${1:mixed $class_name})
+
+snippet get_class_vars
+	get_class_vars(${1:string $class_name})
+
+snippet get_class
+	get_class()
+
+snippet get_current_user
+	get_current_user(${1:void})
+
+snippet get_declared_classes
+	get_declared_classes(${1:void})
+
+snippet get_declared_interfaces
+	get_declared_interfaces(${1:void})
+
+snippet get_declared_traits
+	get_declared_traits(${1:void})
+
+snippet get_defined_constants
+	get_defined_constants()
+
+snippet get_defined_functions
+	get_defined_functions(${1:void})
+
+snippet get_defined_vars
+	get_defined_vars(${1:void})
+
+snippet get_extension_funcs
+	get_extension_funcs(${1:string $module_name})
+
+snippet get_headers
+	get_headers(${1:string $url})
+
+snippet get_html_translation_table
+	get_html_translation_table()
+
+snippet get_include_path
+	get_include_path(${1:void})
+
+snippet get_included_files
+	get_included_files(${1:void})
+
+snippet get_loaded_extensions
+	get_loaded_extensions()
+
+snippet get_magic_quotes_gpc
+	get_magic_quotes_gpc(${1:void})
+
+snippet get_magic_quotes_runtime
+	get_magic_quotes_runtime(${1:void})
+
+snippet get_meta_tags
+	get_meta_tags(${1:string $filename})
+
+snippet get_object_vars
+	get_object_vars(${1:object $object})
+
+snippet get_parent_class
+	get_parent_class()
+
+snippet get_resource_type
+	get_resource_type(${1:resource $handle})
+
+snippet get_resources
+	get_resources()
+
+snippet getallheaders
+	getallheaders(${1:void})
+
+snippet getcwd
+	getcwd(${1:void})
+
+snippet getdate
+	getdate()
+
+snippet getenv
+	getenv(${1:string $varname})
+
+snippet gethostbyaddr
+	gethostbyaddr(${1:string $ip_address})
+
+snippet gethostbyname
+	gethostbyname(${1:string $hostname})
+
+snippet gethostbynamel
+	gethostbynamel(${1:string $hostname})
+
+snippet gethostname
+	gethostname(${1:void})
+
+snippet getimagesize
+	getimagesize(${1:string $filename})
+
+snippet getimagesizefromstring
+	getimagesizefromstring(${1:string $imagedata})
+
+snippet getlastmod
+	getlastmod(${1:void})
+
+snippet getmxrr
+	getmxrr(${1:string $hostname}, ${2:array &$mxhosts})
+
+snippet getmygid
+	getmygid(${1:void})
+
+snippet getmyinode
+	getmyinode(${1:void})
+
+snippet getmypid
+	getmypid(${1:void})
+
+snippet getmyuid
+	getmyuid(${1:void})
+
+snippet getopt
+	getopt(${1:string $options})
+
+snippet getprotobyname
+	getprotobyname(${1:string $name})
+
+snippet getprotobynumber
+	getprotobynumber(${1:int $number})
+
+snippet getrandmax
+	getrandmax(${1:void})
+
+snippet getrusage
+	getrusage()
+
+snippet getservbyname
+	getservbyname(${1:string $service}, ${2:string $protocol})
+
+snippet getservbyport
+	getservbyport(${1:int $port}, ${2:string $protocol})
+
+snippet gettext
+	gettext(${1:string $message})
+
+snippet gettimeofday
+	gettimeofday()
+
+snippet gettype
+	gettype(${1:mixed $var})
+
+snippet glob
+	glob(${1:string $pattern})
+
+snippet gmdate
+	gmdate(${1:string $format})
+
+snippet gmmktime
+	gmmktime()
+
+snippet gmstrftime
+	gmstrftime(${1:string $format})
+
+snippet gopher_parsedir
+	gopher_parsedir(${1:string $dirent})
+
+snippet gregoriantojd
+	gregoriantojd(${1:int $month}, ${2:int $day}, ${3:int $year})
+
+snippet gzclose
+	gzclose(${1:resource $zp})
+
+snippet gzcompress
+	gzcompress(${1:string $data})
+
+snippet gzdecode
+	gzdecode(${1:string $data})
+
+snippet gzdeflate
+	gzdeflate(${1:string $data})
+
+snippet gzencode
+	gzencode(${1:string $data})
+
+snippet gzeof
+	gzeof(${1:resource $zp})
+
+snippet gzfile
+	gzfile(${1:string $filename})
+
+snippet gzgetc
+	gzgetc(${1:resource $zp})
+
+snippet gzgets
+	gzgets(${1:resource $zp})
+
+snippet gzgetss
+	gzgetss(${1:resource $zp}, ${2:int $length})
+
+snippet gzinflate
+	gzinflate(${1:string $data})
+
+snippet gzopen
+	gzopen(${1:string $filename}, ${2:string $mode})
+
+snippet gzpassthru
+	gzpassthru(${1:resource $zp})
+
+snippet gzread
+	gzread(${1:resource $zp}, ${2:int $length})
+
+snippet gzrewind
+	gzrewind(${1:resource $zp})
+
+snippet gzseek
+	gzseek(${1:resource $zp}, ${2:int $offset})
+
+snippet gztell
+	gztell(${1:resource $zp})
+
+snippet gzuncompress
+	gzuncompress(${1:string $data})
+
+snippet gzwrite
+	gzwrite(${1:resource $zp}, ${2:string $string})
+
+snippet halt_compiler
+	halt_compiler(${1:void})
+
+snippet hash_algos
+	hash_algos(${1:void})
+
+snippet hash_copy
+	hash_copy(${1:resource $context})
+
+snippet hash_equals
+	hash_equals(${1:string $known_string}, ${2:string $user_string})
+
+snippet hash_file
+	hash_file(${1:string $algo}, ${2:string $filename})
+
+snippet hash_final
+	hash_final(${1:resource $context})
+
+snippet hash_hmac_file
+	hash_hmac_file(${1:string $algo}, ${2:string $filename}, ${3:string $key})
+
+snippet hash_hmac
+	hash_hmac(${1:string $algo}, ${2:string $data}, ${3:string $key})
+
+snippet hash_init
+	hash_init(${1:string $algo})
+
+snippet hash_pbkdf2
+	hash_pbkdf2(${1:string $algo}, ${2:string $password}, ${3:string $salt}, ${4:int$iterations})
+
+snippet hash_update_file
+	hash_update_file(${1:resource $hcontext}, ${2:string $filename})
+
+snippet hash_update_stream
+	hash_update_stream(${1:resource $context}, ${2:resource $handle})
+
+snippet hash_update
+	hash_update(${1:resource $context}, ${2:string $data})
+
+snippet hash
+	hash(${1:string $algo}, ${2:string $data})
+
+snippet header_register_callback
+	header_register_callback(${1:callable $callback})
+
+snippet header_remove
+	header_remove()
+
+snippet header
+	header(${1:string $string})
+
+snippet headers_list
+	headers_list(${1:void})
+
+snippet headers_sent
+	headers_sent()
+
+snippet hebrev
+	hebrev(${1:string $hebrew_text})
+
+snippet hebrevc
+	hebrevc(${1:string $hebrew_text})
+
+snippet hex2bin
+	hex2bin(${1:string $data})
+
+snippet hexdec
+	hexdec(${1:string $hex_string})
+
+snippet highlight_file
+	highlight_file(${1:string $filename})
+
+snippet highlight_string
+	highlight_string(${1:string $str})
+
+snippet html_entity_decode
+	html_entity_decode(${1:string $string ~})
+
+snippet htmlentities
+	htmlentities(${1:string $string})
+
+snippet htmlspecialchars_decode
+	htmlspecialchars_decode(${1:string $string})
+
+snippet htmlspecialchars
+	htmlspecialchars(${1:string $string})
+
+snippet http_build_cookie
+	http_build_cookie(${1:array $cookie})
+
+snippet http_build_query
+	http_build_query(${1:mixed $query_data})
+
+snippet http_build_str
+	http_build_str(${1:array $query})
+
+snippet http_build_url
+	http_build_url()
+
+snippet http_cache_etag
+	http_cache_etag()
+
+snippet http_cache_last_modified
+	http_cache_last_modified()
+
+snippet http_chunked_decode
+	http_chunked_decode(${1:string $encoded})
+
+snippet http_date
+	http_date()
+
+snippet http_deflate
+	http_deflate(${1:string $data})
+
+snippet http_get_request_body_stream
+	http_get_request_body_stream(${1:void})
+
+snippet http_get_request_body
+	http_get_request_body(${1:void})
+
+snippet http_get_request_headers
+	http_get_request_headers(${1:void})
+
+snippet http_get
+	http_get(${1:string $url})
+
+snippet http_head
+	http_head(${1:string $url})
+
+snippet http_inflate
+	http_inflate(${1:string $data})
+
+snippet http_match_etag
+	http_match_etag(${1:string $etag})
+
+snippet http_match_modified
+	http_match_modified()
+
+snippet http_match_request_header
+	http_match_request_header(${1:string $header}, ${2:string $value})
+
+snippet http_negotiate_charset
+	http_negotiate_charset(${1:array $supported})
+
+snippet http_negotiate_content_type
+	http_negotiate_content_type(${1:array $supported ~})
+
+snippet http_negotiate_language
+	http_negotiate_language(${1:array $supported})
+
+snippet http_parse_cookie
+	http_parse_cookie(${1:string $cookie})
+
+snippet http_parse_headers
+	http_parse_headers(${1:string $header})
+
+snippet http_parse_message
+	http_parse_message(${1:string $message})
+
+snippet http_parse_params
+	http_parse_params(${1:string $param})
+
+snippet http_persistent_handles_clean
+	http_persistent_handles_clean()
+
+snippet http_persistent_handles_count
+	http_persistent_handles_count(${1:void})
+
+snippet http_persistent_handles_ident
+	http_persistent_handles_ident()
+
+snippet http_post_data
+	http_post_data(${1:string $url}, ${2:string $data})
+
+snippet http_post_fields
+	http_post_fields(${1:string $url}, ${2:array $data})
+
+snippet http_put_data
+	http_put_data(${1:string $url}, ${2:string $data})
+
+snippet http_put_file
+	http_put_file(${1:string $url}, ${2:string $file})
+
+snippet http_put_stream
+	http_put_stream(${1:string $url}, ${2:resource $stream})
+
+snippet http_redirect
+	http_redirect()
+
+snippet http_request_body_encode
+	http_request_body_encode(${1:array $fields}, ${2:array $files})
+
+snippet http_request_method_exists
+	http_request_method_exists(${1:mixed $method})
+
+snippet http_request_method_name
+	http_request_method_name(${1:int $method})
+
+snippet http_request_method_register
+	http_request_method_register(${1:string $method})
+
+snippet http_request_method_unregister
+	http_request_method_unregister(${1:mixed $method})
+
+snippet http_request
+	http_request(${1:int $method}, ${2:string $url})
+
+snippet http_response_code
+	http_response_code()
+
+snippet http_send_content_disposition
+	http_send_content_disposition(${1:string $filename})
+
+snippet http_send_content_type
+	http_send_content_type()
+
+snippet http_send_data
+	http_send_data(${1:string $data})
+
+snippet http_send_file
+	http_send_file(${1:string $file})
+
+snippet http_send_last_modified
+	http_send_last_modified()
+
+snippet http_send_status
+	http_send_status(${1:int $status})
+
+snippet http_send_stream
+	http_send_stream(${1:resource $stream})
+
+snippet http_support
+	http_support()
+
+snippet http_throttle
+	http_throttle(${1:float $sec})
+
+snippet hwapi_attribute_new
+	hwapi_attribute_new(${1:~})
+
+snippet hwapi_content_new
+	hwapi_content_new(${1:string $content}, ${2:string $mimetype})
+
+snippet hwapi_hgcsp
+	hwapi_hgcsp(${1:string $hostname})
+
+snippet hwapi_object_new
+	hwapi_object_new(${1:array $parameter})
+
+snippet hypot
+	hypot(${1:float $x}, ${2:float $y})
+
+snippet iconv_get_encoding
+	iconv_get_encoding()
+
+snippet iconv_mime_decode_headers
+	iconv_mime_decode_headers(${1:string $encoded_headers})
+
+snippet iconv_mime_decode
+	iconv_mime_decode(${1:string $encoded_header})
+
+snippet iconv_mime_encode
+	iconv_mime_encode(${1:string $field_name}, ${2:string $field_value})
+
+snippet iconv_set_encoding
+	iconv_set_encoding(${1:string $type}, ${2:string $charset})
+
+snippet iconv_strlen
+	iconv_strlen(${1:string $str})
+
+snippet iconv_strpos
+	iconv_strpos(${1:string $haystack}, ${2:string $needle})
+
+snippet iconv_strrpos
+	iconv_strrpos(${1:string $haystack}, ${2:string $needle})
+
+snippet iconv_substr
+	iconv_substr(${1:string $str}, ${2:int $offset})
+
+snippet iconv
+	iconv(${1:string $in_charset}, ${2:string $out_charset}, ${3:string $str})
+
+snippet idate
+	idate(${1:string $format})
+
+snippet idn_to_ascii
+	idn_to_ascii(${1:string $domain})
+
+snippet idn_to_utf8
+	idn_to_utf8(${1:string $domain})
+
+snippet ignore_user_abort
+	ignore_user_abort()
+
+snippet image_type_to_extension
+	image_type_to_extension(${1:int $imagetype})
+
+snippet image_type_to_mime_type
+	image_type_to_mime_type(${1:int $imagetype})
+
+snippet image2wbmp
+	image2wbmp(${1:resource $image})
+
+snippet imageaffine
+	imageaffine(${1:resource $image}, ${2:array $affine})
+
+snippet imageaffinematrixconcat
+	imageaffinematrixconcat(${1:array $m1}, ${2:array $m2})
+
+snippet imageaffinematrixget
+	imageaffinematrixget(${1:int $type}, ${2:mixed $options})
+
+snippet imagealphablending
+	imagealphablending(${1:resource $image}, ${2:bool $blendmode})
+
+snippet imageantialias
+	imageantialias(${1:resource $image}, ${2:bool $enabled})
+
+snippet imagearc
+	imagearc(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int$height}, ${6:int $start}, ${7:int $end}, ${8:int $color})
+
+snippet imagechar
+	imagechar(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string$c}, ${6:int $color})
+
+snippet imagecharup
+	imagecharup(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string$c}, ${6:int $color})
+
+snippet imagecolorallocate
+	imagecolorallocate(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue})
+
+snippet imagecolorallocatealpha
+	imagecolorallocatealpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})
+
+snippet imagecolorat
+	imagecolorat(${1:resource $image}, ${2:int $x}, ${3:int $y})
+
+snippet imagecolorclosest
+	imagecolorclosest(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue})
+
+snippet imagecolorclosestalpha
+	imagecolorclosestalpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})
+
+snippet imagecolorclosesthwb
+	imagecolorclosesthwb(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue})
+
+snippet imagecolordeallocate
+	imagecolordeallocate(${1:resource $image}, ${2:int $color})
+
+snippet imagecolorexact
+	imagecolorexact(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue~})
+
+snippet imagecolorexactalpha
+	imagecolorexactalpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue}, ${5:int $alpha})
+
+snippet imagecolormatch
+	imagecolormatch(${1:resource $image1}, ${2:resource $image2})
+
+snippet imagecolorresolve
+	imagecolorresolve(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue})
+
+snippet imagecolorresolvealpha
+	imagecolorresolvealpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})
+
+snippet imagecolorset
+	imagecolorset(${1:resource $image}, ${2:int $index}, ${3:int $red}, ${4:int $green}, ${5:int $blue})
+
+snippet imagecolorsforindex
+	imagecolorsforindex(${1:resource $image}, ${2:int $index})
+
+snippet imagecolorstotal
+	imagecolorstotal(${1:resource $image})
+
+snippet imagecolortransparent
+	imagecolortransparent(${1:resource $image})
+
+snippet imageconvolution
+	imageconvolution(${1:resource $image}, ${2:array $matrix}, ${3:float $div}, ${4:float $offset})
+
+snippet imagecopy
+	imagecopy(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int $dst_x}, ${4:int$dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h})
+
+snippet imagecopymerge
+	imagecopymerge(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int $dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h}, ${9:int $pct~})
+
+snippet imagecopymergegray
+	imagecopymergegray(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int$dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h}, ${9:int $pct})
+
+snippet imagecopyresampled
+	imagecopyresampled(${1:resource $dst_image}, ${2:resource $src_image}, ${3:int$dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $dst_w}, ${8:int $dst_h}, ${9:int $src_w}, ${10:int $src_h})
+
+snippet imagecopyresized
+	imagecopyresized(${1:resource $dst_image}, ${2:resource $src_image}, ${3:int$dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $dst_w}, ${8:int $dst_h}, ${9:int $src_w}, ${10:int $src_h})
+
+snippet imagecreate
+	imagecreate(${1:int $width}, ${2:int $height})
+
+snippet imagecreatefromgd
+	imagecreatefromgd(${1:string $filename})
+
+snippet imagecreatefromgd2
+	imagecreatefromgd2(${1:string $filename})
+
+snippet imagecreatefromgd2part
+	imagecreatefromgd2part(${1:string $filename}, ${2:int $srcX}, ${3:int$srcY}, ${4:int $width}, ${5:int $height})
+
+snippet imagecreatefromgif
+	imagecreatefromgif(${1:string $filename})
+
+snippet imagecreatefromjpeg
+	imagecreatefromjpeg(${1:string $filename})
+
+snippet imagecreatefrompng
+	imagecreatefrompng(${1:string $filename})
+
+snippet imagecreatefromstring
+	imagecreatefromstring(${1:string $image})
+
+snippet imagecreatefromwbmp
+	imagecreatefromwbmp(${1:string $filename})
+
+snippet imagecreatefromwebp
+	imagecreatefromwebp(${1:string $filename})
+
+snippet imagecreatefromxbm
+	imagecreatefromxbm(${1:string $filename})
+
+snippet imagecreatefromxpm
+	imagecreatefromxpm(${1:string $filename})
+
+snippet imagecreatetruecolor
+	imagecreatetruecolor(${1:int $width}, ${2:int $height})
+
+snippet imagecrop
+	imagecrop(${1:resource $image}, ${2:array $rect})
+
+snippet imagecropauto
+	imagecropauto(${1:resource $image})
+
+snippet imagedashedline
+	imagedashedline(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})
+
+snippet imagedestroy
+	imagedestroy(${1:resource $image})
+
+snippet imageellipse
+	imageellipse(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int $height}, ${6:int $color})
+
+snippet imagefill
+	imagefill(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $color})
+
+snippet imagefilledarc
+	imagefilledarc(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int $height}, ${6:int $start}, ${7:int $end}, ${8:int $color}, ${9:int $style})
+
+snippet imagefilledellipse
+	imagefilledellipse(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int$width}, ${5:int $height}, ${6:int $color})
+
+snippet imagefilledpolygon
+	imagefilledpolygon(${1:resource $image}, ${2:array $points}, ${3:int$num_points}, ${4:int $color})
+
+snippet imagefilledrectangle
+	imagefilledrectangle(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})
+
+snippet imagefilltoborder
+	imagefilltoborder(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $border}, ${5:int $color})
+
+snippet imagefilter
+	imagefilter(${1:resource $image}, ${2:int $filtertype})
+
+snippet imageflip
+	imageflip(${1:resource $image}, ${2:int $mode})
+
+snippet imagefontheight
+	imagefontheight(${1:int $font})
+
+snippet imagefontwidth
+	imagefontwidth(${1:int $font})
+
+snippet imageftbbox
+	imageftbbox(${1:float $size}, ${2:float $angle}, ${3:string $fontfile}, ${4:string $text})
+
+snippet imagefttext
+	imagefttext(${1:resource $image}, ${2:float $size}, ${3:float $angle}, ${4:int $x}, ${5:int $y}, ${6:int $color}, ${7:string $fontfile}, ${8:string $text})
+
+snippet imagegammacorrect
+	imagegammacorrect(${1:resource $image}, ${2:float $inputgamma}, ${3:float$outputgamma})
+
+snippet imagegd
+	imagegd(${1:resource $image})
+
+snippet imagegd2
+	imagegd2(${1:resource $image})
+
+snippet imagegif
+	imagegif(${1:resource $image})
+
+snippet imagegrabscreen
+	imagegrabscreen(${1:void})
+
+snippet imagegrabwindow
+	imagegrabwindow(${1:int $window_handle})
+
+snippet imageinterlace
+	imageinterlace(${1:resource $image})
+
+snippet imageistruecolor
+	imageistruecolor(${1:resource $image})
+
+snippet imagejpeg
+	imagejpeg(${1:resource $image})
+
+snippet imagelayereffect
+	imagelayereffect(${1:resource $image}, ${2:int $effect})
+
+snippet imageline
+	imageline(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})
+
+snippet imageloadfont
+	imageloadfont(${1:string $file})
+
+snippet imagepalettecopy
+	imagepalettecopy(${1:resource $destination}, ${2:resource $source})
+
+snippet imagepalettetotruecolor
+	imagepalettetotruecolor(${1:resource $src})
+
+snippet imagepng
+	imagepng(${1:resource $image})
+
+snippet imagepolygon
+	imagepolygon(${1:resource $image}, ${2:array $points}, ${3:int $num_points}, ${4:int $color})
+
+snippet imagepsbbox
+	imagepsbbox(${1:string $text}, ${2:resource $font}, ${3:int $size})
+
+snippet imagepsencodefont
+	imagepsencodefont(${1:resource $font_index}, ${2:string $encodingfile})
+
+snippet imagepsextendfont
+	imagepsextendfont(${1:resource $font_index}, ${2:float $extend})
+
+snippet imagepsfreefont
+	imagepsfreefont(${1:resource $font_index})
+
+snippet imagepsloadfont
+	imagepsloadfont(${1:string $filename})
+
+snippet imagepsslantfont
+	imagepsslantfont(${1:resource $font_index}, ${2:float $slant})
+
+snippet imagepstext
+	imagepstext(${1:resource $image}, ${2:string $text}, ${3:resource $font_index}, ${4:int $size}, ${5:int $foreground}, ${6:int $background}, ${7:int $x}, ${8:int $y})
+
+snippet imagerectangle
+	imagerectangle(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int$y2}, ${6:int $color})
+
+snippet imagerotate
+	imagerotate(${1:resource $image}, ${2:float $angle}, ${3:int $bgd_color})
+
+snippet imagesavealpha
+	imagesavealpha(${1:resource $image}, ${2:bool $saveflag})
+
+snippet imagescale
+	imagescale(${1:resource $image}, ${2:int $new_width})
+
+snippet imagesetbrush
+	imagesetbrush(${1:resource $image}, ${2:resource $brush})
+
+snippet imagesetinterpolation
+	imagesetinterpolation(${1:resource $image})
+
+snippet imagesetpixel
+	imagesetpixel(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $color})
+
+snippet imagesetstyle
+	imagesetstyle(${1:resource $image}, ${2:array $style})
+
+snippet imagesetthickness
+	imagesetthickness(${1:resource $image}, ${2:int $thickness})
+
+snippet imagesettile
+	imagesettile(${1:resource $image}, ${2:resource $tile})
+
+snippet imagestring
+	imagestring(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string$string}, ${6:int $color})
+
+snippet imagestringup
+	imagestringup(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string $string}, ${6:int $color})
+
+snippet imagesx
+	imagesx(${1:resource $image})
+
+snippet imagesy
+	imagesy(${1:resource $image})
+
+snippet imagetruecolortopalette
+	imagetruecolortopalette(${1:resource $image}, ${2:bool $dither}, ${3:int$ncolors})
+
+snippet imagettfbbox
+	imagettfbbox(${1:float $size}, ${2:float $angle}, ${3:string $fontfile}, ${4:string $text})
+
+snippet imagettftext
+	imagettftext(${1:resource $image}, ${2:float $size}, ${3:float $angle}, ${4:int$x}, ${5:int $y}, ${6:int $color}, ${7:string $fontfile}, ${8:string $text})
+
+snippet imagetypes
+	imagetypes(${1:void})
+
+snippet imagewbmp
+	imagewbmp(${1:resource $image})
+
+snippet imagewebp
+	imagewebp(${1:resource $image}, ${2:mixed $to})
+
+snippet imagexbm
+	imagexbm(${1:resource $image}, ${2:string $filename})
+
+snippet implode
+	implode(${1:string $glue}, ${2:array $pieces})
+
+snippet import_request_variables
+	import_request_variables(${1:string $types})
+
+snippet in_array
+	in_array(${1:mixed $needle}, ${2:array $haystack ~})
+
+snippet inclued_get_data
+	inclued_get_data(${1:void})
+
+snippet inet_ntop
+	inet_ntop(${1:string $in_addr})
+
+snippet inet_pton
+	inet_pton(${1:string $address})
+
+snippet inflate_add
+	inflate_add(${1:resource $context}, ${2:string $encoded_data})
+
+snippet inflate_init
+	inflate_init(${1:int $encoding})
+
+snippet ini_get_all
+	ini_get_all()
+
+snippet ini_get
+	ini_get(${1:string $varname})
+
+snippet ini_restore
+	ini_restore(${1:string $varname})
+
+snippet ini_set
+	ini_set(${1:string $varname}, ${2:string $newvalue})
+
+snippet inotify_add_watch
+	inotify_add_watch(${1:resource $inotify_instance}, ${2:string $pathname}, ${3:int $mask})
+
+snippet inotify_init
+	inotify_init(${1:void})
+
+snippet inotify_queue_len
+	inotify_queue_len(${1:resource $inotify_instance})
+
+snippet inotify_read
+	inotify_read(${1:resource $inotify_instance})
+
+snippet inotify_rm_watch
+	inotify_rm_watch(${1:resource $inotify_instance}, ${2:int$watch_descriptor})
+
+snippet intdiv
+	intdiv(${1:int $dividend}, ${2:int $divisor})
+
+snippet interface_exists
+	interface_exists(${1:string $interface_name ~})
+
+snippet intl_error_name
+	intl_error_name(${1:int $error_code})
+
+snippet intl_get_error_code
+	intl_get_error_code(${1:void})
+
+snippet intl_get_error_message
+	intl_get_error_message(${1:void})
+
+snippet intl_is_failure
+	intl_is_failure(${1:int $error_code})
+
+snippet intval
+	intval(${1:mixed $var})
+
+snippet ip2long
+	ip2long(${1:string $ip_address})
+
+snippet iptcembed
+	iptcembed(${1:string $iptcdata}, ${2:string $jpeg_file_name})
+
+snippet iptcparse
+	iptcparse(${1:string $iptcblock})
+
+snippet isset
+	isset(${1:mixed $var})
+
+snippet iterator_apply
+	iterator_apply(${1:Traversable $iterator}, ${2:callable $function})
+
+snippet iterator_count
+	iterator_count(${1:Traversable $iterator})
+
+snippet iterator_to_array
+	iterator_to_array(${1:Traversable $iterator})
+
+snippet jddayofweek
+	jddayofweek(${1:int $julianday})
+
+snippet jdmonthname
+	jdmonthname(${1:int $julianday}, ${2:int $mode})
+
+snippet jdtofrench
+	jdtofrench(${1:int $juliandaycount})
+
+snippet jdtogregorian
+	jdtogregorian(${1:int $julianday})
+
+snippet jdtojewish
+	jdtojewish(${1:int $juliandaycount})
+
+snippet jdtojulian
+	jdtojulian(${1:int $julianday})
+
+snippet jdtounix
+	jdtounix(${1:int $jday})
+
+snippet jewishtojd
+	jewishtojd(${1:int $month}, ${2:int $day}, ${3:int $year})
+
+snippet jpeg2wbmp
+	jpeg2wbmp(${1:string $jpegname}, ${2:string $wbmpname}, ${3:int $dest_height}, ${4:int $dest_width}, ${5:int $threshold})
+
+snippet json_decode
+	json_decode(${1:string $json})
+
+snippet json_encode
+	json_encode(${1:mixed $value})
+
+snippet json_last_error_msg
+	json_last_error_msg(${1:void})
+
+snippet json_last_error
+	json_last_error(${1:void})
+
+snippet judy_type
+	judy_type(${1:Judy $array})
+
+snippet judy_version
+	judy_version(${1:void})
+
+snippet juliantojd
+	juliantojd(${1:int $month}, ${2:int $day}, ${3:int $year})
+
+snippet key
+	key(${1:array &$array})
+
+snippet krsort
+	krsort(${1:array &$array})
+
+snippet ksort
+	ksort(${1:array &$array})
+
+snippet lcfirst
+	lcfirst(${1:string $str})
+
+snippet lcg_value
+	lcg_value(${1:void})
+
+snippet lchgrp
+	lchgrp(${1:string $filename}, ${2:mixed $group})
+
+snippet lchown
+	lchown(${1:string $filename}, ${2:mixed $user})
+
+snippet levenshtein
+	levenshtein(${1:string $str1}, ${2:string $str2})
+
+snippet link
+	link(${1:string $target}, ${2:string $link})
+
+snippet linkinfo
+	linkinfo(${1:string $path})
+
+snippet list
+	list(${1:mixed $var1})
+
+snippet localeconv
+	localeconv(${1:void})
+
+snippet localtime
+	localtime()
+
+snippet log_cmd_delete
+	log_cmd_delete(${1:array $server}, ${2:array $writeOptions}, ${3:array$deleteOptions}, ${4:array $protocolOptions})
+
+snippet log_cmd_insert
+	log_cmd_insert(${1:array $server}, ${2:array $document}, ${3:array $writeOptions}, ${4:array $protocolOptions})
+
+snippet log_cmd_update
+	log_cmd_update(${1:array $server}, ${2:array $writeOptions}, ${3:array$updateOptions}, ${4:array $protocolOptions})
+
+snippet log_getmore
+	log_getmore(${1:array $server}, ${2:array $info})
+
+snippet log_killcursor
+	log_killcursor(${1:array $server}, ${2:array $info})
+
+snippet log_reply
+	log_reply(${1:array $server}, ${2:array $messageHeaders}, ${3:array$operationHeaders})
+
+snippet log_write_batch
+	log_write_batch(${1:array $server}, ${2:array $writeOptions}, ${3:array $batch}, ${4:array $protocolOptions})
+
+snippet log
+	log(${1:float $arg})
+
+snippet log10
+	log10(${1:float $arg})
+
+snippet log1p
+	log1p(${1:float $number})
+
+snippet long2ip
+	long2ip(${1:string $proper_address})
+
+snippet lstat
+	lstat(${1:string $filename})
+
+snippet ltrim
+	ltrim(${1:string $str})
+
+snippet mail
+	mail(${1:string $to}, ${2:string $subject}, ${3:string $message})
+
+snippet max
+	max(${1:array $values})
+
+snippet mcrypt_cbc
+	mcrypt_cbc(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode})
+
+snippet mcrypt_cfb
+	mcrypt_cfb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode}, ${5:string $iv})
+
+snippet mcrypt_create_iv
+	mcrypt_create_iv(${1:int $size ~})
+
+snippet mcrypt_decrypt
+	mcrypt_decrypt(${1:string $cipher}, ${2:string $key}, ${3:string $data}, ${4:string $mode})
+
+snippet mcrypt_ecb
+	mcrypt_ecb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode~})
+
+snippet mcrypt_enc_get_algorithms_name
+	mcrypt_enc_get_algorithms_name(${1:resource $td})
+
+snippet mcrypt_enc_get_block_size
+	mcrypt_enc_get_block_size(${1:resource $td})
+
+snippet mcrypt_enc_get_iv_size
+	mcrypt_enc_get_iv_size(${1:resource $td})
+
+snippet mcrypt_enc_get_key_size
+	mcrypt_enc_get_key_size(${1:resource $td})
+
+snippet mcrypt_enc_get_modes_name
+	mcrypt_enc_get_modes_name(${1:resource $td})
+
+snippet mcrypt_enc_get_supported_key_sizes
+	mcrypt_enc_get_supported_key_sizes(${1:resource $td})
+
+snippet mcrypt_enc_is_block_algorithm_mode
+	mcrypt_enc_is_block_algorithm_mode(${1:resource $td})
+
+snippet mcrypt_enc_is_block_algorithm
+	mcrypt_enc_is_block_algorithm(${1:resource $td})
+
+snippet mcrypt_enc_is_block_mode
+	mcrypt_enc_is_block_mode(${1:resource $td})
+
+snippet mcrypt_enc_self_test
+	mcrypt_enc_self_test(${1:resource $td})
+
+snippet mcrypt_encrypt
+	mcrypt_encrypt(${1:string $cipher}, ${2:string $key}, ${3:string $data}, ${4:string $mode})
+
+snippet mcrypt_generic_deinit
+	mcrypt_generic_deinit(${1:resource $td})
+
+snippet mcrypt_generic_end
+	mcrypt_generic_end(${1:resource $td})
+
+snippet mcrypt_generic_init
+	mcrypt_generic_init(${1:resource $td}, ${2:string $key}, ${3:string $iv})
+
+snippet mcrypt_generic
+	mcrypt_generic(${1:resource $td}, ${2:string $data})
+
+snippet mcrypt_get_block_size
+	mcrypt_get_block_size(${1:int $cipher})
+
+snippet mcrypt_get_cipher_name
+	mcrypt_get_cipher_name(${1:int $cipher})
+
+snippet mcrypt_get_iv_size
+	mcrypt_get_iv_size(${1:string $cipher}, ${2:string $mode})
+
+snippet mcrypt_get_key_size
+	mcrypt_get_key_size(${1:int $cipher})
+
+snippet mcrypt_list_algorithms
+	mcrypt_list_algorithms()
+
+snippet mcrypt_list_modes
+	mcrypt_list_modes()
+
+snippet mcrypt_module_close
+	mcrypt_module_close(${1:resource $td})
+
+snippet mcrypt_module_get_algo_block_size
+	mcrypt_module_get_algo_block_size(${1:string $algorithm})
+
+snippet mcrypt_module_get_algo_key_size
+	mcrypt_module_get_algo_key_size(${1:string $algorithm})
+
+snippet mcrypt_module_get_supported_key_sizes
+	mcrypt_module_get_supported_key_sizes(${1:string $algorithm})
+
+snippet mcrypt_module_is_block_algorithm_mode
+	mcrypt_module_is_block_algorithm_mode(${1:string $mode})
+
+snippet mcrypt_module_is_block_algorithm
+	mcrypt_module_is_block_algorithm(${1:string $algorithm})
+
+snippet mcrypt_module_is_block_mode
+	mcrypt_module_is_block_mode(${1:string $mode})
+
+snippet mcrypt_module_open
+	mcrypt_module_open(${1:string $algorithm}, ${2:string$algorithm_directory}, ${3:string $mode}, ${4:string $mode_directory})
+
+snippet mcrypt_module_self_test
+	mcrypt_module_self_test(${1:string $algorithm})
+
+snippet mcrypt_ofb
+	mcrypt_ofb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode}, ${5:string $iv})
+
+snippet md5_file
+	md5_file(${1:string $filename})
+
+snippet md5
+	md5(${1:string $str})
+
+snippet mdecrypt_generic
+	mdecrypt_generic(${1:resource $td}, ${2:string $data})
+
+snippet memcache_debug
+	memcache_debug(${1:bool $on_off})
+
+snippet memory_get_peak_usage
+	memory_get_peak_usage()
+
+snippet memory_get_usage
+	memory_get_usage()
+
+snippet metaphone
+	metaphone(${1:string $str})
+
+snippet method_exists
+	method_exists(${1:mixed $object}, ${2:string $method_name})
+
+snippet mhash_count
+	mhash_count(${1:void})
+
+snippet mhash_get_block_size
+	mhash_get_block_size(${1:int $hash})
+
+snippet mhash_get_hash_name
+	mhash_get_hash_name(${1:int $hash})
+
+snippet mhash_keygen_s2k
+	mhash_keygen_s2k(${1:int $hash}, ${2:string $password}, ${3:string $salt}, ${4:int $bytes})
+
+snippet mhash
+	mhash(${1:int $hash}, ${2:string $data})
+
+snippet microtime
+	microtime()
+
+snippet mime_content_type
+	mime_content_type(${1:string $filename})
+
+snippet min
+	min(${1:array $values})
+
+snippet ming_keypress
+	ming_keypress(${1:string $char})
+
+snippet ming_setcubicthreshold
+	ming_setcubicthreshold(${1:int $threshold})
+
+snippet ming_setscale
+	ming_setscale(${1:float $scale})
+
+snippet ming_setswfcompression
+	ming_setswfcompression(${1:int $level})
+
+snippet ming_useconstants
+	ming_useconstants(${1:int $use})
+
+snippet ming_useswfversion
+	ming_useswfversion(${1:int $version})
+
+snippet mkdir
+	mkdir(${1:string $pathname})
+
+snippet mktime
+	mktime()
+
+snippet money_format
+	money_format(${1:string $format}, ${2:float $number})
+
+snippet mongodb.bson_fromjson
+	mongodb.bson_fromjson(${1:string $json})
+
+snippet mongodb.bson_fromphp
+	mongodb.bson_fromphp(${1:array|object $value})
+
+snippet mongodb.bson_tojson
+	mongodb.bson_tojson(${1:string $bson})
+
+snippet mongodb.bson_tophp
+	mongodb.bson_tophp(${1:string $bson})
+
+snippet move_uploaded_file
+	move_uploaded_file(${1:string $filename}, ${2:string $destination})
+
+snippet mqseries_back
+	mqseries_back(${1:resource $hconn}, ${2:resource &$compCode}, ${3:resource&$reason})
+
+snippet mqseries_begin
+	mqseries_begin(${1:resource $hconn}, ${2:array $beginOptions}, ${3:resource&$compCode}, ${4:resource &$reason})
+
+snippet mqseries_close
+	mqseries_close(${1:resource $hconn}, ${2:resource $hobj}, ${3:int $options}, ${4:resource &$compCode}, ${5:resource &$reason})
+
+snippet mqseries_cmit
+	mqseries_cmit(${1:resource $hconn}, ${2:resource &$compCode}, ${3:resource&$reason})
+
+snippet mqseries_conn
+	mqseries_conn(${1:string $qManagerName}, ${2:resource &$hconn}, ${3:resource&$compCode}, ${4:resource &$reason})
+
+snippet mqseries_connx
+	mqseries_connx(${1:string $qManagerName}, ${2:array &$connOptions}, ${3:resource &$hconn}, ${4:resource &$compCode}, ${5:resource &$reason})
+
+snippet mqseries_disc
+	mqseries_disc(${1:resource $hconn}, ${2:resource &$compCode}, ${3:resource&$reason})
+
+snippet mqseries_get
+	mqseries_get(${1:resource $hConn}, ${2:resource $hObj}, ${3:array &$md}, ${4:array&$gmo}, ${5:int &$bufferLength}, ${6:string &$msg}, ${7:int &$data_length}, ${8:resource&$compCode}, ${9:resource &$reason})
+
+snippet mqseries_inq
+	mqseries_inq(${1:resource $hconn}, ${2:resource $hobj}, ${3:int $selectorCount}, ${4:array $selectors}, ${5:int $intAttrCount}, ${6:resource &$intAttr}, ${7:int$charAttrLength}, ${8:resource &$charAttr}, ${9:resource &$compCode}, ${10:resource&$reason})
+
+snippet mqseries_open
+	mqseries_open(${1:resource $hconn}, ${2:array &$objDesc}, ${3:int $option}, ${4:resource &$hobj}, ${5:resource &$compCode}, ${6:resource &$reason})
+
+snippet mqseries_put
+	mqseries_put(${1:resource $hConn}, ${2:resource $hObj}, ${3:array &$md}, ${4:array&$pmo}, ${5:string $message}, ${6:resource &$compCode}, ${7:resource &$reason})
+
+snippet mqseries_put1
+	mqseries_put1(${1:resource $hconn}, ${2:resource &$objDesc}, ${3:resource&$msgDesc}, ${4:resource &$pmo}, ${5:string $buffer}, ${6:resource &$compCode}, ${7:resource &$reason})
+
+snippet mqseries_set
+	mqseries_set(${1:resource $hconn}, ${2:resource $hobj}, ${3:int $selectorcount}, ${4:array $selectors}, ${5:int $intattrcount}, ${6:array $intattrs}, ${7:int$charattrlength}, ${8:array $charattrs}, ${9:resource &$compCode}, ${10:resource&$reason})
+
+snippet mqseries_strerror
+	mqseries_strerror(${1:int $reason})
+
+snippet msg_get_queue
+	msg_get_queue(${1:int $key})
+
+snippet msg_queue_exists
+	msg_queue_exists(${1:int $key})
+
+snippet msg_receive
+	msg_receive(${1:resource $queue}, ${2:int $desiredmsgtype}, ${3:int &$msgtype}, ${4:int $maxsize}, ${5:mixed &$message})
+
+snippet msg_remove_queue
+	msg_remove_queue(${1:resource $queue})
+
+snippet msg_send
+	msg_send(${1:resource $queue}, ${2:int $msgtype}, ${3:mixed $message})
+
+snippet msg_set_queue
+	msg_set_queue(${1:resource $queue}, ${2:array $data})
+
+snippet msg_stat_queue
+	msg_stat_queue(${1:resource $queue})
+
+snippet msql_affected_rows
+	msql_affected_rows(${1:resource $result})
+
+snippet msql_close
+	msql_close()
+
+snippet msql_connect
+	msql_connect()
+
+snippet msql_create_db
+	msql_create_db(${1:string $database_name})
+
+snippet msql_data_seek
+	msql_data_seek(${1:resource $result}, ${2:int $row_number})
+
+snippet msql_db_query
+	msql_db_query(${1:string $database}, ${2:string $query})
+
+snippet msql_drop_db
+	msql_drop_db(${1:string $database_name ~})
+
+snippet msql_error
+	msql_error(${1:void})
+
+snippet msql_fetch_array
+	msql_fetch_array(${1:resource $result})
+
+snippet msql_fetch_field
+	msql_fetch_field(${1:resource $result})
+
+snippet msql_fetch_object
+	msql_fetch_object(${1:resource $result})
+
+snippet msql_fetch_row
+	msql_fetch_row(${1:resource $result})
+
+snippet msql_field_flags
+	msql_field_flags(${1:resource $result}, ${2:int $field_offset})
+
+snippet msql_field_len
+	msql_field_len(${1:resource $result}, ${2:int $field_offset})
+
+snippet msql_field_name
+	msql_field_name(${1:resource $result}, ${2:int $field_offset})
+
+snippet msql_field_seek
+	msql_field_seek(${1:resource $result}, ${2:int $field_offset})
+
+snippet msql_field_table
+	msql_field_table(${1:resource $result}, ${2:int $field_offset})
+
+snippet msql_field_type
+	msql_field_type(${1:resource $result}, ${2:int $field_offset})
+
+snippet msql_free_result
+	msql_free_result(${1:resource $result})
+
+snippet msql_list_dbs
+	msql_list_dbs()
+
+snippet msql_list_fields
+	msql_list_fields(${1:string $database}, ${2:string $tablename})
+
+snippet msql_list_tables
+	msql_list_tables(${1:string $database})
+
+snippet msql_num_fields
+	msql_num_fields(${1:resource $result})
+
+snippet msql_num_rows
+	msql_num_rows(${1:resource $query_identifier})
+
+snippet msql_pconnect
+	msql_pconnect()
+
+snippet msql_query
+	msql_query(${1:string $query})
+
+snippet msql_result
+	msql_result(${1:resource $result}, ${2:int $row})
+
+snippet msql_select_db
+	msql_select_db(${1:string $database_name})
+
+snippet mt_getrandmax
+	mt_getrandmax(${1:void})
+
+snippet mt_rand
+	mt_rand(${1:void})
+
+snippet mt_srand
+	mt_srand()
+
+snippet mysql_affected_rows
+	mysql_affected_rows()
+
+snippet mysql_client_encoding
+	mysql_client_encoding()
+
+snippet mysql_close
+	mysql_close()
+
+snippet mysql_connect
+	mysql_connect()
+
+snippet mysql_create_db
+	mysql_create_db(${1:string $database_name})
+
+snippet mysql_data_seek
+	mysql_data_seek(${1:resource $result}, ${2:int $row_number})
+
+snippet mysql_db_name
+	mysql_db_name(${1:resource $result}, ${2:int $row})
+
+snippet mysql_db_query
+	mysql_db_query(${1:string $database}, ${2:string $query})
+
+snippet mysql_drop_db
+	mysql_drop_db(${1:string $database_name})
+
+snippet mysql_errno
+	mysql_errno()
+
+snippet mysql_error
+	mysql_error()
+
+snippet mysql_escape_string
+	mysql_escape_string(${1:string $unescaped_string})
+
+snippet mysql_fetch_array
+	mysql_fetch_array(${1:resource $result})
+
+snippet mysql_fetch_assoc
+	mysql_fetch_assoc(${1:resource $result})
+
+snippet mysql_fetch_field
+	mysql_fetch_field(${1:resource $result})
+
+snippet mysql_fetch_lengths
+	mysql_fetch_lengths(${1:resource $result})
+
+snippet mysql_fetch_object
+	mysql_fetch_object(${1:resource $result})
+
+snippet mysql_fetch_row
+	mysql_fetch_row(${1:resource $result})
+
+snippet mysql_field_flags
+	mysql_field_flags(${1:resource $result}, ${2:int $field_offset})
+
+snippet mysql_field_len
+	mysql_field_len(${1:resource $result}, ${2:int $field_offset})
+
+snippet mysql_field_name
+	mysql_field_name(${1:resource $result}, ${2:int $field_offset})
+
+snippet mysql_field_seek
+	mysql_field_seek(${1:resource $result}, ${2:int $field_offset})
+
+snippet mysql_field_table
+	mysql_field_table(${1:resource $result}, ${2:int $field_offset})
+
+snippet mysql_field_type
+	mysql_field_type(${1:resource $result}, ${2:int $field_offset})
+
+snippet mysql_free_result
+	mysql_free_result(${1:resource $result})
+
+snippet mysql_get_client_info
+	mysql_get_client_info(${1:void})
+
+snippet mysql_get_host_info
+	mysql_get_host_info()
+
+snippet mysql_get_proto_info
+	mysql_get_proto_info()
+
+snippet mysql_get_server_info
+	mysql_get_server_info()
+
+snippet mysql_info
+	mysql_info()
+
+snippet mysql_insert_id
+	mysql_insert_id()
+
+snippet mysql_list_dbs
+	mysql_list_dbs()
+
+snippet mysql_list_fields
+	mysql_list_fields(${1:string $database_name}, ${2:string $table_name})
+
+snippet mysql_list_processes
+	mysql_list_processes()
+
+snippet mysql_list_tables
+	mysql_list_tables(${1:string $database})
+
+snippet mysql_num_fields
+	mysql_num_fields(${1:resource $result})
+
+snippet mysql_num_rows
+	mysql_num_rows(${1:resource $result})
+
+snippet mysql_pconnect
+	mysql_pconnect(${1:~})
+
+snippet mysql_ping
+	mysql_ping()
+
+snippet mysql_query
+	mysql_query(${1:string $query})
+
+snippet mysql_real_escape_string
+	mysql_real_escape_string(${1:string $unescaped_string})
+
+snippet mysql_result
+	mysql_result(${1:resource $result}, ${2:int $row})
+
+snippet mysql_select_db
+	mysql_select_db(${1:string $database_name})
+
+snippet mysql_set_charset
+	mysql_set_charset(${1:string $charset})
+
+snippet mysql_stat
+	mysql_stat()
+
+snippet mysql_tablename
+	mysql_tablename(${1:resource $result}, ${2:int $i})
+
+snippet mysql_thread_id
+	mysql_thread_id()
+
+snippet mysql_unbuffered_query
+	mysql_unbuffered_query(${1:string $query})
+
+snippet mysqli_disable_reads_from_master
+	mysqli_disable_reads_from_master(${1:void})
+
+snippet mysqli_disable_rpl_parse
+	mysqli_disable_rpl_parse(${1:mysqli $link})
+
+snippet mysqli_enable_reads_from_master
+	mysqli_enable_reads_from_master(${1:mysqli $link})
+
+snippet mysqli_enable_rpl_parse
+	mysqli_enable_rpl_parse(${1:mysqli $link})
+
+snippet mysqli_get_cache_stats
+	mysqli_get_cache_stats(${1:void})
+
+snippet mysqli_get_links_stats
+	mysqli_get_links_stats(${1:void})
+
+snippet mysqli_master_query
+	mysqli_master_query(${1:mysqli $link}, ${2:string $query})
+
+snippet mysqli_rpl_parse_enabled
+	mysqli_rpl_parse_enabled(${1:mysqli $link})
+
+snippet mysqli_rpl_probe
+	mysqli_rpl_probe(${1:mysqli $link})
+
+snippet mysqli_slave_query
+	mysqli_slave_query(${1:mysqli $link}, ${2:string $query})
+
+snippet natcasesort
+	natcasesort(${1:array &$array})
+
+snippet natsort
+	natsort(${1:array &$array})
+
+snippet next
+	next(${1:array &$array})
+
+snippet ngettext
+	ngettext(${1:string $msgid1}, ${2:string $msgid2}, ${3:int $n})
+
+snippet nl_langinfo
+	nl_langinfo(${1:int $item})
+
+snippet nl2br
+	nl2br(${1:string $string})
+
+snippet nsapi_request_headers
+	nsapi_request_headers(${1:void})
+
+snippet nsapi_response_headers
+	nsapi_response_headers(${1:void})
+
+snippet nsapi_virtual
+	nsapi_virtual(${1:string $uri})
+
+snippet nthmac
+	nthmac(${1:string $clent}, ${2:string $data})
+
+snippet number_format
+	number_format(${1:float $number})
+
+snippet oauth_get_sbs
+	oauth_get_sbs(${1:string $http_method}, ${2:string $uri})
+
+snippet oauth_urlencode
+	oauth_urlencode(${1:string $uri})
+
+snippet octdec
+	octdec(${1:string $octal_string})
+
+snippet opendir
+	opendir(${1:string $path})
+
+snippet openlog
+	openlog(${1:string $ident}, ${2:int $option}, ${3:int $facility})
+
+snippet openssl_cipher_iv_length
+	openssl_cipher_iv_length(${1:string $method})
+
+snippet openssl_csr_export_to_file
+	openssl_csr_export_to_file(${1:resource $csr}, ${2:string $outfilename})
+
+snippet openssl_csr_export
+	openssl_csr_export(${1:resource $csr}, ${2:string &$out})
+
+snippet openssl_csr_get_public_key
+	openssl_csr_get_public_key(${1:mixed $csr})
+
+snippet openssl_csr_get_subject
+	openssl_csr_get_subject(${1:mixed $csr})
+
+snippet openssl_csr_new
+	openssl_csr_new(${1:array $dn}, ${2:resource &$privkey})
+
+snippet openssl_csr_sign
+	openssl_csr_sign(${1:mixed $csr}, ${2:mixed $cacert}, ${3:mixed $priv_key}, ${4:int $days})
+
+snippet openssl_decrypt
+	openssl_decrypt(${1:string $data}, ${2:string $method}, ${3:string $password})
+
+snippet openssl_dh_compute_key
+	openssl_dh_compute_key(${1:string $pub_key}, ${2:resource $dh_key})
+
+snippet openssl_digest
+	openssl_digest(${1:string $data}, ${2:string $method})
+
+snippet openssl_encrypt
+	openssl_encrypt(${1:string $data}, ${2:string $method}, ${3:string $password})
+
+snippet openssl_error_string
+	openssl_error_string(${1:void})
+
+snippet openssl_free_key
+	openssl_free_key(${1:resource $key_identifier})
+
+snippet openssl_get_cert_locations
+	openssl_get_cert_locations(${1:void})
+
+snippet openssl_get_cipher_methods
+	openssl_get_cipher_methods()
+
+snippet openssl_get_md_methods
+	openssl_get_md_methods()
+
+snippet openssl_open
+	openssl_open(${1:string $sealed_data}, ${2:string &$open_data}, ${3:string$env_key}, ${4:mixed $priv_key_id})
+
+snippet openssl_pbkdf2
+	openssl_pbkdf2(${1:string $password}, ${2:string $salt}, ${3:int $key_length}, ${4:int $iterations})
+
+snippet openssl_pkcs12_export_to_file
+	openssl_pkcs12_export_to_file(${1:mixed $x509}, ${2:string $filename}, ${3:mixed $priv_key}, ${4:string $pass})
+
+snippet openssl_pkcs12_export
+	openssl_pkcs12_export(${1:mixed $x509}, ${2:string &$out}, ${3:mixed $priv_key}, ${4:string $pass})
+
+snippet openssl_pkcs12_read
+	openssl_pkcs12_read(${1:string $pkcs12}, ${2:array &$certs}, ${3:string $pass~})
+
+snippet openssl_pkcs7_decrypt
+	openssl_pkcs7_decrypt(${1:string $infilename}, ${2:string $outfilename}, ${3:mixed $recipcert})
+
+snippet openssl_pkcs7_encrypt
+	openssl_pkcs7_encrypt(${1:string $infile}, ${2:string $outfile}, ${3:mixed$recipcerts}, ${4:array $headers})
+
+snippet openssl_pkcs7_sign
+	openssl_pkcs7_sign(${1:string $infilename}, ${2:string $outfilename}, ${3:mixed $signcert}, ${4:mixed $privkey}, ${5:array $headers})
+
+snippet openssl_pkcs7_verify
+	openssl_pkcs7_verify(${1:string $filename}, ${2:int $flags})
+
+snippet openssl_pkey_export_to_file
+	openssl_pkey_export_to_file(${1:mixed $key}, ${2:string $outfilename})
+
+snippet openssl_pkey_export
+	openssl_pkey_export(${1:mixed $key}, ${2:string &$out})
+
+snippet openssl_pkey_free
+	openssl_pkey_free(${1:resource $key})
+
+snippet openssl_pkey_get_details
+	openssl_pkey_get_details(${1:resource $key})
+
+snippet openssl_pkey_get_private
+	openssl_pkey_get_private(${1:mixed $key})
+
+snippet openssl_pkey_get_public
+	openssl_pkey_get_public(${1:mixed $certificate})
+
+snippet openssl_pkey_new
+	openssl_pkey_new()
+
+snippet openssl_private_decrypt
+	openssl_private_decrypt(${1:string $data}, ${2:string &$decrypted}, ${3:mixed$key})
+
+snippet openssl_private_encrypt
+	openssl_private_encrypt(${1:string $data}, ${2:string &$crypted}, ${3:mixed$key})
+
+snippet openssl_public_decrypt
+	openssl_public_decrypt(${1:string $data}, ${2:string &$decrypted}, ${3:mixed$key})
+
+snippet openssl_public_encrypt
+	openssl_public_encrypt(${1:string $data}, ${2:string &$crypted}, ${3:mixed$key})
+
+snippet openssl_random_pseudo_bytes
+	openssl_random_pseudo_bytes(${1:int $length})
+
+snippet openssl_seal
+	openssl_seal(${1:string $data}, ${2:string &$sealed_data}, ${3:array &$env_keys}, ${4:array $pub_key_ids})
+
+snippet openssl_sign
+	openssl_sign(${1:string $data}, ${2:string &$signature}, ${3:mixed$priv_key_id})
+
+snippet openssl_spki_export_challenge
+	openssl_spki_export_challenge(${1:string &$spkac})
+
+snippet openssl_spki_export
+	openssl_spki_export(${1:string &$spkac})
+
+snippet openssl_spki_new
+	openssl_spki_new(${1:resource &$privkey}, ${2:string &$challenge})
+
+snippet openssl_spki_verify
+	openssl_spki_verify(${1:string &$spkac})
+
+snippet openssl_verify
+	openssl_verify(${1:string $data}, ${2:string $signature}, ${3:mixed $pub_key_id})
+
+snippet openssl_x509_check_private_key
+	openssl_x509_check_private_key(${1:mixed $cert}, ${2:mixed $key})
+
+snippet openssl_x509_checkpurpose
+	openssl_x509_checkpurpose(${1:mixed $x509cert}, ${2:int $purpose})
+
+snippet openssl_x509_export_to_file
+	openssl_x509_export_to_file(${1:mixed $x509}, ${2:string $outfilename})
+
+snippet openssl_x509_export
+	openssl_x509_export(${1:mixed $x509}, ${2:string &$output})
+
+snippet openssl_x509_fingerprint
+	openssl_x509_fingerprint(${1:mixed $x509})
+
+snippet openssl_x509_free
+	openssl_x509_free(${1:resource $x509cert})
+
+snippet openssl_x509_parse
+	openssl_x509_parse(${1:mixed $x509cert})
+
+snippet openssl_x509_read
+	openssl_x509_read(${1:mixed $x509certdata})
+
+snippet ord
+	ord(${1:string $string})
+
+snippet output_add_rewrite_var
+	output_add_rewrite_var(${1:string $name}, ${2:string $value})
+
+snippet output_reset_rewrite_vars
+	output_reset_rewrite_vars(${1:void})
+
+snippet override_function
+	override_function(${1:string $function_name}, ${2:string $function_args}, ${3:string $function_code})
+
+snippet pack
+	pack(${1:string $format})
+
+snippet parse_ini_file
+	parse_ini_file(${1:string $filename})
+
+snippet parse_ini_string
+	parse_ini_string(${1:string $ini})
+
+snippet parse_str
+	parse_str(${1:string $str})
+
+snippet parse_url
+	parse_url(${1:string $url})
+
+snippet parsekit_compile_file
+	parsekit_compile_file(${1:string $filename})
+
+snippet parsekit_compile_string
+	parsekit_compile_string(${1:string $phpcode})
+
+snippet parsekit_func_arginfo
+	parsekit_func_arginfo(${1:mixed $function})
+
+snippet passthru
+	passthru(${1:string $command})
+
+snippet password_get_info
+	password_get_info(${1:string $hash})
+
+snippet password_hash
+	password_hash(${1:string $password}, ${2:integer $algo})
+
+snippet password_needs_rehash
+	password_needs_rehash(${1:string $hash}, ${2:integer $algo})
+
+snippet password_verify
+	password_verify(${1:string $password}, ${2:string $hash})
+
+snippet pathinfo
+	pathinfo(${1:string $path})
+
+snippet pclose
+	pclose(${1:resource $handle})
+
+snippet pcntl_alarm
+	pcntl_alarm(${1:int $seconds})
+
+snippet pcntl_exec
+	pcntl_exec(${1:string $path})
+
+snippet pcntl_fork
+	pcntl_fork(${1:void})
+
+snippet pcntl_get_last_error
+	pcntl_get_last_error(${1:void})
+
+snippet pcntl_getpriority
+	pcntl_getpriority()
+
+snippet pcntl_setpriority
+	pcntl_setpriority(${1:int $priority})
+
+snippet pcntl_signal_dispatch
+	pcntl_signal_dispatch(${1:void})
+
+snippet pcntl_signal
+	pcntl_signal(${1:int $signo}, ${2:callable|int $handler})
+
+snippet pcntl_sigprocmask
+	pcntl_sigprocmask(${1:int $how}, ${2:array $set})
+
+snippet pcntl_sigtimedwait
+	pcntl_sigtimedwait(${1:array $set})
+
+snippet pcntl_sigwaitinfo
+	pcntl_sigwaitinfo(${1:array $set})
+
+snippet pcntl_strerror
+	pcntl_strerror(${1:int $errno})
+
+snippet pcntl_wait
+	pcntl_wait(${1:int &$status})
+
+snippet pcntl_waitpid
+	pcntl_waitpid(${1:int $pid}, ${2:int &$status})
+
+snippet pcntl_wexitstatus
+	pcntl_wexitstatus(${1:int $status})
+
+snippet pcntl_wifexited
+	pcntl_wifexited(${1:int $status})
+
+snippet pcntl_wifsignaled
+	pcntl_wifsignaled(${1:int $status})
+
+snippet pcntl_wifstopped
+	pcntl_wifstopped(${1:int $status})
+
+snippet pcntl_wstopsig
+	pcntl_wstopsig(${1:int $status})
+
+snippet pcntl_wtermsig
+	pcntl_wtermsig(${1:int $status})
+
+snippet pfsockopen
+	pfsockopen(${1:string $hostname})
+
+snippet php_check_syntax
+	php_check_syntax(${1:string $filename})
+
+snippet php_ini_loaded_file
+	php_ini_loaded_file(${1:void})
+
+snippet php_ini_scanned_files
+	php_ini_scanned_files(${1:void})
+
+snippet php_logo_guid
+	php_logo_guid(${1:void})
+
+snippet php_sapi_name
+	php_sapi_name(${1:void})
+
+snippet php_strip_whitespace
+	php_strip_whitespace(${1:string $filename})
+
+snippet php_uname
+	php_uname()
+
+snippet phpcredits
+	phpcredits()
+
+snippet phpinfo
+	phpinfo()
+
+snippet phpversion
+	phpversion()
+
+snippet pi
+	pi(${1:void})
+
+snippet png2wbmp
+	png2wbmp(${1:string $pngname}, ${2:string $wbmpname}, ${3:int $dest_height}, ${4:int $dest_width}, ${5:int $threshold})
+
+snippet popen
+	popen(${1:string $command}, ${2:string $mode})
+
+snippet pow
+	pow(${1:number $base}, ${2:number $exp})
+
+snippet preg_filter
+	preg_filter(${1:mixed $pattern}, ${2:mixed $replacement}, ${3:mixed $subject})
+
+snippet preg_grep
+	preg_grep(${1:string $pattern}, ${2:array $input})
+
+snippet preg_last_error
+	preg_last_error(${1:void})
+
+snippet preg_match_all
+	preg_match_all(${1:string $pattern}, ${2:string $subject})
+
+snippet preg_match
+	preg_match(${1:string $pattern}, ${2:string $subject})
+
+snippet preg_quote
+	preg_quote(${1:string $str})
+
+snippet preg_replace_callback_array
+	preg_replace_callback_array(${1:array $patterns_and_callbacks}, ${2:mixed$subject})
+
+snippet preg_replace_callback
+	preg_replace_callback(${1:mixed $pattern}, ${2:callable $callback}, ${3:mixed$subject})
+
+snippet preg_replace
+	preg_replace(${1:mixed $pattern}, ${2:mixed $replacement}, ${3:mixed $subject})
+
+snippet preg_split
+	preg_split(${1:string $pattern}, ${2:string $subject})
+
+snippet prev
+	prev(${1:array &$array})
+
+snippet print_r
+	print_r(${1:mixed $expression})
+
+snippet print
+	print(${1:string $arg})
+
+snippet printf
+	printf(${1:string $format})
+
+snippet proc_close
+	proc_close(${1:resource $process})
+
+snippet proc_get_status
+	proc_get_status(${1:resource $process})
+
+snippet proc_nice
+	proc_nice(${1:int $increment})
+
+snippet proc_open
+	proc_open(${1:string $cmd}, ${2:array $descriptorspec}, ${3:array &$pipes})
+
+snippet proc_terminate
+	proc_terminate(${1:resource $process})
+
+snippet property_exists
+	property_exists(${1:mixed $class}, ${2:string $property})
+
+snippet putenv
+	putenv(${1:string $setting})
+
+snippet quoted_printable_decode
+	quoted_printable_decode(${1:string $str})
+
+snippet quoted_printable_encode
+	quoted_printable_encode(${1:string $str})
+
+snippet quotemeta
+	quotemeta(${1:string $str})
+
+snippet rad2deg
+	rad2deg(${1:float $number})
+
+snippet rand
+	rand(${1:void})
+
+snippet random_bytes
+	random_bytes(${1:int $length})
+
+snippet random_int
+	random_int(${1:int $min}, ${2:int $max})
+
+snippet range
+	range(${1:mixed $start}, ${2:mixed $end})
+
+snippet rar_wrapper_cache_stats
+	rar_wrapper_cache_stats(${1:void})
+
+snippet rawurldecode
+	rawurldecode(${1:string $str})
+
+snippet rawurlencode
+	rawurlencode(${1:string $str})
+
+snippet readdir
+	readdir()
+
+snippet readfile
+	readfile(${1:string $filename})
+
+snippet readgzfile
+	readgzfile(${1:string $filename})
+
+snippet readline
+	readline()
+
+snippet readlink
+	readlink(${1:string $path})
+
+snippet realpath_cache_get
+	realpath_cache_get(${1:void})
+
+snippet realpath_cache_size
+	realpath_cache_size(${1:void})
+
+snippet realpath
+	realpath(${1:string $path})
+
+snippet recode_file
+	recode_file(${1:string $request}, ${2:resource $input}, ${3:resource $output})
+
+snippet recode_string
+	recode_string(${1:string $request}, ${2:string $string})
+
+snippet register_shutdown_function
+	register_shutdown_function(${1:callable $callback})
+
+snippet register_tick_function
+	register_tick_function(${1:callable $function})
+
+snippet rename_function
+	rename_function(${1:string $original_name}, ${2:string $new_name})
+
+snippet rename
+	rename(${1:string $oldname}, ${2:string $newname})
+
+snippet reset
+	reset(${1:array &$array})
+
+snippet restore_error_handler
+	restore_error_handler(${1:void})
+
+snippet restore_exception_handler
+	restore_exception_handler(${1:void})
+
+snippet restore_include_path
+	restore_include_path(${1:void})
+
+snippet rewind
+	rewind(${1:resource $handle})
+
+snippet rewinddir
+	rewinddir()
+
+snippet rmdir
+	rmdir(${1:string $dirname})
+
+snippet round
+	round(${1:float $val})
+
+snippet rrdc_disconnect
+	rrdc_disconnect(${1:void})
+
+snippet rsort
+	rsort(${1:array &$array})
+
+snippet rtrim
+	rtrim(${1:string $str})
+
+snippet scandir
+	scandir(${1:string $directory})
+
+snippet sem_acquire
+	sem_acquire(${1:resource $sem_identifier})
+
+snippet sem_get
+	sem_get(${1:int $key})
+
+snippet sem_release
+	sem_release(${1:resource $sem_identifier})
+
+snippet sem_remove
+	sem_remove(${1:resource $sem_identifier})
+
+snippet serialize
+	serialize(${1:mixed $value})
+
+snippet session_abort
+	session_abort(${1:void})
+
+snippet session_cache_expire
+	session_cache_expire()
+
+snippet session_cache_limiter
+	session_cache_limiter()
+
+snippet session_decode
+	session_decode(${1:string $data})
+
+snippet session_destroy
+	session_destroy(${1:void})
+
+snippet session_encode
+	session_encode(${1:void})
+
+snippet session_get_cookie_params
+	session_get_cookie_params(${1:void})
+
+snippet session_id
+	session_id()
+
+snippet session_is_registered
+	session_is_registered(${1:string $name})
+
+snippet session_module_name
+	session_module_name()
+
+snippet session_name
+	session_name()
+
+snippet session_pgsql_add_error
+	session_pgsql_add_error(${1:int $error_level})
+
+snippet session_pgsql_get_error
+	session_pgsql_get_error()
+
+snippet session_pgsql_get_field
+	session_pgsql_get_field(${1:void})
+
+snippet session_pgsql_reset
+	session_pgsql_reset(${1:void})
+
+snippet session_pgsql_set_field
+	session_pgsql_set_field(${1:string $value})
+
+snippet session_pgsql_status
+	session_pgsql_status(${1:void})
+
+snippet session_regenerate_id
+	session_regenerate_id()
+
+snippet session_register_shutdown
+	session_register_shutdown(${1:void})
+
+snippet session_register
+	session_register(${1:mixed $name})
+
+snippet session_reset
+	session_reset(${1:void})
+
+snippet session_save_path
+	session_save_path()
+
+snippet session_set_cookie_params
+	session_set_cookie_params(${1:int $lifetime})
+
+snippet session_set_save_handler
+	session_set_save_handler(${1:callable $open}, ${2:callable $close}, ${3:callable $read}, ${4:callable $write}, ${5:callable $destroy}, ${6:callable $gc})
+
+snippet session_start
+	session_start()
+
+snippet session_status
+	session_status(${1:void})
+
+snippet session_unregister
+	session_unregister(${1:string $name})
+
+snippet session_unset
+	session_unset(${1:void})
+
+snippet session_write_close
+	session_write_close(${1:void})
+
+snippet set_error_handler
+	set_error_handler(${1:callable $error_handler})
+
+snippet set_exception_handler
+	set_exception_handler(${1:callable $exception_handler})
+
+snippet set_include_path
+	set_include_path(${1:string $new_include_path})
+
+snippet set_magic_quotes_runtime
+	set_magic_quotes_runtime(${1:bool $new_setting})
+
+snippet set_time_limit
+	set_time_limit(${1:int $seconds})
+
+snippet setcookie
+	setcookie(${1:string $name})
+
+snippet setlocale
+	setlocale(${1:int $category}, ${2:string $locale})
+
+snippet setproctitle
+	setproctitle(${1:string $title})
+
+snippet setrawcookie
+	setrawcookie(${1:string $name})
+
+snippet setthreadtitle
+	setthreadtitle(${1:string $title})
+
+snippet settype
+	settype(${1:mixed &$var}, ${2:string $type})
+
+snippet sha1_file
+	sha1_file(${1:string $filename})
+
+snippet sha1
+	sha1(${1:string $str})
+
+snippet shell_exec
+	shell_exec(${1:string $cmd})
+
+snippet shuffle
+	shuffle(${1:array &$array})
+
+snippet signeurlpaiement
+	signeurlpaiement(${1:string $clent}, ${2:string $data})
+
+snippet similar_text
+	similar_text(${1:string $first}, ${2:string $second})
+
+snippet simplexml_import_dom
+	simplexml_import_dom(${1:DOMNode $node})
+
+snippet simplexml_load_file
+	simplexml_load_file(${1:string $filename})
+
+snippet simplexml_load_string
+	simplexml_load_string(${1:string $data})
+
+snippet sin
+	sin(${1:float $arg})
+
+snippet sinh
+	sinh(${1:float $arg})
+
+snippet sleep
+	sleep(${1:int $seconds})
+
+snippet snmp_get_quick_print
+	snmp_get_quick_print(${1:void})
+
+snippet snmp_get_valueretrieval
+	snmp_get_valueretrieval(${1:void})
+
+snippet snmp_read_mib
+	snmp_read_mib(${1:string $filename})
+
+snippet snmp_set_enum_print
+	snmp_set_enum_print(${1:int $enum_print})
+
+snippet snmp_set_oid_numeric_print
+	snmp_set_oid_numeric_print(${1:int $oid_format})
+
+snippet snmp_set_oid_output_format
+	snmp_set_oid_output_format(${1:int $oid_format =SNMP_OID_OUTPUT_MODULE})
+
+snippet snmp_set_quick_print
+	snmp_set_quick_print(${1:bool $quick_print})
+
+snippet snmp_set_valueretrieval
+	snmp_set_valueretrieval(${1:int $method = SNMP_VALUE_LIBRARY})
+
+snippet snmp3_get
+	snmp3_get(${1:string $host}, ${2:string $sec_name}, ${3:string $sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string $priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id})
+
+snippet snmp3_getnext
+	snmp3_getnext(${1:string $host}, ${2:string $sec_name}, ${3:string$sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string$priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id})
+
+snippet snmp3_real_walk
+	snmp3_real_walk(${1:string $host}, ${2:string $sec_name}, ${3:string$sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string$priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id})
+
+snippet snmp3_set
+	snmp3_set(${1:string $host}, ${2:string $sec_name}, ${3:string $sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string $priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id}, ${9:string $type}, ${10:string$value})
+
+snippet snmp3_walk
+	snmp3_walk(${1:string $host}, ${2:string $sec_name}, ${3:string $sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string $priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id})
+
+snippet snmpget
+	snmpget(${1:string $hostname}, ${2:string $community}, ${3:string $object_id})
+
+snippet snmpgetnext
+	snmpgetnext(${1:string $host}, ${2:string $community}, ${3:string $object_id})
+
+snippet snmprealwalk
+	snmprealwalk(${1:string $host}, ${2:string $community}, ${3:string $object_id})
+
+snippet snmpset
+	snmpset(${1:string $host}, ${2:string $community}, ${3:string $object_id}, ${4:string $type}, ${5:mixed $value})
+
+snippet snmpwalk
+	snmpwalk(${1:string $hostname}, ${2:string $community}, ${3:string $object_id})
+
+snippet snmpwalkoid
+	snmpwalkoid(${1:string $hostname}, ${2:string $community}, ${3:string$object_id})
+
+snippet socket_accept
+	socket_accept(${1:resource $socket})
+
+snippet socket_bind
+	socket_bind(${1:resource $socket}, ${2:string $address ~})
+
+snippet socket_clear_error
+	socket_clear_error()
+
+snippet socket_close
+	socket_close(${1:resource $socket})
+
+snippet socket_cmsg_space
+	socket_cmsg_space(${1:int $level}, ${2:int $type})
+
+snippet socket_connect
+	socket_connect(${1:resource $socket}, ${2:string $address})
+
+snippet socket_create_listen
+	socket_create_listen(${1:int $port})
+
+snippet socket_create_pair
+	socket_create_pair(${1:int $domain}, ${2:int $type}, ${3:int $protocol}, ${4:array&$fd})
+
+snippet socket_create
+	socket_create(${1:int $domain}, ${2:int $type}, ${3:int $protocol})
+
+snippet socket_get_option
+	socket_get_option(${1:resource $socket}, ${2:int $level}, ${3:int $optname})
+
+snippet socket_getpeername
+	socket_getpeername(${1:resource $socket}, ${2:string &$address})
+
+snippet socket_getsockname
+	socket_getsockname(${1:resource $socket}, ${2:string &$addr})
+
+snippet socket_import_stream
+	socket_import_stream(${1:resource $stream})
+
+snippet socket_last_error
+	socket_last_error()
+
+snippet socket_listen
+	socket_listen(${1:resource $socket})
+
+snippet socket_read
+	socket_read(${1:resource $socket}, ${2:int $length})
+
+snippet socket_recv
+	socket_recv(${1:resource $socket}, ${2:string &$buf}, ${3:int $len}, ${4:int $flags~})
+
+snippet socket_recvfrom
+	socket_recvfrom(${1:resource $socket}, ${2:string &$buf}, ${3:int $len}, ${4:int$flags}, ${5:string &$name})
+
+snippet socket_recvmsg
+	socket_recvmsg(${1:resource $socket}, ${2:string $message})
+
+snippet socket_select
+	socket_select(${1:array &$read}, ${2:array &$write}, ${3:array &$except}, ${4:int$tv_sec})
+
+snippet socket_send
+	socket_send(${1:resource $socket}, ${2:string $buf}, ${3:int $len}, ${4:int $flags~})
+
+snippet socket_sendmsg
+	socket_sendmsg(${1:resource $socket}, ${2:array $message}, ${3:int $flags})
+
+snippet socket_sendto
+	socket_sendto(${1:resource $socket}, ${2:string $buf}, ${3:int $len}, ${4:int$flags}, ${5:string $addr})
+
+snippet socket_set_block
+	socket_set_block(${1:resource $socket})
+
+snippet socket_set_nonblock
+	socket_set_nonblock(${1:resource $socket})
+
+snippet socket_set_option
+	socket_set_option(${1:resource $socket}, ${2:int $level}, ${3:int $optname}, ${4:mixed $optval})
+
+snippet socket_shutdown
+	socket_shutdown(${1:resource $socket})
+
+snippet socket_strerror
+	socket_strerror(${1:int $errno})
+
+snippet socket_write
+	socket_write(${1:resource $socket}, ${2:string $buffer})
+
+snippet solr_get_version
+	solr_get_version(${1:void})
+
+snippet sort
+	sort(${1:array &$array})
+
+snippet soundex
+	soundex(${1:string $str})
+
+snippet spl_autoload_call
+	spl_autoload_call(${1:string $class_name})
+
+snippet spl_autoload_extensions
+	spl_autoload_extensions()
+
+snippet spl_autoload_functions
+	spl_autoload_functions(${1:void})
+
+snippet spl_autoload_register
+	spl_autoload_register()
+
+snippet spl_autoload_unregister
+	spl_autoload_unregister(${1:mixed $autoload_function})
+
+snippet spl_autoload
+	spl_autoload(${1:string $class_name})
+
+snippet spl_classes
+	spl_classes(${1:void})
+
+snippet spl_object_hash
+	spl_object_hash(${1:object $obj})
+
+snippet split
+	split(${1:string $pattern}, ${2:string $string})
+
+snippet spliti
+	spliti(${1:string $pattern}, ${2:string $string})
+
+snippet sprintf
+	sprintf(${1:string $format})
+
+snippet sql_regcase
+	sql_regcase(${1:string $string})
+
+snippet sqrt
+	sqrt(${1:float $arg})
+
+snippet srand
+	srand()
+
+snippet sscanf
+	sscanf(${1:string $str}, ${2:string $format})
+
+snippet stat
+	stat(${1:string $filename})
+
+snippet stomp_connect_error
+	stomp_connect_error(${1:void})
+
+snippet stomp_version
+	stomp_version(${1:void})
+
+snippet str_getcsv
+	str_getcsv(${1:string $input})
+
+snippet str_ireplace
+	str_ireplace(${1:mixed $search}, ${2:mixed $replace}, ${3:mixed $subject})
+
+snippet str_pad
+	str_pad(${1:string $input}, ${2:int $pad_length})
+
+snippet str_repeat
+	str_repeat(${1:string $input}, ${2:int $multiplier})
+
+snippet str_replace
+	str_replace(${1:mixed $search}, ${2:mixed $replace}, ${3:mixed $subject})
+
+snippet str_rot13
+	str_rot13(${1:string $str})
+
+snippet str_shuffle
+	str_shuffle(${1:string $str})
+
+snippet str_split
+	str_split(${1:string $string})
+
+snippet str_word_count
+	str_word_count(${1:string $string})
+
+snippet strcasecmp
+	strcasecmp(${1:string $str1}, ${2:string $str2})
+
+snippet strcmp
+	strcmp(${1:string $str1}, ${2:string $str2})
+
+snippet strcoll
+	strcoll(${1:string $str1}, ${2:string $str2})
+
+snippet strcspn
+	strcspn(${1:string $subject}, ${2:string $mask})
+
+snippet stream_bucket_append
+	stream_bucket_append(${1:resource $brigade}, ${2:object $bucket})
+
+snippet stream_bucket_make_writeable
+	stream_bucket_make_writeable(${1:resource $brigade})
+
+snippet stream_bucket_new
+	stream_bucket_new(${1:resource $stream}, ${2:string $buffer})
+
+snippet stream_bucket_prepend
+	stream_bucket_prepend(${1:resource $brigade}, ${2:object $bucket})
+
+snippet stream_context_create
+	stream_context_create()
+
+snippet stream_context_get_default
+	stream_context_get_default()
+
+snippet stream_context_get_options
+	stream_context_get_options(${1:resource $stream_or_context})
+
+snippet stream_context_get_params
+	stream_context_get_params(${1:resource $stream_or_context})
+
+snippet stream_context_set_default
+	stream_context_set_default(${1:array $options})
+
+snippet stream_context_set_option
+	stream_context_set_option(${1:resource $stream_or_context}, ${2:string$wrapper}, ${3:string $option}, ${4:mixed $value})
+
+snippet stream_context_set_params
+	stream_context_set_params(${1:resource $stream_or_context}, ${2:array$params})
+
+snippet stream_copy_to_stream
+	stream_copy_to_stream(${1:resource $source}, ${2:resource $dest})
+
+snippet stream_encoding
+	stream_encoding(${1:resource $stream})
+
+snippet stream_filter_append
+	stream_filter_append(${1:resource $stream}, ${2:string $filtername})
+
+snippet stream_filter_prepend
+	stream_filter_prepend(${1:resource $stream}, ${2:string $filtername})
+
+snippet stream_filter_register
+	stream_filter_register(${1:string $filtername}, ${2:string $classname})
+
+snippet stream_filter_remove
+	stream_filter_remove(${1:resource $stream_filter})
+
+snippet stream_get_contents
+	stream_get_contents(${1:resource $handle})
+
+snippet stream_get_filters
+	stream_get_filters(${1:void})
+
+snippet stream_get_line
+	stream_get_line(${1:resource $handle}, ${2:int $length})
+
+snippet stream_get_meta_data
+	stream_get_meta_data(${1:resource $stream})
+
+snippet stream_get_transports
+	stream_get_transports(${1:void})
+
+snippet stream_get_wrappers
+	stream_get_wrappers(${1:void})
+
+snippet stream_is_local
+	stream_is_local(${1:mixed $stream_or_url})
+
+snippet stream_notification_callback
+	stream_notification_callback(${1:int $notification_code}, ${2:int$severity}, ${3:string $message}, ${4:int $message_code}, ${5:int $bytes_transferred}, ${6:int $bytes_max})
+
+snippet stream_resolve_include_path
+	stream_resolve_include_path(${1:string $filename})
+
+snippet stream_select
+	stream_select(${1:array &$read}, ${2:array &$write}, ${3:array &$except}, ${4:int$tv_sec})
+
+snippet stream_set_blocking
+	stream_set_blocking(${1:resource $stream}, ${2:bool $mode})
+
+snippet stream_set_chunk_size
+	stream_set_chunk_size(${1:resource $fp}, ${2:int $chunk_size})
+
+snippet stream_set_read_buffer
+	stream_set_read_buffer(${1:resource $stream}, ${2:int $buffer})
+
+snippet stream_set_timeout
+	stream_set_timeout(${1:resource $stream}, ${2:int $seconds})
+
+snippet stream_set_write_buffer
+	stream_set_write_buffer(${1:resource $stream}, ${2:int $buffer})
+
+snippet stream_socket_accept
+	stream_socket_accept(${1:resource $server_socket})
+
+snippet stream_socket_client
+	stream_socket_client(${1:string $remote_socket})
+
+snippet stream_socket_enable_crypto
+	stream_socket_enable_crypto(${1:resource $stream}, ${2:bool $enable})
+
+snippet stream_socket_get_name
+	stream_socket_get_name(${1:resource $handle}, ${2:bool $want_peer})
+
+snippet stream_socket_pair
+	stream_socket_pair(${1:int $domain}, ${2:int $type}, ${3:int $protocol})
+
+snippet stream_socket_recvfrom
+	stream_socket_recvfrom(${1:resource $socket}, ${2:int $length})
+
+snippet stream_socket_sendto
+	stream_socket_sendto(${1:resource $socket}, ${2:string $data})
+
+snippet stream_socket_server
+	stream_socket_server(${1:string $local_socket})
+
+snippet stream_socket_shutdown
+	stream_socket_shutdown(${1:resource $stream}, ${2:int $how})
+
+snippet stream_supports_lock
+	stream_supports_lock(${1:resource $stream})
+
+snippet stream_wrapper_register
+	stream_wrapper_register(${1:string $protocol}, ${2:string $classname})
+
+snippet stream_wrapper_restore
+	stream_wrapper_restore(${1:string $protocol})
+
+snippet stream_wrapper_unregister
+	stream_wrapper_unregister(${1:string $protocol})
+
+snippet strftime
+	strftime(${1:string $format})
+
+snippet strip_tags
+	strip_tags(${1:string $str})
+
+snippet stripcslashes
+	stripcslashes(${1:string $str})
+
+snippet stripos
+	stripos(${1:string $haystack}, ${2:string $needle})
+
+snippet stripslashes
+	stripslashes(${1:string $str})
+
+snippet stristr
+	stristr(${1:string $haystack}, ${2:mixed $needle})
+
+snippet strlen
+	strlen(${1:string $string})
+
+snippet strnatcasecmp
+	strnatcasecmp(${1:string $str1}, ${2:string $str2})
+
+snippet strnatcmp
+	strnatcmp(${1:string $str1}, ${2:string $str2})
+
+snippet strncasecmp
+	strncasecmp(${1:string $str1}, ${2:string $str2}, ${3:int $len})
+
+snippet strncmp
+	strncmp(${1:string $str1}, ${2:string $str2}, ${3:int $len})
+
+snippet strpbrk
+	strpbrk(${1:string $haystack}, ${2:string $char_list})
+
+snippet strpos
+	strpos(${1:string $haystack}, ${2:mixed $needle})
+
+snippet strptime
+	strptime(${1:string $date}, ${2:string $format})
+
+snippet strrchr
+	strrchr(${1:string $haystack}, ${2:mixed $needle})
+
+snippet strrev
+	strrev(${1:string $string})
+
+snippet strripos
+	strripos(${1:string $haystack}, ${2:string $needle})
+
+snippet strrpos
+	strrpos(${1:string $haystack}, ${2:string $needle})
+
+snippet strspn
+	strspn(${1:string $subject}, ${2:string $mask})
+
+snippet strstr
+	strstr(${1:string $haystack}, ${2:mixed $needle})
+
+snippet strtok
+	strtok(${1:string $str}, ${2:string $token})
+
+snippet strtolower
+	strtolower(${1:string $string})
+
+snippet strtotime
+	strtotime(${1:string $time})
+
+snippet strtoupper
+	strtoupper(${1:string $string})
+
+snippet strtr
+	strtr(${1:string $str}, ${2:string $from}, ${3:string $to})
+
+snippet strval
+	strval(${1:mixed $var})
+
+snippet substr_compare
+	substr_compare(${1:string $main_str}, ${2:string $str}, ${3:int $offset})
+
+snippet substr_count
+	substr_count(${1:string $haystack}, ${2:string $needle})
+
+snippet substr_replace
+	substr_replace(${1:mixed $string}, ${2:mixed $replacement}, ${3:mixed $start})
+
+snippet substr
+	substr(${1:string $string}, ${2:int $start})
+
+snippet symlink
+	symlink(${1:string $target}, ${2:string $link})
+
+snippet sys_get_temp_dir
+	sys_get_temp_dir(${1:void})
+
+snippet sys_getloadavg
+	sys_getloadavg(${1:void})
+
+snippet syslog
+	syslog(${1:int $priority}, ${2:string $message})
+
+snippet system
+	system(${1:string $command})
+
+snippet taint
+	taint(${1:string &$string})
+
+snippet tan
+	tan(${1:float $arg})
+
+snippet tanh
+	tanh(${1:float $arg})
+
+snippet tcpwrap_check
+	tcpwrap_check(${1:string $daemon}, ${2:string $address})
+
+snippet tempnam
+	tempnam(${1:string $dir}, ${2:string $prefix})
+
+snippet textdomain
+	textdomain(${1:string $text_domain})
+
+snippet tidy_access_count
+	tidy_access_count(${1:tidy $object})
+
+snippet tidy_config_count
+	tidy_config_count(${1:tidy $object})
+
+snippet tidy_error_count
+	tidy_error_count(${1:tidy $object})
+
+snippet tidy_get_output
+	tidy_get_output(${1:tidy $object})
+
+snippet tidy_load_config
+	tidy_load_config(${1:string $filename}, ${2:string $encoding})
+
+snippet tidy_reset_config
+	tidy_reset_config(${1:void})
+
+snippet tidy_save_config
+	tidy_save_config(${1:string $filename})
+
+snippet tidy_set_encoding
+	tidy_set_encoding(${1:string $encoding})
+
+snippet tidy_setopt
+	tidy_setopt(${1:string $option}, ${2:mixed $value})
+
+snippet tidy_warning_count
+	tidy_warning_count(${1:tidy $object})
+
+snippet time_nanosleep
+	time_nanosleep(${1:int $seconds}, ${2:int $nanoseconds})
+
+snippet time_sleep_until
+	time_sleep_until(${1:float $timestamp})
+
+snippet time
+	time(${1:void})
+
+snippet timezone_name_from_abbr
+	timezone_name_from_abbr(${1:string $abbr})
+
+snippet timezone_version_get
+	timezone_version_get(${1:void})
+
+snippet tmpfile
+	tmpfile(${1:void})
+
+snippet token_get_all
+	token_get_all(${1:string $source})
+
+snippet token_name
+	token_name(${1:int $token})
+
+snippet touch
+	touch(${1:string $filename})
+
+snippet trait_exists
+	trait_exists(${1:string $traitname})
+
+snippet trigger_error
+	trigger_error(${1:string $error_msg})
+
+snippet trim
+	trim(${1:string $str})
+
+snippet uasort
+	uasort(${1:array &$array}, ${2:callable $value_compare_func})
+
+snippet ucfirst
+	ucfirst(${1:string $str})
+
+snippet ucwords
+	ucwords(${1:string $str})
+
+snippet uksort
+	uksort(${1:array &$array}, ${2:callable $key_compare_func})
+
+snippet umask
+	umask()
+
+snippet uniqid
+	uniqid()
+
+snippet unixtojd
+	unixtojd()
+
+snippet unlink
+	unlink(${1:string $filename})
+
+snippet unpack
+	unpack(${1:string $format}, ${2:string $data})
+
+snippet unregister_tick_function
+	unregister_tick_function(${1:string $function_name})
+
+snippet unserialize
+	unserialize(${1:string $str})
+
+snippet unset
+	unset(${1:mixed $var})
+
+snippet untaint
+	untaint(${1:string &$string})
+
+snippet urldecode
+	urldecode(${1:string $str})
+
+snippet urlencode
+	urlencode(${1:string $str})
+
+snippet use_soap_error_handler
+	use_soap_error_handler()
+
+snippet usleep
+	usleep(${1:int $micro_seconds})
+
+snippet usort
+	usort(${1:array &$array}, ${2:callable $value_compare_func})
+
+snippet utf8_decode
+	utf8_decode(${1:string $data})
+
+snippet utf8_encode
+	utf8_encode(${1:string $data})
+
+snippet var_dump
+	var_dump(${1:mixed $expression})
+
+snippet var_export
+	var_export(${1:mixed $expression})
+
+snippet version_compare
+	version_compare(${1:string $version1}, ${2:string $version2})
+
+snippet vfprintf
+	vfprintf(${1:resource $handle}, ${2:string $format}, ${3:array $args})
+
+snippet virtual
+	virtual(${1:string $filename})
+
+snippet vprintf
+	vprintf(${1:string $format}, ${2:array $args})
+
+snippet vsprintf
+	vsprintf(${1:string $format}, ${2:array $args})
+
+snippet wordwrap
+	wordwrap(${1:string $str})
+
+snippet xhprof_disable
+	xhprof_disable(${1:void})
+
+snippet xhprof_enable
+	xhprof_enable()
+
+snippet xhprof_sample_disable
+	xhprof_sample_disable(${1:void})
+
+snippet xhprof_sample_enable
+	xhprof_sample_enable(${1:void})
+
+snippet xml_error_string
+	xml_error_string(${1:int $code})
+
+snippet xml_get_current_byte_index
+	xml_get_current_byte_index(${1:resource $parser})
+
+snippet xml_get_current_column_number
+	xml_get_current_column_number(${1:resource $parser})
+
+snippet xml_get_current_line_number
+	xml_get_current_line_number(${1:resource $parser})
+
+snippet xml_get_error_code
+	xml_get_error_code(${1:resource $parser})
+
+snippet xml_parse_into_struct
+	xml_parse_into_struct(${1:resource $parser}, ${2:string $data}, ${3:array&$values})
+
+snippet xml_parse
+	xml_parse(${1:resource $parser}, ${2:string $data})
+
+snippet xml_parser_create_ns
+	xml_parser_create_ns()
+
+snippet xml_parser_create
+	xml_parser_create()
+
+snippet xml_parser_free
+	xml_parser_free(${1:resource $parser})
+
+snippet xml_parser_get_option
+	xml_parser_get_option(${1:resource $parser}, ${2:int $option})
+
+snippet xml_parser_set_option
+	xml_parser_set_option(${1:resource $parser}, ${2:int $option}, ${3:mixed$value})
+
+snippet xml_set_character_data_handler
+	xml_set_character_data_handler(${1:resource $parser}, ${2:callable$handler})
+
+snippet xml_set_default_handler
+	xml_set_default_handler(${1:resource $parser}, ${2:callable $handler})
+
+snippet xml_set_element_handler
+	xml_set_element_handler(${1:resource $parser}, ${2:callable$start_element_handler}, ${3:callable $end_element_handler})
+
+snippet xml_set_end_namespace_decl_handler
+	xml_set_end_namespace_decl_handler(${1:resource $parser}, ${2:callable$handler})
+
+snippet xml_set_external_entity_ref_handler
+	xml_set_external_entity_ref_handler(${1:resource $parser}, ${2:callable$handler})
+
+snippet xml_set_notation_decl_handler
+	xml_set_notation_decl_handler(${1:resource $parser}, ${2:callable $handler~})
+
+snippet xml_set_object
+	xml_set_object(${1:resource $parser}, ${2:object &$object})
+
+snippet xml_set_processing_instruction_handler
+	xml_set_processing_instruction_handler(${1:resource $parser}, ${2:callable$handler})
+
+snippet xml_set_start_namespace_decl_handler
+	xml_set_start_namespace_decl_handler(${1:resource $parser}, ${2:callable$handler})
+
+snippet xml_set_unparsed_entity_decl_handler
+	xml_set_unparsed_entity_decl_handler(${1:resource $parser}, ${2:callable$handler})
+
+snippet xmlrpc_decode_request
+	xmlrpc_decode_request(${1:string $xml}, ${2:string &$method})
+
+snippet xmlrpc_decode
+	xmlrpc_decode(${1:string $xml})
+
+snippet xmlrpc_encode_request
+	xmlrpc_encode_request(${1:string $method}, ${2:mixed $params})
+
+snippet xmlrpc_encode
+	xmlrpc_encode(${1:mixed $value})
+
+snippet xmlrpc_get_type
+	xmlrpc_get_type(${1:mixed $value})
+
+snippet xmlrpc_is_fault
+	xmlrpc_is_fault(${1:array $arg})
+
+snippet xmlrpc_parse_method_descriptions
+	xmlrpc_parse_method_descriptions(${1:string $xml})
+
+snippet xmlrpc_server_add_introspection_data
+	xmlrpc_server_add_introspection_data(${1:resource $server}, ${2:array $desc~})
+
+snippet xmlrpc_server_call_method
+	xmlrpc_server_call_method(${1:resource $server}, ${2:string $xml}, ${3:mixed$user_data})
+
+snippet xmlrpc_server_create
+	xmlrpc_server_create(${1:void})
+
+snippet xmlrpc_server_destroy
+	xmlrpc_server_destroy(${1:resource $server})
+
+snippet xmlrpc_server_register_introspection_callback
+	xmlrpc_server_register_introspection_callback(${1:resource $server}, ${2:string $function})
+
+snippet xmlrpc_server_register_method
+	xmlrpc_server_register_method(${1:resource $server}, ${2:string$method_name}, ${3:string $function})
+
+snippet xmlrpc_set_type
+	xmlrpc_set_type(${1:string &$value}, ${2:string $type})
+
+snippet yaml_emit_file
+	yaml_emit_file(${1:string $filename}, ${2:mixed $data})
+
+snippet yaml_emit
+	yaml_emit(${1:mixed $data})
+
+snippet yaml_parse_file
+	yaml_parse_file(${1:string $filename})
+
+snippet yaml_parse_url
+	yaml_parse_url(${1:string $url})
+
+snippet yaml_parse
+	yaml_parse(${1:string $input})
+
+snippet zend_logo_guid
+	zend_logo_guid(${1:void})
+
+snippet zend_thread_id
+	zend_thread_id(${1:void})
+
+snippet zend_version
+	zend_version(${1:void})
+

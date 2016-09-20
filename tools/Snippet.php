@@ -37,7 +37,7 @@ class Snippet
         }
 
         $str = $match[1][0];
-        $str = ereg_replace("\n", '', $str);
+        $str = preg_replace("/[\n]/", '', $str);
         /* return 'function: ' . $str; */
 
         //变量初始化
