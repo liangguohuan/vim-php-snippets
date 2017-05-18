@@ -1,11 +1,11 @@
 <?php
 
-include 'Snippet.php';
+include 'Snippet.class.php';
 
-define('DIR_SRC', '/home/hanson/.vim/bundle/vim-php-manual/manual/doc/');
+define('DIR_SRC', sprintf('%s/.vim/bundle/vim-php-manual/manual/doc/', getenv('HOME')));
 
 $filename_rules = './ignore_rules.txt';
-$filename_snippets = '../snippets/php.snip';
+$filename_snippets = '../snippets/php.snippets';
 
 // unlink file
 unlink($filename_snippets);
@@ -29,7 +29,7 @@ foreach ( scandir(DIR_SRC) as $file ) {
     $count++;
 }
 
-echo 'sucessed!';
+echo "sucessed!\n";
 
 function check_rule($file, $arr_rule)
 {

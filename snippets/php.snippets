@@ -208,27 +208,6 @@ snippet base64_encode
 snippet basename
 	basename(${1:string $path})
 
-snippet bbcode_add_element
-	bbcode_add_element(${1:resource $bbcode_container}, ${2:string $tag_name}, ${3:array $tag_rules})
-
-snippet bbcode_add_smiley
-	bbcode_add_smiley(${1:resource $bbcode_container}, ${2:string $smiley}, ${3:string $replace_by})
-
-snippet bbcode_create
-	bbcode_create()
-
-snippet bbcode_destroy
-	bbcode_destroy(${1:resource $bbcode_container})
-
-snippet bbcode_parse
-	bbcode_parse(${1:resource $bbcode_container}, ${2:string $to_parse})
-
-snippet bbcode_set_arg_parser
-	bbcode_set_arg_parser(${1:resource $bbcode_container}, ${2:resource$bbcode_arg_parser})
-
-snippet bbcode_set_flags
-	bbcode_set_flags(${1:resource $bbcode_container}, ${2:int $flags})
-
 snippet bcadd
 	bcadd(${1:string $left_operand}, ${2:string $right_operand})
 
@@ -454,18 +433,6 @@ snippet count_chars
 snippet count
 	count(${1:mixed $array_or_countable})
 
-snippet crack_check
-	crack_check(${1:resource $dictionary}, ${2:string $password})
-
-snippet crack_closedict
-	crack_closedict()
-
-snippet crack_getlastmessage
-	crack_getlastmessage(${1:void})
-
-snippet crack_opendict
-	crack_opendict(${1:string $dictionary})
-
 snippet crc32
 	crc32(${1:string $str})
 
@@ -561,24 +528,6 @@ snippet curl_version
 
 snippet current
 	current(${1:array &$array})
-
-snippet cyrus_authenticate
-	cyrus_authenticate(${1:resource $connection})
-
-snippet cyrus_bind
-	cyrus_bind(${1:resource $connection}, ${2:array $callbacks})
-
-snippet cyrus_close
-	cyrus_close(${1:resource $connection})
-
-snippet cyrus_connect
-	cyrus_connect(${1:~})
-
-snippet cyrus_query
-	cyrus_query(${1:resource $connection}, ${2:string $query})
-
-snippet cyrus_unbind
-	cyrus_unbind(${1:resource $connection}, ${2:string $trigger_name})
 
 snippet date_default_timezone_get
 	date_default_timezone_get(${1:void})
@@ -986,7 +935,7 @@ snippet get_defined_constants
 	get_defined_constants()
 
 snippet get_defined_functions
-	get_defined_functions(${1:void})
+	get_defined_functions()
 
 snippet get_defined_vars
 	get_defined_vars(${1:void})
@@ -1200,6 +1149,9 @@ snippet hash_file
 
 snippet hash_final
 	hash_final(${1:resource $context})
+
+snippet hash_hkdf
+	hash_hkdf(${1:string $algo}, ${2:string $ikm})
 
 snippet hash_hmac_file
 	hash_hmac_file(${1:string $algo}, ${2:string $filename}, ${3:string $key})
@@ -1504,6 +1456,9 @@ snippet imageantialias
 snippet imagearc
 	imagearc(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int$height}, ${6:int $start}, ${7:int $end}, ${8:int $color})
 
+snippet imagebmp
+	imagebmp(${1:resource $image}, ${2:mixed $to ~})
+
 snippet imagechar
 	imagechar(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string$c}, ${6:int $color})
 
@@ -1578,6 +1533,9 @@ snippet imagecopyresized
 
 snippet imagecreate
 	imagecreate(${1:int $width}, ${2:int $height})
+
+snippet imagecreatefrombmp
+	imagecreatefrombmp(${1:string $filename})
 
 snippet imagecreatefromgd
 	imagecreatefromgd(${1:string $filename})
@@ -1675,6 +1633,9 @@ snippet imagegd
 snippet imagegd2
 	imagegd2(${1:resource $image})
 
+snippet imagegetclip
+	imagegetclip(${1:resource $im})
+
 snippet imagegif
 	imagegif(${1:resource $image})
 
@@ -1701,6 +1662,9 @@ snippet imageline
 
 snippet imageloadfont
 	imageloadfont(${1:string $file})
+
+snippet imageopenpolygon
+	imageopenpolygon(${1:resource $image}, ${2:array $points}, ${3:int $num_points}, ${4:int $color})
 
 snippet imagepalettecopy
 	imagepalettecopy(${1:resource $destination}, ${2:resource $source})
@@ -1738,6 +1702,9 @@ snippet imagepstext
 snippet imagerectangle
 	imagerectangle(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int$y2}, ${6:int $color})
 
+snippet imageresolution
+	imageresolution(${1:resource $image})
+
 snippet imagerotate
 	imagerotate(${1:resource $image}, ${2:float $angle}, ${3:int $bgd_color})
 
@@ -1749,6 +1716,9 @@ snippet imagescale
 
 snippet imagesetbrush
 	imagesetbrush(${1:resource $image}, ${2:resource $brush})
+
+snippet imagesetclip
+	imagesetclip(${1:resource $im}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2~})
 
 snippet imagesetinterpolation
 	imagesetinterpolation(${1:resource $image})
@@ -2179,24 +2149,6 @@ snippet mime_content_type
 snippet min
 	min(${1:array $values})
 
-snippet ming_keypress
-	ming_keypress(${1:string $char})
-
-snippet ming_setcubicthreshold
-	ming_setcubicthreshold(${1:int $threshold})
-
-snippet ming_setscale
-	ming_setscale(${1:float $scale})
-
-snippet ming_setswfcompression
-	ming_setswfcompression(${1:int $level})
-
-snippet ming_useconstants
-	ming_useconstants(${1:int $use})
-
-snippet ming_useswfversion
-	ming_useswfversion(${1:int $version})
-
 snippet mkdir
 	mkdir(${1:string $pathname})
 
@@ -2220,48 +2172,6 @@ snippet mongodb.bson_tophp
 
 snippet move_uploaded_file
 	move_uploaded_file(${1:string $filename}, ${2:string $destination})
-
-snippet mqseries_back
-	mqseries_back(${1:resource $hconn}, ${2:resource &$compCode}, ${3:resource&$reason})
-
-snippet mqseries_begin
-	mqseries_begin(${1:resource $hconn}, ${2:array $beginOptions}, ${3:resource&$compCode}, ${4:resource &$reason})
-
-snippet mqseries_close
-	mqseries_close(${1:resource $hconn}, ${2:resource $hobj}, ${3:int $options}, ${4:resource &$compCode}, ${5:resource &$reason})
-
-snippet mqseries_cmit
-	mqseries_cmit(${1:resource $hconn}, ${2:resource &$compCode}, ${3:resource&$reason})
-
-snippet mqseries_conn
-	mqseries_conn(${1:string $qManagerName}, ${2:resource &$hconn}, ${3:resource&$compCode}, ${4:resource &$reason})
-
-snippet mqseries_connx
-	mqseries_connx(${1:string $qManagerName}, ${2:array &$connOptions}, ${3:resource &$hconn}, ${4:resource &$compCode}, ${5:resource &$reason})
-
-snippet mqseries_disc
-	mqseries_disc(${1:resource $hconn}, ${2:resource &$compCode}, ${3:resource&$reason})
-
-snippet mqseries_get
-	mqseries_get(${1:resource $hConn}, ${2:resource $hObj}, ${3:array &$md}, ${4:array&$gmo}, ${5:int &$bufferLength}, ${6:string &$msg}, ${7:int &$data_length}, ${8:resource&$compCode}, ${9:resource &$reason})
-
-snippet mqseries_inq
-	mqseries_inq(${1:resource $hconn}, ${2:resource $hobj}, ${3:int $selectorCount}, ${4:array $selectors}, ${5:int $intAttrCount}, ${6:resource &$intAttr}, ${7:int$charAttrLength}, ${8:resource &$charAttr}, ${9:resource &$compCode}, ${10:resource&$reason})
-
-snippet mqseries_open
-	mqseries_open(${1:resource $hconn}, ${2:array &$objDesc}, ${3:int $option}, ${4:resource &$hobj}, ${5:resource &$compCode}, ${6:resource &$reason})
-
-snippet mqseries_put
-	mqseries_put(${1:resource $hConn}, ${2:resource $hObj}, ${3:array &$md}, ${4:array&$pmo}, ${5:string $message}, ${6:resource &$compCode}, ${7:resource &$reason})
-
-snippet mqseries_put1
-	mqseries_put1(${1:resource $hconn}, ${2:resource &$objDesc}, ${3:resource&$msgDesc}, ${4:resource &$pmo}, ${5:string $buffer}, ${6:resource &$compCode}, ${7:resource &$reason})
-
-snippet mqseries_set
-	mqseries_set(${1:resource $hconn}, ${2:resource $hobj}, ${3:int $selectorcount}, ${4:array $selectors}, ${5:int $intattrcount}, ${6:array $intattrs}, ${7:int$charattrlength}, ${8:array $charattrs}, ${9:resource &$compCode}, ${10:resource&$reason})
-
-snippet mqseries_strerror
-	mqseries_strerror(${1:int $reason})
 
 snippet msg_get_queue
 	msg_get_queue(${1:int $key})
@@ -2599,162 +2509,6 @@ snippet opendir
 snippet openlog
 	openlog(${1:string $ident}, ${2:int $option}, ${3:int $facility})
 
-snippet openssl_cipher_iv_length
-	openssl_cipher_iv_length(${1:string $method})
-
-snippet openssl_csr_export_to_file
-	openssl_csr_export_to_file(${1:resource $csr}, ${2:string $outfilename})
-
-snippet openssl_csr_export
-	openssl_csr_export(${1:resource $csr}, ${2:string &$out})
-
-snippet openssl_csr_get_public_key
-	openssl_csr_get_public_key(${1:mixed $csr})
-
-snippet openssl_csr_get_subject
-	openssl_csr_get_subject(${1:mixed $csr})
-
-snippet openssl_csr_new
-	openssl_csr_new(${1:array $dn}, ${2:resource &$privkey})
-
-snippet openssl_csr_sign
-	openssl_csr_sign(${1:mixed $csr}, ${2:mixed $cacert}, ${3:mixed $priv_key}, ${4:int $days})
-
-snippet openssl_decrypt
-	openssl_decrypt(${1:string $data}, ${2:string $method}, ${3:string $password})
-
-snippet openssl_dh_compute_key
-	openssl_dh_compute_key(${1:string $pub_key}, ${2:resource $dh_key})
-
-snippet openssl_digest
-	openssl_digest(${1:string $data}, ${2:string $method})
-
-snippet openssl_encrypt
-	openssl_encrypt(${1:string $data}, ${2:string $method}, ${3:string $password})
-
-snippet openssl_error_string
-	openssl_error_string(${1:void})
-
-snippet openssl_free_key
-	openssl_free_key(${1:resource $key_identifier})
-
-snippet openssl_get_cert_locations
-	openssl_get_cert_locations(${1:void})
-
-snippet openssl_get_cipher_methods
-	openssl_get_cipher_methods()
-
-snippet openssl_get_md_methods
-	openssl_get_md_methods()
-
-snippet openssl_open
-	openssl_open(${1:string $sealed_data}, ${2:string &$open_data}, ${3:string$env_key}, ${4:mixed $priv_key_id})
-
-snippet openssl_pbkdf2
-	openssl_pbkdf2(${1:string $password}, ${2:string $salt}, ${3:int $key_length}, ${4:int $iterations})
-
-snippet openssl_pkcs12_export_to_file
-	openssl_pkcs12_export_to_file(${1:mixed $x509}, ${2:string $filename}, ${3:mixed $priv_key}, ${4:string $pass})
-
-snippet openssl_pkcs12_export
-	openssl_pkcs12_export(${1:mixed $x509}, ${2:string &$out}, ${3:mixed $priv_key}, ${4:string $pass})
-
-snippet openssl_pkcs12_read
-	openssl_pkcs12_read(${1:string $pkcs12}, ${2:array &$certs}, ${3:string $pass~})
-
-snippet openssl_pkcs7_decrypt
-	openssl_pkcs7_decrypt(${1:string $infilename}, ${2:string $outfilename}, ${3:mixed $recipcert})
-
-snippet openssl_pkcs7_encrypt
-	openssl_pkcs7_encrypt(${1:string $infile}, ${2:string $outfile}, ${3:mixed$recipcerts}, ${4:array $headers})
-
-snippet openssl_pkcs7_sign
-	openssl_pkcs7_sign(${1:string $infilename}, ${2:string $outfilename}, ${3:mixed $signcert}, ${4:mixed $privkey}, ${5:array $headers})
-
-snippet openssl_pkcs7_verify
-	openssl_pkcs7_verify(${1:string $filename}, ${2:int $flags})
-
-snippet openssl_pkey_export_to_file
-	openssl_pkey_export_to_file(${1:mixed $key}, ${2:string $outfilename})
-
-snippet openssl_pkey_export
-	openssl_pkey_export(${1:mixed $key}, ${2:string &$out})
-
-snippet openssl_pkey_free
-	openssl_pkey_free(${1:resource $key})
-
-snippet openssl_pkey_get_details
-	openssl_pkey_get_details(${1:resource $key})
-
-snippet openssl_pkey_get_private
-	openssl_pkey_get_private(${1:mixed $key})
-
-snippet openssl_pkey_get_public
-	openssl_pkey_get_public(${1:mixed $certificate})
-
-snippet openssl_pkey_new
-	openssl_pkey_new()
-
-snippet openssl_private_decrypt
-	openssl_private_decrypt(${1:string $data}, ${2:string &$decrypted}, ${3:mixed$key})
-
-snippet openssl_private_encrypt
-	openssl_private_encrypt(${1:string $data}, ${2:string &$crypted}, ${3:mixed$key})
-
-snippet openssl_public_decrypt
-	openssl_public_decrypt(${1:string $data}, ${2:string &$decrypted}, ${3:mixed$key})
-
-snippet openssl_public_encrypt
-	openssl_public_encrypt(${1:string $data}, ${2:string &$crypted}, ${3:mixed$key})
-
-snippet openssl_random_pseudo_bytes
-	openssl_random_pseudo_bytes(${1:int $length})
-
-snippet openssl_seal
-	openssl_seal(${1:string $data}, ${2:string &$sealed_data}, ${3:array &$env_keys}, ${4:array $pub_key_ids})
-
-snippet openssl_sign
-	openssl_sign(${1:string $data}, ${2:string &$signature}, ${3:mixed$priv_key_id})
-
-snippet openssl_spki_export_challenge
-	openssl_spki_export_challenge(${1:string &$spkac})
-
-snippet openssl_spki_export
-	openssl_spki_export(${1:string &$spkac})
-
-snippet openssl_spki_new
-	openssl_spki_new(${1:resource &$privkey}, ${2:string &$challenge})
-
-snippet openssl_spki_verify
-	openssl_spki_verify(${1:string &$spkac})
-
-snippet openssl_verify
-	openssl_verify(${1:string $data}, ${2:string $signature}, ${3:mixed $pub_key_id})
-
-snippet openssl_x509_check_private_key
-	openssl_x509_check_private_key(${1:mixed $cert}, ${2:mixed $key})
-
-snippet openssl_x509_checkpurpose
-	openssl_x509_checkpurpose(${1:mixed $x509cert}, ${2:int $purpose})
-
-snippet openssl_x509_export_to_file
-	openssl_x509_export_to_file(${1:mixed $x509}, ${2:string $outfilename})
-
-snippet openssl_x509_export
-	openssl_x509_export(${1:mixed $x509}, ${2:string &$output})
-
-snippet openssl_x509_fingerprint
-	openssl_x509_fingerprint(${1:mixed $x509})
-
-snippet openssl_x509_free
-	openssl_x509_free(${1:resource $x509cert})
-
-snippet openssl_x509_parse
-	openssl_x509_parse(${1:mixed $x509cert})
-
-snippet openssl_x509_read
-	openssl_x509_read(${1:mixed $x509certdata})
-
 snippet ord
 	ord(${1:string $string})
 
@@ -2777,7 +2531,7 @@ snippet parse_ini_string
 	parse_ini_string(${1:string $ini})
 
 snippet parse_str
-	parse_str(${1:string $str})
+	parse_str(${1:string $encoded_string})
 
 snippet parse_url
 	parse_url(${1:string $url})
@@ -2832,6 +2586,9 @@ snippet pcntl_setpriority
 
 snippet pcntl_signal_dispatch
 	pcntl_signal_dispatch(${1:void})
+
+snippet pcntl_signal_get_handler
+	pcntl_signal_get_handler(${1:int $signo})
 
 snippet pcntl_signal
 	pcntl_signal(${1:int $signo}, ${2:callable|int $handler})
@@ -3115,6 +2872,9 @@ snippet session_cache_expire
 snippet session_cache_limiter
 	session_cache_limiter()
 
+snippet session_create_id
+	session_create_id()
+
 snippet session_decode
 	session_decode(${1:string $data})
 
@@ -3123,6 +2883,9 @@ snippet session_destroy
 
 snippet session_encode
 	session_encode(${1:void})
+
+snippet session_gc
+	session_gc(${1:void})
 
 snippet session_get_cookie_params
 	session_get_cookie_params(${1:void})
@@ -3261,63 +3024,6 @@ snippet sinh
 
 snippet sleep
 	sleep(${1:int $seconds})
-
-snippet snmp_get_quick_print
-	snmp_get_quick_print(${1:void})
-
-snippet snmp_get_valueretrieval
-	snmp_get_valueretrieval(${1:void})
-
-snippet snmp_read_mib
-	snmp_read_mib(${1:string $filename})
-
-snippet snmp_set_enum_print
-	snmp_set_enum_print(${1:int $enum_print})
-
-snippet snmp_set_oid_numeric_print
-	snmp_set_oid_numeric_print(${1:int $oid_format})
-
-snippet snmp_set_oid_output_format
-	snmp_set_oid_output_format(${1:int $oid_format =SNMP_OID_OUTPUT_MODULE})
-
-snippet snmp_set_quick_print
-	snmp_set_quick_print(${1:bool $quick_print})
-
-snippet snmp_set_valueretrieval
-	snmp_set_valueretrieval(${1:int $method = SNMP_VALUE_LIBRARY})
-
-snippet snmp3_get
-	snmp3_get(${1:string $host}, ${2:string $sec_name}, ${3:string $sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string $priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id})
-
-snippet snmp3_getnext
-	snmp3_getnext(${1:string $host}, ${2:string $sec_name}, ${3:string$sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string$priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id})
-
-snippet snmp3_real_walk
-	snmp3_real_walk(${1:string $host}, ${2:string $sec_name}, ${3:string$sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string$priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id})
-
-snippet snmp3_set
-	snmp3_set(${1:string $host}, ${2:string $sec_name}, ${3:string $sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string $priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id}, ${9:string $type}, ${10:string$value})
-
-snippet snmp3_walk
-	snmp3_walk(${1:string $host}, ${2:string $sec_name}, ${3:string $sec_level}, ${4:string $auth_protocol}, ${5:string $auth_passphrase}, ${6:string $priv_protocol}, ${7:string $priv_passphrase}, ${8:string $object_id})
-
-snippet snmpget
-	snmpget(${1:string $hostname}, ${2:string $community}, ${3:string $object_id})
-
-snippet snmpgetnext
-	snmpgetnext(${1:string $host}, ${2:string $community}, ${3:string $object_id})
-
-snippet snmprealwalk
-	snmprealwalk(${1:string $host}, ${2:string $community}, ${3:string $object_id})
-
-snippet snmpset
-	snmpset(${1:string $host}, ${2:string $community}, ${3:string $object_id}, ${4:string $type}, ${5:mixed $value})
-
-snippet snmpwalk
-	snmpwalk(${1:string $hostname}, ${2:string $community}, ${3:string $object_id})
-
-snippet snmpwalkoid
-	snmpwalkoid(${1:string $hostname}, ${2:string $community}, ${3:string$object_id})
 
 snippet socket_accept
 	socket_accept(${1:resource $socket})
@@ -3764,7 +3470,7 @@ snippet tempnam
 	tempnam(${1:string $dir}, ${2:string $prefix})
 
 snippet textdomain
-	textdomain(${1:string $text_domain})
+	textdomain(${1:string $text_domain = NULL})
 
 snippet tidy_access_count
 	tidy_access_count(${1:tidy $object})
@@ -3840,6 +3546,15 @@ snippet ucfirst
 
 snippet ucwords
 	ucwords(${1:string $str})
+
+snippet ui_draw_text_font_fontfamilies
+	ui_draw_text_font_fontfamilies(${1:void})
+
+snippet ui_quit
+	ui_quit(${1:void})
+
+snippet ui_run
+	ui_run()
 
 snippet uksort
 	uksort(${1:array &$array}, ${2:callable $key_compare_func})
@@ -4050,13 +3765,4 @@ snippet yaml_parse_url
 
 snippet yaml_parse
 	yaml_parse(${1:string $input})
-
-snippet zend_logo_guid
-	zend_logo_guid(${1:void})
-
-snippet zend_thread_id
-	zend_thread_id(${1:void})
-
-snippet zend_version
-	zend_version(${1:void})
 

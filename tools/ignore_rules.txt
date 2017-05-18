@@ -7,6 +7,7 @@ cairo-
 classkit-
 com-
 ctype-
+cyrus-
 cubrid-
 db2-
 dba-
@@ -46,6 +47,7 @@ mailparse-
 maxdb-
 mb-
 mqserise-
+mqseries-
 msession-
 mssql-
 mysqlnd-
@@ -56,6 +58,7 @@ oci-
 odbc-
 opcache-
 openal-
+openssl-
 pdf-
 pg-
 posix-
@@ -69,7 +72,6 @@ rrd-
 runkit-
 shm-
 shmop-
-snmp2-
 sqlite-
 sqlsrv-
 ssdeep-
@@ -92,3 +94,9 @@ yaz-
 yp-
 zip-
 zlib-
+zend-
+snmp
+bbcode-
+crack-
+ming-
+
