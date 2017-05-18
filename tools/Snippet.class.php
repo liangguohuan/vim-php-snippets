@@ -29,7 +29,7 @@ class Snippet
         $fname = basename($filename);
         $fname = str_replace(['.txt', '-'], ['', '_'], $fname);
         $content = file_get_contents($filename);
-        preg_match_all('/\*Description\*[^\w]+(.*\))~/ms', $content, $match);
+        preg_match_all('/\*Description\*[^\w]+([^)]*\))~/ms', $content, $match);
 
         /* ignore function alias */
         if (!isset($match[1][0])) {
@@ -38,6 +38,7 @@ class Snippet
 
         $str = $match[1][0];
         $str = preg_replace("/[\n]/", '', $str);
+        $str = str_replace('~', '', $str);
         /* return 'function: ' . $str; */
 
         //变量初始化
@@ -47,6 +48,7 @@ class Snippet
 
         $str = substr( $str, strpos($str, '('), strrpos($str, ')') );
         $str = str_replace('~    ', '', $str);
+        $strdesc = preg_replace('/\s+/', ' ', $str);
         preg_match_all('/(\[,?(.*)\])/', $str, $match);
         if (!empty($match[1][0])) {
             $stropt = $match[1][0];
@@ -73,7 +75,7 @@ class Snippet
         $strallparam = $strreq . $stropt;
 $ret = <<<EOF
 snippet ${fname}
-	${fname}(${strallparam})
+	${fname}(${strallparam})\${0}
 EOF;
         return $ret;
     }

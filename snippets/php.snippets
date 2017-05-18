@@ -1,3768 +1,3642 @@
 snippet abs
-	abs(${1:mixed $number})
+	abs(${1:mixed $number})${0}
 
 snippet acos
-	acos(${1:float $arg})
+	acos(${1:float $arg})${0}
 
 snippet acosh
-	acosh(${1:float $arg})
+	acosh(${1:float $arg})${0}
 
 snippet addcslashes
-	addcslashes(${1:string $str}, ${2:string $charlist})
+	addcslashes(${1:string $str}, ${2:string $charlist})${0}
 
 snippet addslashes
-	addslashes(${1:string $str})
+	addslashes(${1:string $str})${0}
 
 snippet array_change_key_case
-	array_change_key_case(${1:array $array})
+	array_change_key_case(${1:array $array})${0}
 
 snippet array_chunk
-	array_chunk(${1:array $array}, ${2:int $size})
+	array_chunk(${1:array $array}, ${2:int $size})${0}
 
 snippet array_column
-	array_column(${1:array $input}, ${2:mixed $column_key})
+	array_column(${1:array $input}, ${2:mixed $column_key})${0}
 
 snippet array_combine
-	array_combine(${1:array $keys}, ${2:array $values})
+	array_combine(${1:array $keys}, ${2:array $values})${0}
 
 snippet array_count_values
-	array_count_values(${1:array $array})
+	array_count_values(${1:array $array})${0}
 
 snippet array_diff_assoc
-	array_diff_assoc(${1:array $array1}, ${2:array $array2})
+	array_diff_assoc(${1:array $array1}, ${2:array $array2})${0}
 
 snippet array_diff_key
-	array_diff_key(${1:array $array1}, ${2:array $array2})
+	array_diff_key(${1:array $array1}, ${2:array $array2})${0}
 
 snippet array_diff_uassoc
-	array_diff_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})
+	array_diff_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})${0}
 
 snippet array_diff_ukey
-	array_diff_ukey(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})
+	array_diff_ukey(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})${0}
 
 snippet array_diff
-	array_diff(${1:array $array1}, ${2:array $array2})
+	array_diff(${1:array $array1}, ${2:array $array2})${0}
 
 snippet array_fill_keys
-	array_fill_keys(${1:array $keys}, ${2:mixed $value})
+	array_fill_keys(${1:array $keys}, ${2:mixed $value})${0}
 
 snippet array_fill
-	array_fill(${1:int $start_index}, ${2:int $num}, ${3:mixed $value})
+	array_fill(${1:int $start_index}, ${2:int $num}, ${3:mixed $value})${0}
 
 snippet array_filter
-	array_filter(${1:array $array})
+	array_filter(${1:array $array})${0}
 
 snippet array_flip
-	array_flip(${1:array $array})
+	array_flip(${1:array $array})${0}
 
 snippet array_intersect_assoc
-	array_intersect_assoc(${1:array $array1}, ${2:array $array2})
+	array_intersect_assoc(${1:array $array1}, ${2:array $array2})${0}
 
 snippet array_intersect_key
-	array_intersect_key(${1:array $array1}, ${2:array $array2 ~})
+	array_intersect_key(${1:array $array1}, ${2:array $array2})${0}
 
 snippet array_intersect_uassoc
-	array_intersect_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})
+	array_intersect_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})${0}
 
 snippet array_intersect_ukey
-	array_intersect_ukey(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})
+	array_intersect_ukey(${1:array $array1}, ${2:array $array2}, ${3:callable $key_compare_func})${0}
 
 snippet array_intersect
-	array_intersect(${1:array $array1}, ${2:array $array2})
+	array_intersect(${1:array $array1}, ${2:array $array2})${0}
 
 snippet array_key_exists
-	array_key_exists(${1:mixed $key}, ${2:array $array})
+	array_key_exists(${1:mixed $key}, ${2:array $array})${0}
 
 snippet array_keys
-	array_keys(${1:array $array})
+	array_keys(${1:array $array})${0}
 
 snippet array_map
-	array_map(${1:callable $callback}, ${2:array $array1})
+	array_map(${1:callable $callback}, ${2:array $array1})${0}
 
 snippet array_merge_recursive
-	array_merge_recursive(${1:array $array1})
+	array_merge_recursive(${1:array $array1})${0}
 
 snippet array_merge
-	array_merge(${1:array $array1})
+	array_merge(${1:array $array1})${0}
 
 snippet array_multisort
-	array_multisort(${1:array &$array1})
+	array_multisort(${1:array &$array1})${0}
 
 snippet array_pad
-	array_pad(${1:array $array}, ${2:int $size}, ${3:mixed $value})
+	array_pad(${1:array $array}, ${2:int $size}, ${3:mixed $value})${0}
 
 snippet array_pop
-	array_pop(${1:array &$array})
+	array_pop(${1:array &$array})${0}
 
 snippet array_product
-	array_product(${1:array $array})
+	array_product(${1:array $array})${0}
 
 snippet array_push
-	array_push(${1:array &$array}, ${2:mixed $value1})
+	array_push(${1:array &$array}, ${2:mixed $value1})${0}
 
 snippet array_rand
-	array_rand(${1:array $array})
+	array_rand(${1:array $array})${0}
 
 snippet array_reduce
-	array_reduce(${1:array $array}, ${2:callable $callback})
+	array_reduce(${1:array $array}, ${2:callable $callback})${0}
 
 snippet array_replace_recursive
-	array_replace_recursive(${1:array $array1}, ${2:array $array2})
+	array_replace_recursive(${1:array $array1}, ${2:array $array2})${0}
 
 snippet array_replace
-	array_replace(${1:array $array1}, ${2:array $array2})
+	array_replace(${1:array $array1}, ${2:array $array2})${0}
 
 snippet array_reverse
-	array_reverse(${1:array $array})
+	array_reverse(${1:array $array})${0}
 
 snippet array_search
-	array_search(${1:mixed $needle}, ${2:array $haystack})
+	array_search(${1:mixed $needle}, ${2:array $haystack})${0}
 
 snippet array_shift
-	array_shift(${1:array &$array})
+	array_shift(${1:array &$array})${0}
 
 snippet array_slice
-	array_slice(${1:array $array}, ${2:int $offset})
-
-snippet array_splice
-	array_splice(${1:array &$input}, ${2:int $offset})
+	array_slice(${1:array $array}, ${2:int $offset})${0}
 
 snippet array_sum
-	array_sum(${1:array $array})
+	array_sum(${1:array $array})${0}
 
 snippet array_udiff_assoc
-	array_udiff_assoc(${1:array $array1}, ${2:array $array2}, ${3:"some_comparison_func"})
+	array_udiff_assoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})${0}
 
 snippet array_udiff_uassoc
-	array_udiff_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func}, ${4:callable $key_compare_func})
+	array_udiff_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func}, ${4:callable $key_compare_func})${0}
 
 snippet array_udiff
-	array_udiff(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})
+	array_udiff(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})${0}
 
 snippet array_uintersect_assoc
-	array_uintersect_assoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})
+	array_uintersect_assoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})${0}
 
 snippet array_uintersect_uassoc
-	array_uintersect_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func}, ${4:callable $key_compare_func})
+	array_uintersect_uassoc(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func}, ${4:callable $key_compare_func})${0}
 
 snippet array_uintersect
-	array_uintersect(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})
+	array_uintersect(${1:array $array1}, ${2:array $array2}, ${3:callable $value_compare_func})${0}
 
 snippet array_unique
-	array_unique(${1:array $array})
+	array_unique(${1:array $array})${0}
 
 snippet array_unshift
-	array_unshift(${1:array &$array}, ${2:mixed $value1})
+	array_unshift(${1:array &$array}, ${2:mixed $value1})${0}
 
 snippet array_values
-	array_values(${1:array $array})
+	array_values(${1:array $array})${0}
 
 snippet array_walk_recursive
-	array_walk_recursive(${1:array &$array}, ${2:callable $callback})
+	array_walk_recursive(${1:array &$array}, ${2:callable $callback})${0}
 
 snippet array_walk
-	array_walk(${1:array &$array}, ${2:callable $callback})
+	array_walk(${1:array &$array}, ${2:callable $callback})${0}
 
 snippet array
-	array()
+	array()${0}
 
 snippet arsort
-	arsort(${1:array &$array})
+	arsort(${1:array &$array})${0}
 
 snippet asin
-	asin(${1:float $arg})
+	asin(${1:float $arg})${0}
 
 snippet asinh
-	asinh(${1:float $arg})
+	asinh(${1:float $arg})${0}
 
 snippet asort
-	asort(${1:array &$array})
+	asort(${1:array &$array})${0}
 
 snippet assert_options
-	assert_options(${1:int $what})
+	assert_options(${1:int $what})${0}
 
 snippet assert
-	assert(${1:mixed $assertion})
+	assert(${1:mixed $assertion})${0}
 
 snippet atan
-	atan(${1:float $arg})
+	atan(${1:float $arg})${0}
 
 snippet atan2
-	atan2(${1:float $y}, ${2:float $x})
+	atan2(${1:float $y}, ${2:float $x})${0}
 
 snippet atanh
-	atanh(${1:float $arg})
+	atanh(${1:float $arg})${0}
 
 snippet autoload
-	autoload(${1:string $class})
+	autoload(${1:string $class})${0}
 
 snippet base_convert
-	base_convert(${1:string $number}, ${2:int $frombase}, ${3:int $tobase})
+	base_convert(${1:string $number}, ${2:int $frombase}, ${3:int $tobase})${0}
 
 snippet base64_decode
-	base64_decode(${1:string $data})
+	base64_decode(${1:string $data})${0}
 
 snippet base64_encode
-	base64_encode(${1:string $data})
+	base64_encode(${1:string $data})${0}
 
 snippet basename
-	basename(${1:string $path})
+	basename(${1:string $path})${0}
 
 snippet bcadd
-	bcadd(${1:string $left_operand}, ${2:string $right_operand})
+	bcadd(${1:string $left_operand}, ${2:string $right_operand})${0}
 
 snippet bccomp
-	bccomp(${1:string $left_operand}, ${2:string $right_operand})
+	bccomp(${1:string $left_operand}, ${2:string $right_operand})${0}
 
 snippet bcdiv
-	bcdiv(${1:string $left_operand}, ${2:string $right_operand})
+	bcdiv(${1:string $left_operand}, ${2:string $right_operand})${0}
 
 snippet bcmod
-	bcmod(${1:string $left_operand}, ${2:string $modulus})
+	bcmod(${1:string $left_operand}, ${2:string $modulus})${0}
 
 snippet bcmul
-	bcmul(${1:string $left_operand}, ${2:string $right_operand})
+	bcmul(${1:string $left_operand}, ${2:string $right_operand})${0}
 
 snippet bcpow
-	bcpow(${1:string $left_operand}, ${2:string $right_operand})
+	bcpow(${1:string $left_operand}, ${2:string $right_operand})${0}
 
 snippet bcpowmod
-	bcpowmod(${1:string $left_operand}, ${2:string $right_operand}, ${3:string$modulus})
+	bcpowmod(${1:string $left_operand}, ${2:string $right_operand}, ${3:string    $modulus})${0}
 
 snippet bcscale
-	bcscale(${1:int $scale})
+	bcscale(${1:int $scale})${0}
 
 snippet bcsqrt
-	bcsqrt(${1:string $operand})
+	bcsqrt(${1:string $operand})${0}
 
 snippet bcsub
-	bcsub(${1:string $left_operand}, ${2:string $right_operand})
+	bcsub(${1:string $left_operand}, ${2:string $right_operand})${0}
 
 snippet bin2hex
-	bin2hex(${1:string $str})
+	bin2hex(${1:string $str})${0}
 
 snippet bind_textdomain_codeset
-	bind_textdomain_codeset(${1:string $domain}, ${2:string $codeset})
+	bind_textdomain_codeset(${1:string $domain}, ${2:string $codeset})${0}
 
 snippet bindec
-	bindec(${1:string $binary_string})
+	bindec(${1:string $binary_string})${0}
 
 snippet bindtextdomain
-	bindtextdomain(${1:string $domain}, ${2:string $directory})
+	bindtextdomain(${1:string $domain}, ${2:string $directory})${0}
 
 snippet blenc_encrypt
-	blenc_encrypt(${1:string $plaintext}, ${2:string $encodedfile})
+	blenc_encrypt(${1:string $plaintext}, ${2:string $encodedfile})${0}
 
 snippet boolval
-	boolval(${1:mixed $var})
+	boolval(${1:mixed $var})${0}
 
 snippet bson_decode
-	bson_decode(${1:string $bson})
+	bson_decode(${1:string $bson})${0}
 
 snippet bson_encode
-	bson_encode(${1:mixed $anything})
+	bson_encode(${1:mixed $anything})${0}
 
 snippet bson_fromarray
-	bson_fromarray(${1:string $array})
+	bson_fromarray(${1:string $array})${0}
 
 snippet bson_fromjson
-	bson_fromjson(${1:string $json})
+	bson_fromjson(${1:string $json})${0}
 
 snippet bson_toarray
-	bson_toarray(${1:string $bson})
+	bson_toarray(${1:string $bson})${0}
 
 snippet bson_tojson
-	bson_tojson(${1:string $bson})
+	bson_tojson(${1:string $bson})${0}
 
 snippet bzclose
-	bzclose(${1:resource $bz})
+	bzclose(${1:resource $bz})${0}
 
 snippet bzcompress
-	bzcompress(${1:string $source})
+	bzcompress(${1:string $source})${0}
 
 snippet bzdecompress
-	bzdecompress(${1:string $source})
+	bzdecompress(${1:string $source})${0}
 
 snippet bzerrno
-	bzerrno(${1:resource $bz})
+	bzerrno(${1:resource $bz})${0}
 
 snippet bzerror
-	bzerror(${1:resource $bz})
+	bzerror(${1:resource $bz})${0}
 
 snippet bzerrstr
-	bzerrstr(${1:resource $bz})
+	bzerrstr(${1:resource $bz})${0}
 
 snippet bzflush
-	bzflush(${1:resource $bz})
+	bzflush(${1:resource $bz})${0}
 
 snippet bzopen
-	bzopen(${1:mixed $file}, ${2:string $mode})
+	bzopen(${1:mixed $file}, ${2:string $mode})${0}
 
 snippet bzread
-	bzread(${1:resource $bz})
+	bzread(${1:resource $bz})${0}
 
 snippet bzwrite
-	bzwrite(${1:resource $bz}, ${2:string $data})
+	bzwrite(${1:resource $bz}, ${2:string $data})${0}
 
 snippet cal_days_in_month
-	cal_days_in_month(${1:int $calendar}, ${2:int $month}, ${3:int $year})
+	cal_days_in_month(${1:int $calendar}, ${2:int $month}, ${3:int $year})${0}
 
 snippet cal_from_jd
-	cal_from_jd(${1:int $jd}, ${2:int $calendar})
+	cal_from_jd(${1:int $jd}, ${2:int $calendar})${0}
 
 snippet cal_info
-	cal_info()
+	cal_info()${0}
 
 snippet cal_to_jd
-	cal_to_jd(${1:int $calendar}, ${2:int $month}, ${3:int $day}, ${4:int $year})
+	cal_to_jd(${1:int $calendar}, ${2:int $month}, ${3:int $day}, ${4:int $year})${0}
 
 snippet calcul_hmac
-	calcul_hmac(${1:string $clent}, ${2:string $siretcode}, ${3:string $price}, ${4:string $reference}, ${5:string $validity}, ${6:string $taxation}, ${7:string $devise}, ${8:string $language})
+	calcul_hmac(${1:string $clent}, ${2:string $siretcode}, ${3:string $price}, ${4:string $reference}, ${5:string $validity}, ${6:string $taxation}, ${7:string $devise}, ${8:string $language})${0}
 
 snippet calculhmac
-	calculhmac(${1:string $clent}, ${2:string $data})
+	calculhmac(${1:string $clent}, ${2:string $data})${0}
 
 snippet call_user_func_array
-	call_user_func_array(${1:callable $callback}, ${2:array $param_arr})
+	call_user_func_array(${1:callable $callback}, ${2:array $param_arr})${0}
 
 snippet call_user_func
-	call_user_func(${1:callable $callback})
+	call_user_func(${1:callable $callback})${0}
 
 snippet call_user_method_array
-	call_user_method_array(${1:string $method_name}, ${2:object &$obj}, ${3:array$params})
+	call_user_method_array(${1:string $method_name}, ${2:object &$obj}, ${3:array    $params})${0}
 
 snippet call_user_method
-	call_user_method(${1:string $method_name}, ${2:object &$obj})
+	call_user_method(${1:string $method_name}, ${2:object &$obj})${0}
 
 snippet ceil
-	ceil(${1:float $value})
+	ceil(${1:float $value})${0}
 
 snippet chdb_create
-	chdb_create(${1:string $pathname}, ${2:array $data})
+	chdb_create(${1:string $pathname}, ${2:array $data})${0}
 
 snippet chdir
-	chdir(${1:string $directory})
+	chdir(${1:string $directory})${0}
 
 snippet checkdate
-	checkdate(${1:int $month}, ${2:int $day}, ${3:int $year})
+	checkdate(${1:int $month}, ${2:int $day}, ${3:int $year})${0}
 
 snippet checkdnsrr
-	checkdnsrr(${1:string $host})
+	checkdnsrr(${1:string $host})${0}
 
 snippet chgrp
-	chgrp(${1:string $filename}, ${2:mixed $group})
+	chgrp(${1:string $filename}, ${2:mixed $group})${0}
 
 snippet chmod
-	chmod(${1:string $filename}, ${2:int $mode})
+	chmod(${1:string $filename}, ${2:int $mode})${0}
 
 snippet chown
-	chown(${1:string $filename}, ${2:mixed $user})
+	chown(${1:string $filename}, ${2:mixed $user})${0}
 
 snippet chr
-	chr(${1:int $ascii})
+	chr(${1:int $ascii})${0}
 
 snippet chroot
-	chroot(${1:string $directory})
+	chroot(${1:string $directory})${0}
 
 snippet chunk_split
-	chunk_split(${1:string $body})
+	chunk_split(${1:string $body})${0}
 
 snippet class_alias
-	class_alias(${1:string $original}, ${2:string $alias})
+	class_alias(${1:string $original}, ${2:string $alias})${0}
 
 snippet class_exists
-	class_exists(${1:string $class_name})
+	class_exists(${1:string $class_name})${0}
 
 snippet class_implements
-	class_implements(${1:mixed $class})
+	class_implements(${1:mixed $class})${0}
 
 snippet class_parents
-	class_parents(${1:mixed $class})
+	class_parents(${1:mixed $class})${0}
 
 snippet class_uses
-	class_uses(${1:mixed $class})
+	class_uses(${1:mixed $class})${0}
 
 snippet clearstatcache
-	clearstatcache()
+	clearstatcache()${0}
 
 snippet cli_get_process_title
-	cli_get_process_title(${1:void})
+	cli_get_process_title(${1:void})${0}
 
 snippet cli_set_process_title
-	cli_set_process_title(${1:string $title})
+	cli_set_process_title(${1:string $title})${0}
 
 snippet closedir
-	closedir()
+	closedir()${0}
 
 snippet closelog
-	closelog(${1:void})
+	closelog(${1:void})${0}
 
 snippet compact
-	compact(${1:mixed $varname1})
+	compact(${1:mixed $varname1})${0}
 
 snippet connection_aborted
-	connection_aborted(${1:void})
+	connection_aborted(${1:void})${0}
 
 snippet connection_status
-	connection_status(${1:void})
+	connection_status(${1:void})${0}
 
 snippet constant
-	constant(${1:string $name})
+	constant(${1:string $name})${0}
 
 snippet convert_cyr_string
-	convert_cyr_string(${1:string $str}, ${2:string $from}, ${3:string $to})
+	convert_cyr_string(${1:string $str}, ${2:string $from}, ${3:string $to})${0}
 
 snippet convert_uudecode
-	convert_uudecode(${1:string $data})
+	convert_uudecode(${1:string $data})${0}
 
 snippet convert_uuencode
-	convert_uuencode(${1:string $data})
+	convert_uuencode(${1:string $data})${0}
 
 snippet copy
-	copy(${1:string $source}, ${2:string $dest})
+	copy(${1:string $source}, ${2:string $dest})${0}
 
 snippet cos
-	cos(${1:float $arg})
+	cos(${1:float $arg})${0}
 
 snippet cosh
-	cosh(${1:float $arg})
+	cosh(${1:float $arg})${0}
 
 snippet count_chars
-	count_chars(${1:string $string})
+	count_chars(${1:string $string})${0}
 
 snippet count
-	count(${1:mixed $array_or_countable})
+	count(${1:mixed $array_or_countable})${0}
 
 snippet crc32
-	crc32(${1:string $str})
+	crc32(${1:string $str})${0}
 
 snippet create_function
-	create_function(${1:string $args}, ${2:string $code})
+	create_function(${1:string $args}, ${2:string $code})${0}
 
 snippet crypt
-	crypt(${1:string $str})
+	crypt(${1:string $str})${0}
 
 snippet curl_close
-	curl_close(${1:resource $ch})
+	curl_close(${1:resource $ch})${0}
 
 snippet curl_copy_handle
-	curl_copy_handle(${1:resource $ch})
+	curl_copy_handle(${1:resource $ch})${0}
 
 snippet curl_errno
-	curl_errno(${1:resource $ch})
+	curl_errno(${1:resource $ch})${0}
 
 snippet curl_error
-	curl_error(${1:resource $ch})
+	curl_error(${1:resource $ch})${0}
 
 snippet curl_escape
-	curl_escape(${1:resource $ch}, ${2:string $str})
+	curl_escape(${1:resource $ch}, ${2:string $str})${0}
 
 snippet curl_exec
-	curl_exec(${1:resource $ch})
+	curl_exec(${1:resource $ch})${0}
 
 snippet curl_getinfo
-	curl_getinfo(${1:resource $ch})
+	curl_getinfo(${1:resource $ch})${0}
 
 snippet curl_init
-	curl_init()
+	curl_init()${0}
 
 snippet curl_multi_add_handle
-	curl_multi_add_handle(${1:resource $mh}, ${2:resource $ch})
+	curl_multi_add_handle(${1:resource $mh}, ${2:resource $ch})${0}
 
 snippet curl_multi_close
-	curl_multi_close(${1:resource $mh})
+	curl_multi_close(${1:resource $mh})${0}
 
 snippet curl_multi_exec
-	curl_multi_exec(${1:resource $mh}, ${2:int &$still_running})
+	curl_multi_exec(${1:resource $mh}, ${2:int &$still_running})${0}
 
 snippet curl_multi_getcontent
-	curl_multi_getcontent(${1:resource $ch})
+	curl_multi_getcontent(${1:resource $ch})${0}
 
 snippet curl_multi_info_read
-	curl_multi_info_read(${1:resource $mh ~})
+	curl_multi_info_read(${1:resource $mh})${0}
 
 snippet curl_multi_init
-	curl_multi_init(${1:void})
+	curl_multi_init(${1:void})${0}
 
 snippet curl_multi_remove_handle
-	curl_multi_remove_handle(${1:resource $mh}, ${2:resource $ch})
+	curl_multi_remove_handle(${1:resource $mh}, ${2:resource $ch})${0}
 
 snippet curl_multi_select
-	curl_multi_select(${1:resource $mh})
+	curl_multi_select(${1:resource $mh})${0}
 
 snippet curl_multi_setopt
-	curl_multi_setopt(${1:resource $mh}, ${2:int $option}, ${3:mixed $value})
+	curl_multi_setopt(${1:resource $mh}, ${2:int $option}, ${3:mixed $value})${0}
 
 snippet curl_multi_strerror
-	curl_multi_strerror(${1:int $errornum})
+	curl_multi_strerror(${1:int $errornum})${0}
 
 snippet curl_pause
-	curl_pause(${1:resource $ch}, ${2:int $bitmask})
+	curl_pause(${1:resource $ch}, ${2:int $bitmask})${0}
 
 snippet curl_reset
-	curl_reset(${1:resource $ch})
+	curl_reset(${1:resource $ch})${0}
 
 snippet curl_setopt_array
-	curl_setopt_array(${1:resource $ch}, ${2:array $options})
+	curl_setopt_array(${1:resource $ch}, ${2:array $options})${0}
 
 snippet curl_setopt
-	curl_setopt(${1:resource $ch}, ${2:int $option}, ${3:mixed $value})
+	curl_setopt(${1:resource $ch}, ${2:int $option}, ${3:mixed $value})${0}
 
 snippet curl_share_close
-	curl_share_close(${1:resource $sh})
+	curl_share_close(${1:resource $sh})${0}
 
 snippet curl_share_init
-	curl_share_init(${1:void})
+	curl_share_init(${1:void})${0}
 
 snippet curl_share_setopt
-	curl_share_setopt(${1:resource $sh}, ${2:int $option}, ${3:string $value})
+	curl_share_setopt(${1:resource $sh}, ${2:int $option}, ${3:string $value})${0}
 
 snippet curl_strerror
-	curl_strerror(${1:int $errornum})
+	curl_strerror(${1:int $errornum})${0}
 
 snippet curl_unescape
-	curl_unescape(${1:resource $ch}, ${2:string $str})
+	curl_unescape(${1:resource $ch}, ${2:string $str})${0}
 
 snippet curl_version
-	curl_version()
+	curl_version()${0}
 
 snippet current
-	current(${1:array &$array})
+	current(${1:array &$array})${0}
 
 snippet date_default_timezone_get
-	date_default_timezone_get(${1:void})
+	date_default_timezone_get(${1:void})${0}
 
 snippet date_default_timezone_set
-	date_default_timezone_set(${1:string $timezone_identifier})
+	date_default_timezone_set(${1:string $timezone_identifier})${0}
 
 snippet date_parse_from_format
-	date_parse_from_format(${1:string $format}, ${2:string $date})
+	date_parse_from_format(${1:string $format}, ${2:string $date})${0}
 
 snippet date_parse
-	date_parse(${1:string $date})
+	date_parse(${1:string $date})${0}
 
 snippet date_sun_info
-	date_sun_info(${1:int $time}, ${2:float $latitude}, ${3:float $longitude})
-
-snippet date_sunrise
-	date_sunrise(${1:int $timestamp ~})
-
-snippet date_sunset
-	date_sunset(${1:int $timestamp ~})
-
-snippet date
-	date(${1:string $format})
+	date_sun_info(${1:int $time}, ${2:float $latitude}, ${3:float $longitude})${0}
 
 snippet dcgettext
-	dcgettext(${1:string $domain}, ${2:string $message}, ${3:int $category})
+	dcgettext(${1:string $domain}, ${2:string $message}, ${3:int $category})${0}
 
 snippet dcngettext
-	dcngettext(${1:string $domain}, ${2:string $msgid1}, ${3:string $msgid2}, ${4:int $n}, ${5:int $category})
+	dcngettext(${1:string $domain}, ${2:string $msgid1}, ${3:string $msgid2}, ${4:int $n}, ${5:int $category})${0}
 
 snippet debug_backtrace
-	debug_backtrace()
+	debug_backtrace()${0}
 
 snippet debug_print_backtrace
-	debug_print_backtrace()
+	debug_print_backtrace()${0}
 
 snippet debug_zval_dump
-	debug_zval_dump(${1:mixed $variable})
+	debug_zval_dump(${1:mixed $variable})${0}
 
 snippet decbin
-	decbin(${1:int $number})
+	decbin(${1:int $number})${0}
 
 snippet dechex
-	dechex(${1:int $number})
+	dechex(${1:int $number})${0}
 
 snippet decoct
-	decoct(${1:int $number})
+	decoct(${1:int $number})${0}
 
 snippet define_syslog_variables
-	define_syslog_variables(${1:void})
+	define_syslog_variables(${1:void})${0}
 
 snippet define
-	define(${1:string $name}, ${2:mixed $value})
+	define(${1:string $name}, ${2:mixed $value})${0}
 
 snippet defined
-	defined(${1:string $name})
+	defined(${1:string $name})${0}
 
 snippet deflate_add
-	deflate_add(${1:resource $context}, ${2:string $data})
-
-snippet deflate_init
-	deflate_init(${1:int $encoding})
+	deflate_add(${1:resource $context}, ${2:string $data})${0}
 
 snippet deg2rad
-	deg2rad(${1:float $number})
+	deg2rad(${1:float $number})${0}
 
 snippet dgettext
-	dgettext(${1:string $domain}, ${2:string $message})
+	dgettext(${1:string $domain}, ${2:string $message})${0}
 
 snippet dir
-	dir(${1:string $directory})
+	dir(${1:string $directory})${0}
 
 snippet dirname
-	dirname(${1:string $path})
+	dirname(${1:string $path})${0}
 
 snippet disk_free_space
-	disk_free_space(${1:string $directory})
+	disk_free_space(${1:string $directory})${0}
 
 snippet disk_total_space
-	disk_total_space(${1:string $directory})
+	disk_total_space(${1:string $directory})${0}
 
 snippet dl
-	dl(${1:string $library})
+	dl(${1:string $library})${0}
 
 snippet dngettext
-	dngettext(${1:string $domain}, ${2:string $msgid1}, ${3:string $msgid2}, ${4:int$n})
+	dngettext(${1:string $domain}, ${2:string $msgid1}, ${3:string $msgid2}, ${4:int    $n})${0}
 
 snippet dns_get_record
-	dns_get_record(${1:string $hostname})
+	dns_get_record(${1:string $hostname})${0}
 
 snippet dom_import_simplexml
-	dom_import_simplexml(${1:SimpleXMLElement $node})
+	dom_import_simplexml(${1:SimpleXMLElement $node})${0}
 
 snippet each
-	each(${1:array &$array})
-
-snippet easter_date
-	easter_date()
-
-snippet easter_days
-	easter_days()
+	each(${1:array &$array})${0}
 
 snippet echo
-	echo(${1:string $arg1})
+	echo(${1:string $arg1})${0}
 
 snippet empty
-	empty(${1:mixed $var})
+	empty(${1:mixed $var})${0}
 
 snippet end
-	end(${1:array &$array})
+	end(${1:array &$array})${0}
 
 snippet ereg_replace
-	ereg_replace(${1:string $pattern}, ${2:string $replacement}, ${3:string$string})
+	ereg_replace(${1:string $pattern}, ${2:string $replacement}, ${3:string    $string})${0}
 
 snippet ereg
-	ereg(${1:string $pattern}, ${2:string $string})
+	ereg(${1:string $pattern}, ${2:string $string})${0}
 
 snippet eregi_replace
-	eregi_replace(${1:string $pattern}, ${2:string $replacement}, ${3:string$string})
+	eregi_replace(${1:string $pattern}, ${2:string $replacement}, ${3:string    $string})${0}
 
 snippet eregi
-	eregi(${1:string $pattern}, ${2:string $string})
+	eregi(${1:string $pattern}, ${2:string $string})${0}
 
 snippet error_clear_last
-	error_clear_last(${1:void})
+	error_clear_last(${1:void})${0}
 
 snippet error_get_last
-	error_get_last(${1:void})
+	error_get_last(${1:void})${0}
 
 snippet error_log
-	error_log(${1:string $message})
+	error_log(${1:string $message})${0}
 
 snippet error_reporting
-	error_reporting()
+	error_reporting()${0}
 
 snippet escapeshellarg
-	escapeshellarg(${1:string $arg})
+	escapeshellarg(${1:string $arg})${0}
 
 snippet escapeshellcmd
-	escapeshellcmd(${1:string $command})
+	escapeshellcmd(${1:string $command})${0}
 
 snippet eval
-	eval(${1:string $code})
+	eval(${1:string $code})${0}
 
 snippet exec
-	exec(${1:string $command})
+	exec(${1:string $command})${0}
 
 snippet exif_imagetype
-	exif_imagetype(${1:string $filename})
+	exif_imagetype(${1:string $filename})${0}
 
 snippet exif_read_data
-	exif_read_data(${1:string $filename})
+	exif_read_data(${1:string $filename})${0}
 
 snippet exif_tagname
-	exif_tagname(${1:int $index})
+	exif_tagname(${1:int $index})${0}
 
 snippet exif_thumbnail
-	exif_thumbnail(${1:string $filename})
+	exif_thumbnail(${1:string $filename})${0}
 
 snippet exit
-	exit()
+	exit()${0}
 
 snippet exp
-	exp(${1:float $arg})
+	exp(${1:float $arg})${0}
 
 snippet expect_expectl
-	expect_expectl(${1:resource $expect}, ${2:array $cases})
+	expect_expectl(${1:resource $expect}, ${2:array $cases})${0}
 
 snippet expect_popen
-	expect_popen(${1:string $command})
+	expect_popen(${1:string $command})${0}
 
 snippet explode
-	explode(${1:string $delimiter}, ${2:string $string})
+	explode(${1:string $delimiter}, ${2:string $string})${0}
 
 snippet expm1
-	expm1(${1:float $arg})
+	expm1(${1:float $arg})${0}
 
 snippet extension_loaded
-	extension_loaded(${1:string $name})
+	extension_loaded(${1:string $name})${0}
 
 snippet extract
-	extract(${1:array &$array})
+	extract(${1:array &$array})${0}
 
 snippet ezmlm_hash
-	ezmlm_hash(${1:string $addr})
+	ezmlm_hash(${1:string $addr})${0}
 
 snippet fastcgi_finish_request
-	fastcgi_finish_request(${1:void})
+	fastcgi_finish_request(${1:void})${0}
 
 snippet fclose
-	fclose(${1:resource $handle})
+	fclose(${1:resource $handle})${0}
 
 snippet feof
-	feof(${1:resource $handle})
+	feof(${1:resource $handle})${0}
 
 snippet fflush
-	fflush(${1:resource $handle})
+	fflush(${1:resource $handle})${0}
 
 snippet fgetc
-	fgetc(${1:resource $handle})
+	fgetc(${1:resource $handle})${0}
 
 snippet fgetcsv
-	fgetcsv(${1:resource $handle})
+	fgetcsv(${1:resource $handle})${0}
 
 snippet fgets
-	fgets(${1:resource $handle})
+	fgets(${1:resource $handle})${0}
 
 snippet fgetss
-	fgetss(${1:resource $handle})
+	fgetss(${1:resource $handle})${0}
 
 snippet file_exists
-	file_exists(${1:string $filename})
+	file_exists(${1:string $filename})${0}
 
 snippet file_get_contents
-	file_get_contents(${1:string $filename})
+	file_get_contents(${1:string $filename})${0}
 
 snippet file_put_contents
-	file_put_contents(${1:string $filename}, ${2:mixed $data})
+	file_put_contents(${1:string $filename}, ${2:mixed $data})${0}
 
 snippet file
-	file(${1:string $filename})
+	file(${1:string $filename})${0}
 
 snippet fileatime
-	fileatime(${1:string $filename})
+	fileatime(${1:string $filename})${0}
 
 snippet filectime
-	filectime(${1:string $filename})
+	filectime(${1:string $filename})${0}
 
 snippet filegroup
-	filegroup(${1:string $filename})
+	filegroup(${1:string $filename})${0}
 
 snippet fileinode
-	fileinode(${1:string $filename})
+	fileinode(${1:string $filename})${0}
 
 snippet filemtime
-	filemtime(${1:string $filename})
+	filemtime(${1:string $filename})${0}
 
 snippet fileowner
-	fileowner(${1:string $filename})
+	fileowner(${1:string $filename})${0}
 
 snippet fileperms
-	fileperms(${1:string $filename})
+	fileperms(${1:string $filename})${0}
 
 snippet filepro
-	filepro(${1:string $directory})
+	filepro(${1:string $directory})${0}
 
 snippet filesize
-	filesize(${1:string $filename})
+	filesize(${1:string $filename})${0}
 
 snippet filetype
-	filetype(${1:string $filename})
+	filetype(${1:string $filename})${0}
 
 snippet filter_has_var
-	filter_has_var(${1:int $type}, ${2:string $variable_name})
+	filter_has_var(${1:int $type}, ${2:string $variable_name})${0}
 
 snippet filter_id
-	filter_id(${1:string $filtername})
+	filter_id(${1:string $filtername})${0}
 
 snippet filter_input_array
-	filter_input_array(${1:int $type})
+	filter_input_array(${1:int $type})${0}
 
 snippet filter_input
-	filter_input(${1:int $type}, ${2:string $variable_name})
+	filter_input(${1:int $type}, ${2:string $variable_name})${0}
 
 snippet filter_list
-	filter_list(${1:void})
+	filter_list(${1:void})${0}
 
 snippet filter_var_array
-	filter_var_array(${1:array $data})
+	filter_var_array(${1:array $data})${0}
 
 snippet filter_var
-	filter_var(${1:mixed $variable})
+	filter_var(${1:mixed $variable})${0}
 
 snippet finfo_buffer
-	finfo_buffer(${1:resource $finfo}, ${2:string $string = NULL})
+	finfo_buffer(${1:resource $finfo}, ${2:string $string = NULL})${0}
 
 snippet finfo_close
-	finfo_close(${1:resource $finfo})
+	finfo_close(${1:resource $finfo})${0}
 
 snippet finfo_file
-	finfo_file(${1:resource $finfo}, ${2:string $file_name = NULL})
+	finfo_file(${1:resource $finfo}, ${2:string $file_name = NULL})${0}
 
 snippet finfo_open
-	finfo_open()
+	finfo_open()${0}
 
 snippet finfo_set_flags
-	finfo_set_flags(${1:resource $finfo}, ${2:int $options})
+	finfo_set_flags(${1:resource $finfo}, ${2:int $options})${0}
 
 snippet floatval
-	floatval(${1:mixed $var})
+	floatval(${1:mixed $var})${0}
 
 snippet flock
-	flock(${1:resource $handle}, ${2:int $operation})
+	flock(${1:resource $handle}, ${2:int $operation})${0}
 
 snippet floor
-	floor(${1:float $value})
+	floor(${1:float $value})${0}
 
 snippet flush
-	flush(${1:void})
+	flush(${1:void})${0}
 
 snippet fmod
-	fmod(${1:float $x}, ${2:float $y})
+	fmod(${1:float $x}, ${2:float $y})${0}
 
 snippet fnmatch
-	fnmatch(${1:string $pattern}, ${2:string $string})
+	fnmatch(${1:string $pattern}, ${2:string $string})${0}
 
 snippet fopen
-	fopen(${1:string $filename}, ${2:string $mode})
+	fopen(${1:string $filename}, ${2:string $mode})${0}
 
 snippet forward_static_call_array
-	forward_static_call_array(${1:callable $function}, ${2:array $parameters~})
+	forward_static_call_array(${1:callable $function}, ${2:array $parameters})${0}
 
 snippet forward_static_call
-	forward_static_call(${1:callable $function})
+	forward_static_call(${1:callable $function})${0}
 
 snippet fpassthru
-	fpassthru(${1:resource $handle})
+	fpassthru(${1:resource $handle})${0}
 
 snippet fprintf
-	fprintf(${1:resource $handle}, ${2:string $format})
+	fprintf(${1:resource $handle}, ${2:string $format})${0}
 
 snippet fputcsv
-	fputcsv(${1:resource $handle}, ${2:array $fields})
+	fputcsv(${1:resource $handle}, ${2:array $fields})${0}
 
 snippet fread
-	fread(${1:resource $handle}, ${2:int $length})
+	fread(${1:resource $handle}, ${2:int $length})${0}
 
 snippet frenchtojd
-	frenchtojd(${1:int $month}, ${2:int $day}, ${3:int $year})
+	frenchtojd(${1:int $month}, ${2:int $day}, ${3:int $year})${0}
 
 snippet fribidi_log2vis
-	fribidi_log2vis(${1:string $str}, ${2:string $direction}, ${3:int $charset})
+	fribidi_log2vis(${1:string $str}, ${2:string $direction}, ${3:int $charset})${0}
 
 snippet fscanf
-	fscanf(${1:resource $handle}, ${2:string $format})
+	fscanf(${1:resource $handle}, ${2:string $format})${0}
 
 snippet fseek
-	fseek(${1:resource $handle}, ${2:int $offset})
-
-snippet fsockopen
-	fsockopen(${1:string $hostname})
+	fseek(${1:resource $handle}, ${2:int $offset})${0}
 
 snippet fstat
-	fstat(${1:resource $handle})
+	fstat(${1:resource $handle})${0}
 
 snippet ftell
-	ftell(${1:resource $handle})
+	ftell(${1:resource $handle})${0}
 
 snippet ftok
-	ftok(${1:string $pathname}, ${2:string $proj})
+	ftok(${1:string $pathname}, ${2:string $proj})${0}
 
 snippet ftruncate
-	ftruncate(${1:resource $handle}, ${2:int $size})
+	ftruncate(${1:resource $handle}, ${2:int $size})${0}
 
 snippet func_get_arg
-	func_get_arg(${1:int $arg_num})
+	func_get_arg(${1:int $arg_num})${0}
 
 snippet func_get_args
-	func_get_args(${1:void})
+	func_get_args(${1:void})${0}
 
 snippet func_num_args
-	func_num_args(${1:void})
+	func_num_args(${1:void})${0}
 
 snippet function_exists
-	function_exists(${1:string $function_name})
+	function_exists(${1:string $function_name})${0}
 
 snippet fwrite
-	fwrite(${1:resource $handle}, ${2:string $string})
+	fwrite(${1:resource $handle}, ${2:string $string})${0}
 
 snippet gd_info
-	gd_info(${1:void})
+	gd_info(${1:void})${0}
 
 snippet get_browser
-	get_browser(${1:~})
+	get_browser()${0}
 
 snippet get_called_class
-	get_called_class(${1:void})
+	get_called_class(${1:void})${0}
 
 snippet get_cfg_var
-	get_cfg_var(${1:string $option})
+	get_cfg_var(${1:string $option})${0}
 
 snippet get_class_methods
-	get_class_methods(${1:mixed $class_name})
+	get_class_methods(${1:mixed $class_name})${0}
 
 snippet get_class_vars
-	get_class_vars(${1:string $class_name})
+	get_class_vars(${1:string $class_name})${0}
 
 snippet get_class
-	get_class()
+	get_class()${0}
 
 snippet get_current_user
-	get_current_user(${1:void})
+	get_current_user(${1:void})${0}
 
 snippet get_declared_classes
-	get_declared_classes(${1:void})
+	get_declared_classes(${1:void})${0}
 
 snippet get_declared_interfaces
-	get_declared_interfaces(${1:void})
+	get_declared_interfaces(${1:void})${0}
 
 snippet get_declared_traits
-	get_declared_traits(${1:void})
+	get_declared_traits(${1:void})${0}
 
 snippet get_defined_constants
-	get_defined_constants()
+	get_defined_constants()${0}
 
 snippet get_defined_functions
-	get_defined_functions()
+	get_defined_functions()${0}
 
 snippet get_defined_vars
-	get_defined_vars(${1:void})
+	get_defined_vars(${1:void})${0}
 
 snippet get_extension_funcs
-	get_extension_funcs(${1:string $module_name})
+	get_extension_funcs(${1:string $module_name})${0}
 
 snippet get_headers
-	get_headers(${1:string $url})
+	get_headers(${1:string $url})${0}
 
 snippet get_html_translation_table
-	get_html_translation_table()
+	get_html_translation_table()${0}
 
 snippet get_include_path
-	get_include_path(${1:void})
+	get_include_path(${1:void})${0}
 
 snippet get_included_files
-	get_included_files(${1:void})
+	get_included_files(${1:void})${0}
 
 snippet get_loaded_extensions
-	get_loaded_extensions()
+	get_loaded_extensions()${0}
 
 snippet get_magic_quotes_gpc
-	get_magic_quotes_gpc(${1:void})
+	get_magic_quotes_gpc(${1:void})${0}
 
 snippet get_magic_quotes_runtime
-	get_magic_quotes_runtime(${1:void})
+	get_magic_quotes_runtime(${1:void})${0}
 
 snippet get_meta_tags
-	get_meta_tags(${1:string $filename})
+	get_meta_tags(${1:string $filename})${0}
 
 snippet get_object_vars
-	get_object_vars(${1:object $object})
+	get_object_vars(${1:object $object})${0}
 
 snippet get_parent_class
-	get_parent_class()
+	get_parent_class()${0}
 
 snippet get_resource_type
-	get_resource_type(${1:resource $handle})
+	get_resource_type(${1:resource $handle})${0}
 
 snippet get_resources
-	get_resources()
+	get_resources()${0}
 
 snippet getallheaders
-	getallheaders(${1:void})
+	getallheaders(${1:void})${0}
 
 snippet getcwd
-	getcwd(${1:void})
-
-snippet getdate
-	getdate()
+	getcwd(${1:void})${0}
 
 snippet getenv
-	getenv(${1:string $varname})
+	getenv(${1:string $varname})${0}
 
 snippet gethostbyaddr
-	gethostbyaddr(${1:string $ip_address})
+	gethostbyaddr(${1:string $ip_address})${0}
 
 snippet gethostbyname
-	gethostbyname(${1:string $hostname})
+	gethostbyname(${1:string $hostname})${0}
 
 snippet gethostbynamel
-	gethostbynamel(${1:string $hostname})
+	gethostbynamel(${1:string $hostname})${0}
 
 snippet gethostname
-	gethostname(${1:void})
+	gethostname(${1:void})${0}
 
 snippet getimagesize
-	getimagesize(${1:string $filename})
+	getimagesize(${1:string $filename})${0}
 
 snippet getimagesizefromstring
-	getimagesizefromstring(${1:string $imagedata})
+	getimagesizefromstring(${1:string $imagedata})${0}
 
 snippet getlastmod
-	getlastmod(${1:void})
+	getlastmod(${1:void})${0}
 
 snippet getmxrr
-	getmxrr(${1:string $hostname}, ${2:array &$mxhosts})
+	getmxrr(${1:string $hostname}, ${2:array &$mxhosts})${0}
 
 snippet getmygid
-	getmygid(${1:void})
+	getmygid(${1:void})${0}
 
 snippet getmyinode
-	getmyinode(${1:void})
+	getmyinode(${1:void})${0}
 
 snippet getmypid
-	getmypid(${1:void})
+	getmypid(${1:void})${0}
 
 snippet getmyuid
-	getmyuid(${1:void})
+	getmyuid(${1:void})${0}
 
 snippet getopt
-	getopt(${1:string $options})
+	getopt(${1:string $options})${0}
 
 snippet getprotobyname
-	getprotobyname(${1:string $name})
+	getprotobyname(${1:string $name})${0}
 
 snippet getprotobynumber
-	getprotobynumber(${1:int $number})
+	getprotobynumber(${1:int $number})${0}
 
 snippet getrandmax
-	getrandmax(${1:void})
+	getrandmax(${1:void})${0}
 
 snippet getrusage
-	getrusage()
+	getrusage()${0}
 
 snippet getservbyname
-	getservbyname(${1:string $service}, ${2:string $protocol})
+	getservbyname(${1:string $service}, ${2:string $protocol})${0}
 
 snippet getservbyport
-	getservbyport(${1:int $port}, ${2:string $protocol})
+	getservbyport(${1:int $port}, ${2:string $protocol})${0}
 
 snippet gettext
-	gettext(${1:string $message})
+	gettext(${1:string $message})${0}
 
 snippet gettimeofday
-	gettimeofday()
+	gettimeofday()${0}
 
 snippet gettype
-	gettype(${1:mixed $var})
+	gettype(${1:mixed $var})${0}
 
 snippet glob
-	glob(${1:string $pattern})
-
-snippet gmdate
-	gmdate(${1:string $format})
-
-snippet gmmktime
-	gmmktime()
-
-snippet gmstrftime
-	gmstrftime(${1:string $format})
+	glob(${1:string $pattern})${0}
 
 snippet gopher_parsedir
-	gopher_parsedir(${1:string $dirent})
+	gopher_parsedir(${1:string $dirent})${0}
 
 snippet gregoriantojd
-	gregoriantojd(${1:int $month}, ${2:int $day}, ${3:int $year})
+	gregoriantojd(${1:int $month}, ${2:int $day}, ${3:int $year})${0}
 
 snippet gzclose
-	gzclose(${1:resource $zp})
+	gzclose(${1:resource $zp})${0}
 
 snippet gzcompress
-	gzcompress(${1:string $data})
+	gzcompress(${1:string $data})${0}
 
 snippet gzdecode
-	gzdecode(${1:string $data})
+	gzdecode(${1:string $data})${0}
 
 snippet gzdeflate
-	gzdeflate(${1:string $data})
+	gzdeflate(${1:string $data})${0}
 
 snippet gzencode
-	gzencode(${1:string $data})
+	gzencode(${1:string $data})${0}
 
 snippet gzeof
-	gzeof(${1:resource $zp})
+	gzeof(${1:resource $zp})${0}
 
 snippet gzfile
-	gzfile(${1:string $filename})
+	gzfile(${1:string $filename})${0}
 
 snippet gzgetc
-	gzgetc(${1:resource $zp})
+	gzgetc(${1:resource $zp})${0}
 
 snippet gzgets
-	gzgets(${1:resource $zp})
+	gzgets(${1:resource $zp})${0}
 
 snippet gzgetss
-	gzgetss(${1:resource $zp}, ${2:int $length})
+	gzgetss(${1:resource $zp}, ${2:int $length})${0}
 
 snippet gzinflate
-	gzinflate(${1:string $data})
+	gzinflate(${1:string $data})${0}
 
 snippet gzopen
-	gzopen(${1:string $filename}, ${2:string $mode})
+	gzopen(${1:string $filename}, ${2:string $mode})${0}
 
 snippet gzpassthru
-	gzpassthru(${1:resource $zp})
+	gzpassthru(${1:resource $zp})${0}
 
 snippet gzread
-	gzread(${1:resource $zp}, ${2:int $length})
+	gzread(${1:resource $zp}, ${2:int $length})${0}
 
 snippet gzrewind
-	gzrewind(${1:resource $zp})
+	gzrewind(${1:resource $zp})${0}
 
 snippet gzseek
-	gzseek(${1:resource $zp}, ${2:int $offset})
+	gzseek(${1:resource $zp}, ${2:int $offset})${0}
 
 snippet gztell
-	gztell(${1:resource $zp})
+	gztell(${1:resource $zp})${0}
 
 snippet gzuncompress
-	gzuncompress(${1:string $data})
+	gzuncompress(${1:string $data})${0}
 
 snippet gzwrite
-	gzwrite(${1:resource $zp}, ${2:string $string})
+	gzwrite(${1:resource $zp}, ${2:string $string})${0}
 
 snippet halt_compiler
-	halt_compiler(${1:void})
+	halt_compiler(${1:void})${0}
 
 snippet hash_algos
-	hash_algos(${1:void})
+	hash_algos(${1:void})${0}
 
 snippet hash_copy
-	hash_copy(${1:resource $context})
+	hash_copy(${1:resource $context})${0}
 
 snippet hash_equals
-	hash_equals(${1:string $known_string}, ${2:string $user_string})
+	hash_equals(${1:string $known_string}, ${2:string $user_string})${0}
 
 snippet hash_file
-	hash_file(${1:string $algo}, ${2:string $filename})
+	hash_file(${1:string $algo}, ${2:string $filename})${0}
 
 snippet hash_final
-	hash_final(${1:resource $context})
+	hash_final(${1:resource $context})${0}
 
 snippet hash_hkdf
-	hash_hkdf(${1:string $algo}, ${2:string $ikm})
+	hash_hkdf(${1:string $algo}, ${2:string $ikm})${0}
 
 snippet hash_hmac_file
-	hash_hmac_file(${1:string $algo}, ${2:string $filename}, ${3:string $key})
+	hash_hmac_file(${1:string $algo}, ${2:string $filename}, ${3:string $key})${0}
 
 snippet hash_hmac
-	hash_hmac(${1:string $algo}, ${2:string $data}, ${3:string $key})
+	hash_hmac(${1:string $algo}, ${2:string $data}, ${3:string $key})${0}
 
 snippet hash_init
-	hash_init(${1:string $algo})
+	hash_init(${1:string $algo})${0}
 
 snippet hash_pbkdf2
-	hash_pbkdf2(${1:string $algo}, ${2:string $password}, ${3:string $salt}, ${4:int$iterations})
+	hash_pbkdf2(${1:string $algo}, ${2:string $password}, ${3:string $salt}, ${4:int    $iterations})${0}
 
 snippet hash_update_file
-	hash_update_file(${1:resource $hcontext}, ${2:string $filename})
+	hash_update_file(${1:resource $hcontext}, ${2:string $filename})${0}
 
 snippet hash_update_stream
-	hash_update_stream(${1:resource $context}, ${2:resource $handle})
+	hash_update_stream(${1:resource $context}, ${2:resource $handle})${0}
 
 snippet hash_update
-	hash_update(${1:resource $context}, ${2:string $data})
+	hash_update(${1:resource $context}, ${2:string $data})${0}
 
 snippet hash
-	hash(${1:string $algo}, ${2:string $data})
+	hash(${1:string $algo}, ${2:string $data})${0}
 
 snippet header_register_callback
-	header_register_callback(${1:callable $callback})
+	header_register_callback(${1:callable $callback})${0}
 
 snippet header_remove
-	header_remove()
+	header_remove()${0}
 
 snippet header
-	header(${1:string $string})
+	header(${1:string $string})${0}
 
 snippet headers_list
-	headers_list(${1:void})
+	headers_list(${1:void})${0}
 
 snippet headers_sent
-	headers_sent()
+	headers_sent()${0}
 
 snippet hebrev
-	hebrev(${1:string $hebrew_text})
+	hebrev(${1:string $hebrew_text})${0}
 
 snippet hebrevc
-	hebrevc(${1:string $hebrew_text})
+	hebrevc(${1:string $hebrew_text})${0}
 
 snippet hex2bin
-	hex2bin(${1:string $data})
+	hex2bin(${1:string $data})${0}
 
 snippet hexdec
-	hexdec(${1:string $hex_string})
+	hexdec(${1:string $hex_string})${0}
 
 snippet highlight_file
-	highlight_file(${1:string $filename})
+	highlight_file(${1:string $filename})${0}
 
 snippet highlight_string
-	highlight_string(${1:string $str})
-
-snippet html_entity_decode
-	html_entity_decode(${1:string $string ~})
-
-snippet htmlentities
-	htmlentities(${1:string $string})
+	highlight_string(${1:string $str})${0}
 
 snippet htmlspecialchars_decode
-	htmlspecialchars_decode(${1:string $string})
-
-snippet htmlspecialchars
-	htmlspecialchars(${1:string $string})
+	htmlspecialchars_decode(${1:string $string})${0}
 
 snippet http_build_cookie
-	http_build_cookie(${1:array $cookie})
+	http_build_cookie(${1:array $cookie})${0}
 
 snippet http_build_query
-	http_build_query(${1:mixed $query_data})
-
-snippet http_build_str
-	http_build_str(${1:array $query})
+	http_build_query(${1:mixed $query_data})${0}
 
 snippet http_build_url
-	http_build_url()
+	http_build_url()${0}
 
 snippet http_cache_etag
-	http_cache_etag()
+	http_cache_etag()${0}
 
 snippet http_cache_last_modified
-	http_cache_last_modified()
+	http_cache_last_modified()${0}
 
 snippet http_chunked_decode
-	http_chunked_decode(${1:string $encoded})
+	http_chunked_decode(${1:string $encoded})${0}
 
 snippet http_date
-	http_date()
+	http_date()${0}
 
 snippet http_deflate
-	http_deflate(${1:string $data})
+	http_deflate(${1:string $data})${0}
 
 snippet http_get_request_body_stream
-	http_get_request_body_stream(${1:void})
+	http_get_request_body_stream(${1:void})${0}
 
 snippet http_get_request_body
-	http_get_request_body(${1:void})
+	http_get_request_body(${1:void})${0}
 
 snippet http_get_request_headers
-	http_get_request_headers(${1:void})
+	http_get_request_headers(${1:void})${0}
 
 snippet http_get
-	http_get(${1:string $url})
+	http_get(${1:string $url})${0}
 
 snippet http_head
-	http_head(${1:string $url})
+	http_head(${1:string $url})${0}
 
 snippet http_inflate
-	http_inflate(${1:string $data})
+	http_inflate(${1:string $data})${0}
 
 snippet http_match_etag
-	http_match_etag(${1:string $etag})
+	http_match_etag(${1:string $etag})${0}
 
 snippet http_match_modified
-	http_match_modified()
+	http_match_modified()${0}
 
 snippet http_match_request_header
-	http_match_request_header(${1:string $header}, ${2:string $value})
+	http_match_request_header(${1:string $header}, ${2:string $value})${0}
 
 snippet http_negotiate_charset
-	http_negotiate_charset(${1:array $supported})
+	http_negotiate_charset(${1:array $supported})${0}
 
 snippet http_negotiate_content_type
-	http_negotiate_content_type(${1:array $supported ~})
+	http_negotiate_content_type(${1:array $supported})${0}
 
 snippet http_negotiate_language
-	http_negotiate_language(${1:array $supported})
+	http_negotiate_language(${1:array $supported})${0}
 
 snippet http_parse_cookie
-	http_parse_cookie(${1:string $cookie})
+	http_parse_cookie(${1:string $cookie})${0}
 
 snippet http_parse_headers
-	http_parse_headers(${1:string $header})
+	http_parse_headers(${1:string $header})${0}
 
 snippet http_parse_message
-	http_parse_message(${1:string $message})
+	http_parse_message(${1:string $message})${0}
 
 snippet http_parse_params
-	http_parse_params(${1:string $param})
+	http_parse_params(${1:string $param})${0}
 
 snippet http_persistent_handles_clean
-	http_persistent_handles_clean()
+	http_persistent_handles_clean()${0}
 
 snippet http_persistent_handles_count
-	http_persistent_handles_count(${1:void})
+	http_persistent_handles_count(${1:void})${0}
 
 snippet http_persistent_handles_ident
-	http_persistent_handles_ident()
+	http_persistent_handles_ident()${0}
 
 snippet http_post_data
-	http_post_data(${1:string $url}, ${2:string $data})
+	http_post_data(${1:string $url}, ${2:string $data})${0}
 
 snippet http_post_fields
-	http_post_fields(${1:string $url}, ${2:array $data})
+	http_post_fields(${1:string $url}, ${2:array $data})${0}
 
 snippet http_put_data
-	http_put_data(${1:string $url}, ${2:string $data})
+	http_put_data(${1:string $url}, ${2:string $data})${0}
 
 snippet http_put_file
-	http_put_file(${1:string $url}, ${2:string $file})
+	http_put_file(${1:string $url}, ${2:string $file})${0}
 
 snippet http_put_stream
-	http_put_stream(${1:string $url}, ${2:resource $stream})
+	http_put_stream(${1:string $url}, ${2:resource $stream})${0}
 
 snippet http_redirect
-	http_redirect()
+	http_redirect()${0}
 
 snippet http_request_body_encode
-	http_request_body_encode(${1:array $fields}, ${2:array $files})
+	http_request_body_encode(${1:array $fields}, ${2:array $files})${0}
 
 snippet http_request_method_exists
-	http_request_method_exists(${1:mixed $method})
+	http_request_method_exists(${1:mixed $method})${0}
 
 snippet http_request_method_name
-	http_request_method_name(${1:int $method})
+	http_request_method_name(${1:int $method})${0}
 
 snippet http_request_method_register
-	http_request_method_register(${1:string $method})
+	http_request_method_register(${1:string $method})${0}
 
 snippet http_request_method_unregister
-	http_request_method_unregister(${1:mixed $method})
+	http_request_method_unregister(${1:mixed $method})${0}
 
 snippet http_request
-	http_request(${1:int $method}, ${2:string $url})
+	http_request(${1:int $method}, ${2:string $url})${0}
 
 snippet http_response_code
-	http_response_code()
+	http_response_code()${0}
 
 snippet http_send_content_disposition
-	http_send_content_disposition(${1:string $filename})
+	http_send_content_disposition(${1:string $filename})${0}
 
 snippet http_send_content_type
-	http_send_content_type()
+	http_send_content_type()${0}
 
 snippet http_send_data
-	http_send_data(${1:string $data})
+	http_send_data(${1:string $data})${0}
 
 snippet http_send_file
-	http_send_file(${1:string $file})
-
-snippet http_send_last_modified
-	http_send_last_modified()
+	http_send_file(${1:string $file})${0}
 
 snippet http_send_status
-	http_send_status(${1:int $status})
+	http_send_status(${1:int $status})${0}
 
 snippet http_send_stream
-	http_send_stream(${1:resource $stream})
+	http_send_stream(${1:resource $stream})${0}
 
 snippet http_support
-	http_support()
+	http_support()${0}
 
 snippet http_throttle
-	http_throttle(${1:float $sec})
+	http_throttle(${1:float $sec})${0}
 
 snippet hwapi_attribute_new
-	hwapi_attribute_new(${1:~})
+	hwapi_attribute_new()${0}
 
 snippet hwapi_content_new
-	hwapi_content_new(${1:string $content}, ${2:string $mimetype})
+	hwapi_content_new(${1:string $content}, ${2:string $mimetype})${0}
 
 snippet hwapi_hgcsp
-	hwapi_hgcsp(${1:string $hostname})
+	hwapi_hgcsp(${1:string $hostname})${0}
 
 snippet hwapi_object_new
-	hwapi_object_new(${1:array $parameter})
+	hwapi_object_new(${1:array $parameter})${0}
 
 snippet hypot
-	hypot(${1:float $x}, ${2:float $y})
+	hypot(${1:float $x}, ${2:float $y})${0}
 
 snippet iconv_get_encoding
-	iconv_get_encoding()
-
-snippet iconv_mime_decode_headers
-	iconv_mime_decode_headers(${1:string $encoded_headers})
-
-snippet iconv_mime_decode
-	iconv_mime_decode(${1:string $encoded_header})
+	iconv_get_encoding()${0}
 
 snippet iconv_mime_encode
-	iconv_mime_encode(${1:string $field_name}, ${2:string $field_value})
+	iconv_mime_encode(${1:string $field_name}, ${2:string $field_value})${0}
 
 snippet iconv_set_encoding
-	iconv_set_encoding(${1:string $type}, ${2:string $charset})
-
-snippet iconv_strlen
-	iconv_strlen(${1:string $str})
-
-snippet iconv_strpos
-	iconv_strpos(${1:string $haystack}, ${2:string $needle})
-
-snippet iconv_strrpos
-	iconv_strrpos(${1:string $haystack}, ${2:string $needle})
-
-snippet iconv_substr
-	iconv_substr(${1:string $str}, ${2:int $offset})
+	iconv_set_encoding(${1:string $type}, ${2:string $charset})${0}
 
 snippet iconv
-	iconv(${1:string $in_charset}, ${2:string $out_charset}, ${3:string $str})
-
-snippet idate
-	idate(${1:string $format})
+	iconv(${1:string $in_charset}, ${2:string $out_charset}, ${3:string $str})${0}
 
 snippet idn_to_ascii
-	idn_to_ascii(${1:string $domain})
+	idn_to_ascii(${1:string $domain})${0}
 
 snippet idn_to_utf8
-	idn_to_utf8(${1:string $domain})
+	idn_to_utf8(${1:string $domain})${0}
 
 snippet ignore_user_abort
-	ignore_user_abort()
+	ignore_user_abort()${0}
 
 snippet image_type_to_extension
-	image_type_to_extension(${1:int $imagetype})
+	image_type_to_extension(${1:int $imagetype})${0}
 
 snippet image_type_to_mime_type
-	image_type_to_mime_type(${1:int $imagetype})
+	image_type_to_mime_type(${1:int $imagetype})${0}
 
 snippet image2wbmp
-	image2wbmp(${1:resource $image})
+	image2wbmp(${1:resource $image})${0}
 
 snippet imageaffine
-	imageaffine(${1:resource $image}, ${2:array $affine})
+	imageaffine(${1:resource $image}, ${2:array $affine})${0}
 
 snippet imageaffinematrixconcat
-	imageaffinematrixconcat(${1:array $m1}, ${2:array $m2})
+	imageaffinematrixconcat(${1:array $m1}, ${2:array $m2})${0}
 
 snippet imageaffinematrixget
-	imageaffinematrixget(${1:int $type}, ${2:mixed $options})
+	imageaffinematrixget(${1:int $type}, ${2:mixed $options})${0}
 
 snippet imagealphablending
-	imagealphablending(${1:resource $image}, ${2:bool $blendmode})
+	imagealphablending(${1:resource $image}, ${2:bool $blendmode})${0}
 
 snippet imageantialias
-	imageantialias(${1:resource $image}, ${2:bool $enabled})
+	imageantialias(${1:resource $image}, ${2:bool $enabled})${0}
 
 snippet imagearc
-	imagearc(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int$height}, ${6:int $start}, ${7:int $end}, ${8:int $color})
+	imagearc(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int    $height}, ${6:int $start}, ${7:int $end}, ${8:int $color})${0}
 
 snippet imagebmp
-	imagebmp(${1:resource $image}, ${2:mixed $to ~})
+	imagebmp(${1:resource $image}, ${2:mixed $to})${0}
 
 snippet imagechar
-	imagechar(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string$c}, ${6:int $color})
+	imagechar(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string    $c}, ${6:int $color})${0}
 
 snippet imagecharup
-	imagecharup(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string$c}, ${6:int $color})
+	imagecharup(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string    $c}, ${6:int $color})${0}
 
 snippet imagecolorallocate
-	imagecolorallocate(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue})
+	imagecolorallocate(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int    $blue})${0}
 
 snippet imagecolorallocatealpha
-	imagecolorallocatealpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})
+	imagecolorallocatealpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})${0}
 
 snippet imagecolorat
-	imagecolorat(${1:resource $image}, ${2:int $x}, ${3:int $y})
+	imagecolorat(${1:resource $image}, ${2:int $x}, ${3:int $y})${0}
 
 snippet imagecolorclosest
-	imagecolorclosest(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue})
+	imagecolorclosest(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int    $blue})${0}
 
 snippet imagecolorclosestalpha
-	imagecolorclosestalpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})
+	imagecolorclosestalpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})${0}
 
 snippet imagecolorclosesthwb
-	imagecolorclosesthwb(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue})
+	imagecolorclosesthwb(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int    $blue})${0}
 
 snippet imagecolordeallocate
-	imagecolordeallocate(${1:resource $image}, ${2:int $color})
+	imagecolordeallocate(${1:resource $image}, ${2:int $color})${0}
 
 snippet imagecolorexact
-	imagecolorexact(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue~})
+	imagecolorexact(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue})${0}
 
 snippet imagecolorexactalpha
-	imagecolorexactalpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue}, ${5:int $alpha})
+	imagecolorexactalpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int    $blue}, ${5:int $alpha})${0}
 
 snippet imagecolormatch
-	imagecolormatch(${1:resource $image1}, ${2:resource $image2})
+	imagecolormatch(${1:resource $image1}, ${2:resource $image2})${0}
 
 snippet imagecolorresolve
-	imagecolorresolve(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int$blue})
+	imagecolorresolve(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int    $blue})${0}
 
 snippet imagecolorresolvealpha
-	imagecolorresolvealpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})
+	imagecolorresolvealpha(${1:resource $image}, ${2:int $red}, ${3:int $green}, ${4:int $blue}, ${5:int $alpha})${0}
 
 snippet imagecolorset
-	imagecolorset(${1:resource $image}, ${2:int $index}, ${3:int $red}, ${4:int $green}, ${5:int $blue})
+	imagecolorset(${1:resource $image}, ${2:int $index}, ${3:int $red}, ${4:int $green}, ${5:int $blue})${0}
 
 snippet imagecolorsforindex
-	imagecolorsforindex(${1:resource $image}, ${2:int $index})
+	imagecolorsforindex(${1:resource $image}, ${2:int $index})${0}
 
 snippet imagecolorstotal
-	imagecolorstotal(${1:resource $image})
+	imagecolorstotal(${1:resource $image})${0}
 
 snippet imagecolortransparent
-	imagecolortransparent(${1:resource $image})
+	imagecolortransparent(${1:resource $image})${0}
 
 snippet imageconvolution
-	imageconvolution(${1:resource $image}, ${2:array $matrix}, ${3:float $div}, ${4:float $offset})
+	imageconvolution(${1:resource $image}, ${2:array $matrix}, ${3:float $div}, ${4:float $offset})${0}
 
 snippet imagecopy
-	imagecopy(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int $dst_x}, ${4:int$dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h})
+	imagecopy(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int $dst_x}, ${4:int    $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h})${0}
 
 snippet imagecopymerge
-	imagecopymerge(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int $dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h}, ${9:int $pct~})
+	imagecopymerge(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int $dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h}, ${9:int $pct})${0}
 
 snippet imagecopymergegray
-	imagecopymergegray(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int$dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h}, ${9:int $pct})
+	imagecopymergegray(${1:resource $dst_im}, ${2:resource $src_im}, ${3:int    $dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $src_w}, ${8:int $src_h}, ${9:int $pct})${0}
 
 snippet imagecopyresampled
-	imagecopyresampled(${1:resource $dst_image}, ${2:resource $src_image}, ${3:int$dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $dst_w}, ${8:int $dst_h}, ${9:int $src_w}, ${10:int $src_h})
+	imagecopyresampled(${1:resource $dst_image}, ${2:resource $src_image}, ${3:int    $dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $dst_w}, ${8:int $dst_h}, ${9:int $src_w}, ${10:int $src_h})${0}
 
 snippet imagecopyresized
-	imagecopyresized(${1:resource $dst_image}, ${2:resource $src_image}, ${3:int$dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $dst_w}, ${8:int $dst_h}, ${9:int $src_w}, ${10:int $src_h})
+	imagecopyresized(${1:resource $dst_image}, ${2:resource $src_image}, ${3:int    $dst_x}, ${4:int $dst_y}, ${5:int $src_x}, ${6:int $src_y}, ${7:int $dst_w}, ${8:int $dst_h}, ${9:int $src_w}, ${10:int $src_h})${0}
 
 snippet imagecreate
-	imagecreate(${1:int $width}, ${2:int $height})
+	imagecreate(${1:int $width}, ${2:int $height})${0}
 
 snippet imagecreatefrombmp
-	imagecreatefrombmp(${1:string $filename})
+	imagecreatefrombmp(${1:string $filename})${0}
 
 snippet imagecreatefromgd
-	imagecreatefromgd(${1:string $filename})
+	imagecreatefromgd(${1:string $filename})${0}
 
 snippet imagecreatefromgd2
-	imagecreatefromgd2(${1:string $filename})
+	imagecreatefromgd2(${1:string $filename})${0}
 
 snippet imagecreatefromgd2part
-	imagecreatefromgd2part(${1:string $filename}, ${2:int $srcX}, ${3:int$srcY}, ${4:int $width}, ${5:int $height})
+	imagecreatefromgd2part(${1:string $filename}, ${2:int $srcX}, ${3:int    $srcY}, ${4:int $width}, ${5:int $height})${0}
 
 snippet imagecreatefromgif
-	imagecreatefromgif(${1:string $filename})
+	imagecreatefromgif(${1:string $filename})${0}
 
 snippet imagecreatefromjpeg
-	imagecreatefromjpeg(${1:string $filename})
+	imagecreatefromjpeg(${1:string $filename})${0}
 
 snippet imagecreatefrompng
-	imagecreatefrompng(${1:string $filename})
+	imagecreatefrompng(${1:string $filename})${0}
 
 snippet imagecreatefromstring
-	imagecreatefromstring(${1:string $image})
+	imagecreatefromstring(${1:string $image})${0}
 
 snippet imagecreatefromwbmp
-	imagecreatefromwbmp(${1:string $filename})
+	imagecreatefromwbmp(${1:string $filename})${0}
 
 snippet imagecreatefromwebp
-	imagecreatefromwebp(${1:string $filename})
+	imagecreatefromwebp(${1:string $filename})${0}
 
 snippet imagecreatefromxbm
-	imagecreatefromxbm(${1:string $filename})
+	imagecreatefromxbm(${1:string $filename})${0}
 
 snippet imagecreatefromxpm
-	imagecreatefromxpm(${1:string $filename})
+	imagecreatefromxpm(${1:string $filename})${0}
 
 snippet imagecreatetruecolor
-	imagecreatetruecolor(${1:int $width}, ${2:int $height})
+	imagecreatetruecolor(${1:int $width}, ${2:int $height})${0}
 
 snippet imagecrop
-	imagecrop(${1:resource $image}, ${2:array $rect})
+	imagecrop(${1:resource $image}, ${2:array $rect})${0}
 
 snippet imagecropauto
-	imagecropauto(${1:resource $image})
+	imagecropauto(${1:resource $image})${0}
 
 snippet imagedashedline
-	imagedashedline(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})
+	imagedashedline(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})${0}
 
 snippet imagedestroy
-	imagedestroy(${1:resource $image})
+	imagedestroy(${1:resource $image})${0}
 
 snippet imageellipse
-	imageellipse(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int $height}, ${6:int $color})
+	imageellipse(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int $height}, ${6:int $color})${0}
 
 snippet imagefill
-	imagefill(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $color})
+	imagefill(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $color})${0}
 
 snippet imagefilledarc
-	imagefilledarc(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int $height}, ${6:int $start}, ${7:int $end}, ${8:int $color}, ${9:int $style})
+	imagefilledarc(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int $width}, ${5:int $height}, ${6:int $start}, ${7:int $end}, ${8:int $color}, ${9:int $style})${0}
 
 snippet imagefilledellipse
-	imagefilledellipse(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int$width}, ${5:int $height}, ${6:int $color})
+	imagefilledellipse(${1:resource $image}, ${2:int $cx}, ${3:int $cy}, ${4:int    $width}, ${5:int $height}, ${6:int $color})${0}
 
 snippet imagefilledpolygon
-	imagefilledpolygon(${1:resource $image}, ${2:array $points}, ${3:int$num_points}, ${4:int $color})
+	imagefilledpolygon(${1:resource $image}, ${2:array $points}, ${3:int    $num_points}, ${4:int $color})${0}
 
 snippet imagefilledrectangle
-	imagefilledrectangle(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})
+	imagefilledrectangle(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})${0}
 
 snippet imagefilltoborder
-	imagefilltoborder(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $border}, ${5:int $color})
+	imagefilltoborder(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $border}, ${5:int $color})${0}
 
 snippet imagefilter
-	imagefilter(${1:resource $image}, ${2:int $filtertype})
+	imagefilter(${1:resource $image}, ${2:int $filtertype})${0}
 
 snippet imageflip
-	imageflip(${1:resource $image}, ${2:int $mode})
+	imageflip(${1:resource $image}, ${2:int $mode})${0}
 
 snippet imagefontheight
-	imagefontheight(${1:int $font})
+	imagefontheight(${1:int $font})${0}
 
 snippet imagefontwidth
-	imagefontwidth(${1:int $font})
+	imagefontwidth(${1:int $font})${0}
 
 snippet imageftbbox
-	imageftbbox(${1:float $size}, ${2:float $angle}, ${3:string $fontfile}, ${4:string $text})
+	imageftbbox(${1:float $size}, ${2:float $angle}, ${3:string $fontfile}, ${4:string $text})${0}
 
 snippet imagefttext
-	imagefttext(${1:resource $image}, ${2:float $size}, ${3:float $angle}, ${4:int $x}, ${5:int $y}, ${6:int $color}, ${7:string $fontfile}, ${8:string $text})
+	imagefttext(${1:resource $image}, ${2:float $size}, ${3:float $angle}, ${4:int $x}, ${5:int $y}, ${6:int $color}, ${7:string $fontfile}, ${8:string $text})${0}
 
 snippet imagegammacorrect
-	imagegammacorrect(${1:resource $image}, ${2:float $inputgamma}, ${3:float$outputgamma})
+	imagegammacorrect(${1:resource $image}, ${2:float $inputgamma}, ${3:float    $outputgamma})${0}
 
 snippet imagegd
-	imagegd(${1:resource $image})
+	imagegd(${1:resource $image})${0}
 
 snippet imagegd2
-	imagegd2(${1:resource $image})
+	imagegd2(${1:resource $image})${0}
 
 snippet imagegetclip
-	imagegetclip(${1:resource $im})
+	imagegetclip(${1:resource $im})${0}
 
 snippet imagegif
-	imagegif(${1:resource $image})
+	imagegif(${1:resource $image})${0}
 
 snippet imagegrabscreen
-	imagegrabscreen(${1:void})
+	imagegrabscreen(${1:void})${0}
 
 snippet imagegrabwindow
-	imagegrabwindow(${1:int $window_handle})
+	imagegrabwindow(${1:int $window_handle})${0}
 
 snippet imageinterlace
-	imageinterlace(${1:resource $image})
+	imageinterlace(${1:resource $image})${0}
 
 snippet imageistruecolor
-	imageistruecolor(${1:resource $image})
+	imageistruecolor(${1:resource $image})${0}
 
 snippet imagejpeg
-	imagejpeg(${1:resource $image})
+	imagejpeg(${1:resource $image})${0}
 
 snippet imagelayereffect
-	imagelayereffect(${1:resource $image}, ${2:int $effect})
+	imagelayereffect(${1:resource $image}, ${2:int $effect})${0}
 
 snippet imageline
-	imageline(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})
+	imageline(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2}, ${6:int $color})${0}
 
 snippet imageloadfont
-	imageloadfont(${1:string $file})
+	imageloadfont(${1:string $file})${0}
 
 snippet imageopenpolygon
-	imageopenpolygon(${1:resource $image}, ${2:array $points}, ${3:int $num_points}, ${4:int $color})
+	imageopenpolygon(${1:resource $image}, ${2:array $points}, ${3:int $num_points}, ${4:int $color})${0}
 
 snippet imagepalettecopy
-	imagepalettecopy(${1:resource $destination}, ${2:resource $source})
+	imagepalettecopy(${1:resource $destination}, ${2:resource $source})${0}
 
 snippet imagepalettetotruecolor
-	imagepalettetotruecolor(${1:resource $src})
+	imagepalettetotruecolor(${1:resource $src})${0}
 
 snippet imagepng
-	imagepng(${1:resource $image})
+	imagepng(${1:resource $image})${0}
 
 snippet imagepolygon
-	imagepolygon(${1:resource $image}, ${2:array $points}, ${3:int $num_points}, ${4:int $color})
+	imagepolygon(${1:resource $image}, ${2:array $points}, ${3:int $num_points}, ${4:int $color})${0}
 
 snippet imagepsbbox
-	imagepsbbox(${1:string $text}, ${2:resource $font}, ${3:int $size})
+	imagepsbbox(${1:string $text}, ${2:resource $font}, ${3:int $size})${0}
 
 snippet imagepsencodefont
-	imagepsencodefont(${1:resource $font_index}, ${2:string $encodingfile})
+	imagepsencodefont(${1:resource $font_index}, ${2:string $encodingfile})${0}
 
 snippet imagepsextendfont
-	imagepsextendfont(${1:resource $font_index}, ${2:float $extend})
+	imagepsextendfont(${1:resource $font_index}, ${2:float $extend})${0}
 
 snippet imagepsfreefont
-	imagepsfreefont(${1:resource $font_index})
+	imagepsfreefont(${1:resource $font_index})${0}
 
 snippet imagepsloadfont
-	imagepsloadfont(${1:string $filename})
+	imagepsloadfont(${1:string $filename})${0}
 
 snippet imagepsslantfont
-	imagepsslantfont(${1:resource $font_index}, ${2:float $slant})
+	imagepsslantfont(${1:resource $font_index}, ${2:float $slant})${0}
 
 snippet imagepstext
-	imagepstext(${1:resource $image}, ${2:string $text}, ${3:resource $font_index}, ${4:int $size}, ${5:int $foreground}, ${6:int $background}, ${7:int $x}, ${8:int $y})
+	imagepstext(${1:resource $image}, ${2:string $text}, ${3:resource $font_index}, ${4:int $size}, ${5:int $foreground}, ${6:int $background}, ${7:int $x}, ${8:int $y})${0}
 
 snippet imagerectangle
-	imagerectangle(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int$y2}, ${6:int $color})
+	imagerectangle(${1:resource $image}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int    $y2}, ${6:int $color})${0}
 
 snippet imageresolution
-	imageresolution(${1:resource $image})
+	imageresolution(${1:resource $image})${0}
 
 snippet imagerotate
-	imagerotate(${1:resource $image}, ${2:float $angle}, ${3:int $bgd_color})
+	imagerotate(${1:resource $image}, ${2:float $angle}, ${3:int $bgd_color})${0}
 
 snippet imagesavealpha
-	imagesavealpha(${1:resource $image}, ${2:bool $saveflag})
+	imagesavealpha(${1:resource $image}, ${2:bool $saveflag})${0}
 
 snippet imagescale
-	imagescale(${1:resource $image}, ${2:int $new_width})
+	imagescale(${1:resource $image}, ${2:int $new_width})${0}
 
 snippet imagesetbrush
-	imagesetbrush(${1:resource $image}, ${2:resource $brush})
+	imagesetbrush(${1:resource $image}, ${2:resource $brush})${0}
 
 snippet imagesetclip
-	imagesetclip(${1:resource $im}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2~})
+	imagesetclip(${1:resource $im}, ${2:int $x1}, ${3:int $y1}, ${4:int $x2}, ${5:int $y2})${0}
 
 snippet imagesetinterpolation
-	imagesetinterpolation(${1:resource $image})
+	imagesetinterpolation(${1:resource $image})${0}
 
 snippet imagesetpixel
-	imagesetpixel(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $color})
+	imagesetpixel(${1:resource $image}, ${2:int $x}, ${3:int $y}, ${4:int $color})${0}
 
 snippet imagesetstyle
-	imagesetstyle(${1:resource $image}, ${2:array $style})
+	imagesetstyle(${1:resource $image}, ${2:array $style})${0}
 
 snippet imagesetthickness
-	imagesetthickness(${1:resource $image}, ${2:int $thickness})
+	imagesetthickness(${1:resource $image}, ${2:int $thickness})${0}
 
 snippet imagesettile
-	imagesettile(${1:resource $image}, ${2:resource $tile})
+	imagesettile(${1:resource $image}, ${2:resource $tile})${0}
 
 snippet imagestring
-	imagestring(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string$string}, ${6:int $color})
+	imagestring(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string    $string}, ${6:int $color})${0}
 
 snippet imagestringup
-	imagestringup(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string $string}, ${6:int $color})
+	imagestringup(${1:resource $image}, ${2:int $font}, ${3:int $x}, ${4:int $y}, ${5:string $string}, ${6:int $color})${0}
 
 snippet imagesx
-	imagesx(${1:resource $image})
+	imagesx(${1:resource $image})${0}
 
 snippet imagesy
-	imagesy(${1:resource $image})
+	imagesy(${1:resource $image})${0}
 
 snippet imagetruecolortopalette
-	imagetruecolortopalette(${1:resource $image}, ${2:bool $dither}, ${3:int$ncolors})
+	imagetruecolortopalette(${1:resource $image}, ${2:bool $dither}, ${3:int    $ncolors})${0}
 
 snippet imagettfbbox
-	imagettfbbox(${1:float $size}, ${2:float $angle}, ${3:string $fontfile}, ${4:string $text})
+	imagettfbbox(${1:float $size}, ${2:float $angle}, ${3:string $fontfile}, ${4:string $text})${0}
 
 snippet imagettftext
-	imagettftext(${1:resource $image}, ${2:float $size}, ${3:float $angle}, ${4:int$x}, ${5:int $y}, ${6:int $color}, ${7:string $fontfile}, ${8:string $text})
+	imagettftext(${1:resource $image}, ${2:float $size}, ${3:float $angle}, ${4:int    $x}, ${5:int $y}, ${6:int $color}, ${7:string $fontfile}, ${8:string $text})${0}
 
 snippet imagetypes
-	imagetypes(${1:void})
+	imagetypes(${1:void})${0}
 
 snippet imagewbmp
-	imagewbmp(${1:resource $image})
+	imagewbmp(${1:resource $image})${0}
 
 snippet imagewebp
-	imagewebp(${1:resource $image}, ${2:mixed $to})
+	imagewebp(${1:resource $image}, ${2:mixed $to})${0}
 
 snippet imagexbm
-	imagexbm(${1:resource $image}, ${2:string $filename})
+	imagexbm(${1:resource $image}, ${2:string $filename})${0}
 
 snippet implode
-	implode(${1:string $glue}, ${2:array $pieces})
+	implode(${1:string $glue}, ${2:array $pieces})${0}
 
 snippet import_request_variables
-	import_request_variables(${1:string $types})
+	import_request_variables(${1:string $types})${0}
 
 snippet in_array
-	in_array(${1:mixed $needle}, ${2:array $haystack ~})
+	in_array(${1:mixed $needle}, ${2:array $haystack})${0}
 
 snippet inclued_get_data
-	inclued_get_data(${1:void})
+	inclued_get_data(${1:void})${0}
 
 snippet inet_ntop
-	inet_ntop(${1:string $in_addr})
+	inet_ntop(${1:string $in_addr})${0}
 
 snippet inet_pton
-	inet_pton(${1:string $address})
+	inet_pton(${1:string $address})${0}
 
 snippet inflate_add
-	inflate_add(${1:resource $context}, ${2:string $encoded_data})
-
-snippet inflate_init
-	inflate_init(${1:int $encoding})
+	inflate_add(${1:resource $context}, ${2:string $encoded_data})${0}
 
 snippet ini_get_all
-	ini_get_all()
+	ini_get_all()${0}
 
 snippet ini_get
-	ini_get(${1:string $varname})
+	ini_get(${1:string $varname})${0}
 
 snippet ini_restore
-	ini_restore(${1:string $varname})
+	ini_restore(${1:string $varname})${0}
 
 snippet ini_set
-	ini_set(${1:string $varname}, ${2:string $newvalue})
+	ini_set(${1:string $varname}, ${2:string $newvalue})${0}
 
 snippet inotify_add_watch
-	inotify_add_watch(${1:resource $inotify_instance}, ${2:string $pathname}, ${3:int $mask})
+	inotify_add_watch(${1:resource $inotify_instance}, ${2:string $pathname}, ${3:int $mask})${0}
 
 snippet inotify_init
-	inotify_init(${1:void})
+	inotify_init(${1:void})${0}
 
 snippet inotify_queue_len
-	inotify_queue_len(${1:resource $inotify_instance})
+	inotify_queue_len(${1:resource $inotify_instance})${0}
 
 snippet inotify_read
-	inotify_read(${1:resource $inotify_instance})
+	inotify_read(${1:resource $inotify_instance})${0}
 
 snippet inotify_rm_watch
-	inotify_rm_watch(${1:resource $inotify_instance}, ${2:int$watch_descriptor})
+	inotify_rm_watch(${1:resource $inotify_instance}, ${2:int    $watch_descriptor})${0}
 
 snippet intdiv
-	intdiv(${1:int $dividend}, ${2:int $divisor})
+	intdiv(${1:int $dividend}, ${2:int $divisor})${0}
 
 snippet interface_exists
-	interface_exists(${1:string $interface_name ~})
+	interface_exists(${1:string $interface_name})${0}
 
 snippet intl_error_name
-	intl_error_name(${1:int $error_code})
+	intl_error_name(${1:int $error_code})${0}
 
 snippet intl_get_error_code
-	intl_get_error_code(${1:void})
+	intl_get_error_code(${1:void})${0}
 
 snippet intl_get_error_message
-	intl_get_error_message(${1:void})
+	intl_get_error_message(${1:void})${0}
 
 snippet intl_is_failure
-	intl_is_failure(${1:int $error_code})
+	intl_is_failure(${1:int $error_code})${0}
 
 snippet intval
-	intval(${1:mixed $var})
+	intval(${1:mixed $var})${0}
 
 snippet ip2long
-	ip2long(${1:string $ip_address})
+	ip2long(${1:string $ip_address})${0}
 
 snippet iptcembed
-	iptcembed(${1:string $iptcdata}, ${2:string $jpeg_file_name})
+	iptcembed(${1:string $iptcdata}, ${2:string $jpeg_file_name})${0}
 
 snippet iptcparse
-	iptcparse(${1:string $iptcblock})
+	iptcparse(${1:string $iptcblock})${0}
 
 snippet isset
-	isset(${1:mixed $var})
+	isset(${1:mixed $var})${0}
 
 snippet iterator_apply
-	iterator_apply(${1:Traversable $iterator}, ${2:callable $function})
+	iterator_apply(${1:Traversable $iterator}, ${2:callable $function})${0}
 
 snippet iterator_count
-	iterator_count(${1:Traversable $iterator})
+	iterator_count(${1:Traversable $iterator})${0}
 
 snippet iterator_to_array
-	iterator_to_array(${1:Traversable $iterator})
+	iterator_to_array(${1:Traversable $iterator})${0}
 
 snippet jddayofweek
-	jddayofweek(${1:int $julianday})
+	jddayofweek(${1:int $julianday})${0}
 
 snippet jdmonthname
-	jdmonthname(${1:int $julianday}, ${2:int $mode})
+	jdmonthname(${1:int $julianday}, ${2:int $mode})${0}
 
 snippet jdtofrench
-	jdtofrench(${1:int $juliandaycount})
+	jdtofrench(${1:int $juliandaycount})${0}
 
 snippet jdtogregorian
-	jdtogregorian(${1:int $julianday})
+	jdtogregorian(${1:int $julianday})${0}
 
 snippet jdtojewish
-	jdtojewish(${1:int $juliandaycount})
+	jdtojewish(${1:int $juliandaycount})${0}
 
 snippet jdtojulian
-	jdtojulian(${1:int $julianday})
+	jdtojulian(${1:int $julianday})${0}
 
 snippet jdtounix
-	jdtounix(${1:int $jday})
+	jdtounix(${1:int $jday})${0}
 
 snippet jewishtojd
-	jewishtojd(${1:int $month}, ${2:int $day}, ${3:int $year})
+	jewishtojd(${1:int $month}, ${2:int $day}, ${3:int $year})${0}
 
 snippet jpeg2wbmp
-	jpeg2wbmp(${1:string $jpegname}, ${2:string $wbmpname}, ${3:int $dest_height}, ${4:int $dest_width}, ${5:int $threshold})
+	jpeg2wbmp(${1:string $jpegname}, ${2:string $wbmpname}, ${3:int $dest_height}, ${4:int $dest_width}, ${5:int $threshold})${0}
 
 snippet json_decode
-	json_decode(${1:string $json})
+	json_decode(${1:string $json})${0}
 
 snippet json_encode
-	json_encode(${1:mixed $value})
+	json_encode(${1:mixed $value})${0}
 
 snippet json_last_error_msg
-	json_last_error_msg(${1:void})
+	json_last_error_msg(${1:void})${0}
 
 snippet json_last_error
-	json_last_error(${1:void})
+	json_last_error(${1:void})${0}
 
 snippet judy_type
-	judy_type(${1:Judy $array})
+	judy_type(${1:Judy $array})${0}
 
 snippet judy_version
-	judy_version(${1:void})
+	judy_version(${1:void})${0}
 
 snippet juliantojd
-	juliantojd(${1:int $month}, ${2:int $day}, ${3:int $year})
+	juliantojd(${1:int $month}, ${2:int $day}, ${3:int $year})${0}
 
 snippet key
-	key(${1:array &$array})
+	key(${1:array &$array})${0}
 
 snippet krsort
-	krsort(${1:array &$array})
+	krsort(${1:array &$array})${0}
 
 snippet ksort
-	ksort(${1:array &$array})
+	ksort(${1:array &$array})${0}
 
 snippet lcfirst
-	lcfirst(${1:string $str})
+	lcfirst(${1:string $str})${0}
 
 snippet lcg_value
-	lcg_value(${1:void})
+	lcg_value(${1:void})${0}
 
 snippet lchgrp
-	lchgrp(${1:string $filename}, ${2:mixed $group})
+	lchgrp(${1:string $filename}, ${2:mixed $group})${0}
 
 snippet lchown
-	lchown(${1:string $filename}, ${2:mixed $user})
+	lchown(${1:string $filename}, ${2:mixed $user})${0}
 
 snippet levenshtein
-	levenshtein(${1:string $str1}, ${2:string $str2})
+	levenshtein(${1:string $str1}, ${2:string $str2})${0}
 
 snippet link
-	link(${1:string $target}, ${2:string $link})
+	link(${1:string $target}, ${2:string $link})${0}
 
 snippet linkinfo
-	linkinfo(${1:string $path})
+	linkinfo(${1:string $path})${0}
 
 snippet list
-	list(${1:mixed $var1})
+	list(${1:mixed $var1})${0}
 
 snippet localeconv
-	localeconv(${1:void})
-
-snippet localtime
-	localtime()
+	localeconv(${1:void})${0}
 
 snippet log_cmd_delete
-	log_cmd_delete(${1:array $server}, ${2:array $writeOptions}, ${3:array$deleteOptions}, ${4:array $protocolOptions})
+	log_cmd_delete(${1:array $server}, ${2:array $writeOptions}, ${3:array    $deleteOptions}, ${4:array $protocolOptions})${0}
 
 snippet log_cmd_insert
-	log_cmd_insert(${1:array $server}, ${2:array $document}, ${3:array $writeOptions}, ${4:array $protocolOptions})
+	log_cmd_insert(${1:array $server}, ${2:array $document}, ${3:array $writeOptions}, ${4:array $protocolOptions})${0}
 
 snippet log_cmd_update
-	log_cmd_update(${1:array $server}, ${2:array $writeOptions}, ${3:array$updateOptions}, ${4:array $protocolOptions})
+	log_cmd_update(${1:array $server}, ${2:array $writeOptions}, ${3:array    $updateOptions}, ${4:array $protocolOptions})${0}
 
 snippet log_getmore
-	log_getmore(${1:array $server}, ${2:array $info})
+	log_getmore(${1:array $server}, ${2:array $info})${0}
 
 snippet log_killcursor
-	log_killcursor(${1:array $server}, ${2:array $info})
+	log_killcursor(${1:array $server}, ${2:array $info})${0}
 
 snippet log_reply
-	log_reply(${1:array $server}, ${2:array $messageHeaders}, ${3:array$operationHeaders})
+	log_reply(${1:array $server}, ${2:array $messageHeaders}, ${3:array    $operationHeaders})${0}
 
 snippet log_write_batch
-	log_write_batch(${1:array $server}, ${2:array $writeOptions}, ${3:array $batch}, ${4:array $protocolOptions})
+	log_write_batch(${1:array $server}, ${2:array $writeOptions}, ${3:array $batch}, ${4:array $protocolOptions})${0}
 
 snippet log
-	log(${1:float $arg})
+	log(${1:float $arg})${0}
 
 snippet log10
-	log10(${1:float $arg})
+	log10(${1:float $arg})${0}
 
 snippet log1p
-	log1p(${1:float $number})
+	log1p(${1:float $number})${0}
 
 snippet long2ip
-	long2ip(${1:string $proper_address})
+	long2ip(${1:string $proper_address})${0}
 
 snippet lstat
-	lstat(${1:string $filename})
+	lstat(${1:string $filename})${0}
 
 snippet ltrim
-	ltrim(${1:string $str})
+	ltrim(${1:string $str})${0}
 
 snippet mail
-	mail(${1:string $to}, ${2:string $subject}, ${3:string $message})
+	mail(${1:string $to}, ${2:string $subject}, ${3:string $message})${0}
 
 snippet max
-	max(${1:array $values})
+	max(${1:array $values})${0}
 
 snippet mcrypt_cbc
-	mcrypt_cbc(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode})
+	mcrypt_cbc(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode})${0}
 
 snippet mcrypt_cfb
-	mcrypt_cfb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode}, ${5:string $iv})
+	mcrypt_cfb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode}, ${5:string $iv})${0}
 
 snippet mcrypt_create_iv
-	mcrypt_create_iv(${1:int $size ~})
+	mcrypt_create_iv(${1:int $size})${0}
 
 snippet mcrypt_decrypt
-	mcrypt_decrypt(${1:string $cipher}, ${2:string $key}, ${3:string $data}, ${4:string $mode})
+	mcrypt_decrypt(${1:string $cipher}, ${2:string $key}, ${3:string $data}, ${4:string $mode})${0}
 
 snippet mcrypt_ecb
-	mcrypt_ecb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode~})
+	mcrypt_ecb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode})${0}
 
 snippet mcrypt_enc_get_algorithms_name
-	mcrypt_enc_get_algorithms_name(${1:resource $td})
+	mcrypt_enc_get_algorithms_name(${1:resource $td})${0}
 
 snippet mcrypt_enc_get_block_size
-	mcrypt_enc_get_block_size(${1:resource $td})
+	mcrypt_enc_get_block_size(${1:resource $td})${0}
 
 snippet mcrypt_enc_get_iv_size
-	mcrypt_enc_get_iv_size(${1:resource $td})
+	mcrypt_enc_get_iv_size(${1:resource $td})${0}
 
 snippet mcrypt_enc_get_key_size
-	mcrypt_enc_get_key_size(${1:resource $td})
+	mcrypt_enc_get_key_size(${1:resource $td})${0}
 
 snippet mcrypt_enc_get_modes_name
-	mcrypt_enc_get_modes_name(${1:resource $td})
+	mcrypt_enc_get_modes_name(${1:resource $td})${0}
 
 snippet mcrypt_enc_get_supported_key_sizes
-	mcrypt_enc_get_supported_key_sizes(${1:resource $td})
+	mcrypt_enc_get_supported_key_sizes(${1:resource $td})${0}
 
 snippet mcrypt_enc_is_block_algorithm_mode
-	mcrypt_enc_is_block_algorithm_mode(${1:resource $td})
+	mcrypt_enc_is_block_algorithm_mode(${1:resource $td})${0}
 
 snippet mcrypt_enc_is_block_algorithm
-	mcrypt_enc_is_block_algorithm(${1:resource $td})
+	mcrypt_enc_is_block_algorithm(${1:resource $td})${0}
 
 snippet mcrypt_enc_is_block_mode
-	mcrypt_enc_is_block_mode(${1:resource $td})
+	mcrypt_enc_is_block_mode(${1:resource $td})${0}
 
 snippet mcrypt_enc_self_test
-	mcrypt_enc_self_test(${1:resource $td})
+	mcrypt_enc_self_test(${1:resource $td})${0}
 
 snippet mcrypt_encrypt
-	mcrypt_encrypt(${1:string $cipher}, ${2:string $key}, ${3:string $data}, ${4:string $mode})
+	mcrypt_encrypt(${1:string $cipher}, ${2:string $key}, ${3:string $data}, ${4:string $mode})${0}
 
 snippet mcrypt_generic_deinit
-	mcrypt_generic_deinit(${1:resource $td})
+	mcrypt_generic_deinit(${1:resource $td})${0}
 
 snippet mcrypt_generic_end
-	mcrypt_generic_end(${1:resource $td})
+	mcrypt_generic_end(${1:resource $td})${0}
 
 snippet mcrypt_generic_init
-	mcrypt_generic_init(${1:resource $td}, ${2:string $key}, ${3:string $iv})
+	mcrypt_generic_init(${1:resource $td}, ${2:string $key}, ${3:string $iv})${0}
 
 snippet mcrypt_generic
-	mcrypt_generic(${1:resource $td}, ${2:string $data})
+	mcrypt_generic(${1:resource $td}, ${2:string $data})${0}
 
 snippet mcrypt_get_block_size
-	mcrypt_get_block_size(${1:int $cipher})
+	mcrypt_get_block_size(${1:int $cipher})${0}
 
 snippet mcrypt_get_cipher_name
-	mcrypt_get_cipher_name(${1:int $cipher})
+	mcrypt_get_cipher_name(${1:int $cipher})${0}
 
 snippet mcrypt_get_iv_size
-	mcrypt_get_iv_size(${1:string $cipher}, ${2:string $mode})
+	mcrypt_get_iv_size(${1:string $cipher}, ${2:string $mode})${0}
 
 snippet mcrypt_get_key_size
-	mcrypt_get_key_size(${1:int $cipher})
-
-snippet mcrypt_list_algorithms
-	mcrypt_list_algorithms()
-
-snippet mcrypt_list_modes
-	mcrypt_list_modes()
+	mcrypt_get_key_size(${1:int $cipher})${0}
 
 snippet mcrypt_module_close
-	mcrypt_module_close(${1:resource $td})
+	mcrypt_module_close(${1:resource $td})${0}
 
 snippet mcrypt_module_get_algo_block_size
-	mcrypt_module_get_algo_block_size(${1:string $algorithm})
+	mcrypt_module_get_algo_block_size(${1:string $algorithm})${0}
 
 snippet mcrypt_module_get_algo_key_size
-	mcrypt_module_get_algo_key_size(${1:string $algorithm})
+	mcrypt_module_get_algo_key_size(${1:string $algorithm})${0}
 
 snippet mcrypt_module_get_supported_key_sizes
-	mcrypt_module_get_supported_key_sizes(${1:string $algorithm})
+	mcrypt_module_get_supported_key_sizes(${1:string $algorithm})${0}
 
 snippet mcrypt_module_is_block_algorithm_mode
-	mcrypt_module_is_block_algorithm_mode(${1:string $mode})
+	mcrypt_module_is_block_algorithm_mode(${1:string $mode})${0}
 
 snippet mcrypt_module_is_block_algorithm
-	mcrypt_module_is_block_algorithm(${1:string $algorithm})
+	mcrypt_module_is_block_algorithm(${1:string $algorithm})${0}
 
 snippet mcrypt_module_is_block_mode
-	mcrypt_module_is_block_mode(${1:string $mode})
+	mcrypt_module_is_block_mode(${1:string $mode})${0}
 
 snippet mcrypt_module_open
-	mcrypt_module_open(${1:string $algorithm}, ${2:string$algorithm_directory}, ${3:string $mode}, ${4:string $mode_directory})
+	mcrypt_module_open(${1:string $algorithm}, ${2:string    $algorithm_directory}, ${3:string $mode}, ${4:string $mode_directory})${0}
 
 snippet mcrypt_module_self_test
-	mcrypt_module_self_test(${1:string $algorithm})
+	mcrypt_module_self_test(${1:string $algorithm})${0}
 
 snippet mcrypt_ofb
-	mcrypt_ofb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode}, ${5:string $iv})
+	mcrypt_ofb(${1:int $cipher}, ${2:string $key}, ${3:string $data}, ${4:int $mode}, ${5:string $iv})${0}
 
 snippet md5_file
-	md5_file(${1:string $filename})
+	md5_file(${1:string $filename})${0}
 
 snippet md5
-	md5(${1:string $str})
+	md5(${1:string $str})${0}
 
 snippet mdecrypt_generic
-	mdecrypt_generic(${1:resource $td}, ${2:string $data})
+	mdecrypt_generic(${1:resource $td}, ${2:string $data})${0}
 
 snippet memcache_debug
-	memcache_debug(${1:bool $on_off})
+	memcache_debug(${1:bool $on_off})${0}
 
 snippet memory_get_peak_usage
-	memory_get_peak_usage()
+	memory_get_peak_usage()${0}
 
 snippet memory_get_usage
-	memory_get_usage()
+	memory_get_usage()${0}
 
 snippet metaphone
-	metaphone(${1:string $str})
+	metaphone(${1:string $str})${0}
 
 snippet method_exists
-	method_exists(${1:mixed $object}, ${2:string $method_name})
+	method_exists(${1:mixed $object}, ${2:string $method_name})${0}
 
 snippet mhash_count
-	mhash_count(${1:void})
+	mhash_count(${1:void})${0}
 
 snippet mhash_get_block_size
-	mhash_get_block_size(${1:int $hash})
+	mhash_get_block_size(${1:int $hash})${0}
 
 snippet mhash_get_hash_name
-	mhash_get_hash_name(${1:int $hash})
+	mhash_get_hash_name(${1:int $hash})${0}
 
 snippet mhash_keygen_s2k
-	mhash_keygen_s2k(${1:int $hash}, ${2:string $password}, ${3:string $salt}, ${4:int $bytes})
+	mhash_keygen_s2k(${1:int $hash}, ${2:string $password}, ${3:string $salt}, ${4:int $bytes})${0}
 
 snippet mhash
-	mhash(${1:int $hash}, ${2:string $data})
+	mhash(${1:int $hash}, ${2:string $data})${0}
 
 snippet microtime
-	microtime()
+	microtime()${0}
 
 snippet mime_content_type
-	mime_content_type(${1:string $filename})
+	mime_content_type(${1:string $filename})${0}
 
 snippet min
-	min(${1:array $values})
+	min(${1:array $values})${0}
 
 snippet mkdir
-	mkdir(${1:string $pathname})
-
-snippet mktime
-	mktime()
+	mkdir(${1:string $pathname})${0}
 
 snippet money_format
-	money_format(${1:string $format}, ${2:float $number})
+	money_format(${1:string $format}, ${2:float $number})${0}
 
 snippet mongodb.bson_fromjson
-	mongodb.bson_fromjson(${1:string $json})
+	mongodb.bson_fromjson(${1:string $json})${0}
 
 snippet mongodb.bson_fromphp
-	mongodb.bson_fromphp(${1:array|object $value})
+	mongodb.bson_fromphp(${1:array|object $value})${0}
 
 snippet mongodb.bson_tojson
-	mongodb.bson_tojson(${1:string $bson})
-
-snippet mongodb.bson_tophp
-	mongodb.bson_tophp(${1:string $bson})
+	mongodb.bson_tojson(${1:string $bson})${0}
 
 snippet move_uploaded_file
-	move_uploaded_file(${1:string $filename}, ${2:string $destination})
+	move_uploaded_file(${1:string $filename}, ${2:string $destination})${0}
 
 snippet msg_get_queue
-	msg_get_queue(${1:int $key})
+	msg_get_queue(${1:int $key})${0}
 
 snippet msg_queue_exists
-	msg_queue_exists(${1:int $key})
+	msg_queue_exists(${1:int $key})${0}
 
 snippet msg_receive
-	msg_receive(${1:resource $queue}, ${2:int $desiredmsgtype}, ${3:int &$msgtype}, ${4:int $maxsize}, ${5:mixed &$message})
+	msg_receive(${1:resource $queue}, ${2:int $desiredmsgtype}, ${3:int &$msgtype}, ${4:int $maxsize}, ${5:mixed &$message})${0}
 
 snippet msg_remove_queue
-	msg_remove_queue(${1:resource $queue})
+	msg_remove_queue(${1:resource $queue})${0}
 
 snippet msg_send
-	msg_send(${1:resource $queue}, ${2:int $msgtype}, ${3:mixed $message})
+	msg_send(${1:resource $queue}, ${2:int $msgtype}, ${3:mixed $message})${0}
 
 snippet msg_set_queue
-	msg_set_queue(${1:resource $queue}, ${2:array $data})
+	msg_set_queue(${1:resource $queue}, ${2:array $data})${0}
 
 snippet msg_stat_queue
-	msg_stat_queue(${1:resource $queue})
+	msg_stat_queue(${1:resource $queue})${0}
 
 snippet msql_affected_rows
-	msql_affected_rows(${1:resource $result})
+	msql_affected_rows(${1:resource $result})${0}
 
 snippet msql_close
-	msql_close()
+	msql_close()${0}
 
 snippet msql_connect
-	msql_connect()
+	msql_connect()${0}
 
 snippet msql_create_db
-	msql_create_db(${1:string $database_name})
+	msql_create_db(${1:string $database_name})${0}
 
 snippet msql_data_seek
-	msql_data_seek(${1:resource $result}, ${2:int $row_number})
+	msql_data_seek(${1:resource $result}, ${2:int $row_number})${0}
 
 snippet msql_db_query
-	msql_db_query(${1:string $database}, ${2:string $query})
+	msql_db_query(${1:string $database}, ${2:string $query})${0}
 
 snippet msql_drop_db
-	msql_drop_db(${1:string $database_name ~})
+	msql_drop_db(${1:string $database_name})${0}
 
 snippet msql_error
-	msql_error(${1:void})
+	msql_error(${1:void})${0}
 
 snippet msql_fetch_array
-	msql_fetch_array(${1:resource $result})
+	msql_fetch_array(${1:resource $result})${0}
 
 snippet msql_fetch_field
-	msql_fetch_field(${1:resource $result})
+	msql_fetch_field(${1:resource $result})${0}
 
 snippet msql_fetch_object
-	msql_fetch_object(${1:resource $result})
+	msql_fetch_object(${1:resource $result})${0}
 
 snippet msql_fetch_row
-	msql_fetch_row(${1:resource $result})
+	msql_fetch_row(${1:resource $result})${0}
 
 snippet msql_field_flags
-	msql_field_flags(${1:resource $result}, ${2:int $field_offset})
+	msql_field_flags(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet msql_field_len
-	msql_field_len(${1:resource $result}, ${2:int $field_offset})
+	msql_field_len(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet msql_field_name
-	msql_field_name(${1:resource $result}, ${2:int $field_offset})
+	msql_field_name(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet msql_field_seek
-	msql_field_seek(${1:resource $result}, ${2:int $field_offset})
+	msql_field_seek(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet msql_field_table
-	msql_field_table(${1:resource $result}, ${2:int $field_offset})
+	msql_field_table(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet msql_field_type
-	msql_field_type(${1:resource $result}, ${2:int $field_offset})
+	msql_field_type(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet msql_free_result
-	msql_free_result(${1:resource $result})
+	msql_free_result(${1:resource $result})${0}
 
 snippet msql_list_dbs
-	msql_list_dbs()
+	msql_list_dbs()${0}
 
 snippet msql_list_fields
-	msql_list_fields(${1:string $database}, ${2:string $tablename})
+	msql_list_fields(${1:string $database}, ${2:string $tablename})${0}
 
 snippet msql_list_tables
-	msql_list_tables(${1:string $database})
+	msql_list_tables(${1:string $database})${0}
 
 snippet msql_num_fields
-	msql_num_fields(${1:resource $result})
+	msql_num_fields(${1:resource $result})${0}
 
 snippet msql_num_rows
-	msql_num_rows(${1:resource $query_identifier})
+	msql_num_rows(${1:resource $query_identifier})${0}
 
 snippet msql_pconnect
-	msql_pconnect()
+	msql_pconnect()${0}
 
 snippet msql_query
-	msql_query(${1:string $query})
+	msql_query(${1:string $query})${0}
 
 snippet msql_result
-	msql_result(${1:resource $result}, ${2:int $row})
+	msql_result(${1:resource $result}, ${2:int $row})${0}
 
 snippet msql_select_db
-	msql_select_db(${1:string $database_name})
+	msql_select_db(${1:string $database_name})${0}
 
 snippet mt_getrandmax
-	mt_getrandmax(${1:void})
+	mt_getrandmax(${1:void})${0}
 
 snippet mt_rand
-	mt_rand(${1:void})
+	mt_rand(${1:void})${0}
 
 snippet mt_srand
-	mt_srand()
+	mt_srand()${0}
 
 snippet mysql_affected_rows
-	mysql_affected_rows()
+	mysql_affected_rows()${0}
 
 snippet mysql_client_encoding
-	mysql_client_encoding()
+	mysql_client_encoding()${0}
 
 snippet mysql_close
-	mysql_close()
-
-snippet mysql_connect
-	mysql_connect()
+	mysql_close()${0}
 
 snippet mysql_create_db
-	mysql_create_db(${1:string $database_name})
+	mysql_create_db(${1:string $database_name})${0}
 
 snippet mysql_data_seek
-	mysql_data_seek(${1:resource $result}, ${2:int $row_number})
+	mysql_data_seek(${1:resource $result}, ${2:int $row_number})${0}
 
 snippet mysql_db_name
-	mysql_db_name(${1:resource $result}, ${2:int $row})
+	mysql_db_name(${1:resource $result}, ${2:int $row})${0}
 
 snippet mysql_db_query
-	mysql_db_query(${1:string $database}, ${2:string $query})
+	mysql_db_query(${1:string $database}, ${2:string $query})${0}
 
 snippet mysql_drop_db
-	mysql_drop_db(${1:string $database_name})
+	mysql_drop_db(${1:string $database_name})${0}
 
 snippet mysql_errno
-	mysql_errno()
+	mysql_errno()${0}
 
 snippet mysql_error
-	mysql_error()
+	mysql_error()${0}
 
 snippet mysql_escape_string
-	mysql_escape_string(${1:string $unescaped_string})
+	mysql_escape_string(${1:string $unescaped_string})${0}
 
 snippet mysql_fetch_array
-	mysql_fetch_array(${1:resource $result})
+	mysql_fetch_array(${1:resource $result})${0}
 
 snippet mysql_fetch_assoc
-	mysql_fetch_assoc(${1:resource $result})
+	mysql_fetch_assoc(${1:resource $result})${0}
 
 snippet mysql_fetch_field
-	mysql_fetch_field(${1:resource $result})
+	mysql_fetch_field(${1:resource $result})${0}
 
 snippet mysql_fetch_lengths
-	mysql_fetch_lengths(${1:resource $result})
+	mysql_fetch_lengths(${1:resource $result})${0}
 
 snippet mysql_fetch_object
-	mysql_fetch_object(${1:resource $result})
+	mysql_fetch_object(${1:resource $result})${0}
 
 snippet mysql_fetch_row
-	mysql_fetch_row(${1:resource $result})
+	mysql_fetch_row(${1:resource $result})${0}
 
 snippet mysql_field_flags
-	mysql_field_flags(${1:resource $result}, ${2:int $field_offset})
+	mysql_field_flags(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet mysql_field_len
-	mysql_field_len(${1:resource $result}, ${2:int $field_offset})
+	mysql_field_len(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet mysql_field_name
-	mysql_field_name(${1:resource $result}, ${2:int $field_offset})
+	mysql_field_name(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet mysql_field_seek
-	mysql_field_seek(${1:resource $result}, ${2:int $field_offset})
+	mysql_field_seek(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet mysql_field_table
-	mysql_field_table(${1:resource $result}, ${2:int $field_offset})
+	mysql_field_table(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet mysql_field_type
-	mysql_field_type(${1:resource $result}, ${2:int $field_offset})
+	mysql_field_type(${1:resource $result}, ${2:int $field_offset})${0}
 
 snippet mysql_free_result
-	mysql_free_result(${1:resource $result})
+	mysql_free_result(${1:resource $result})${0}
 
 snippet mysql_get_client_info
-	mysql_get_client_info(${1:void})
+	mysql_get_client_info(${1:void})${0}
 
 snippet mysql_get_host_info
-	mysql_get_host_info()
+	mysql_get_host_info()${0}
 
 snippet mysql_get_proto_info
-	mysql_get_proto_info()
+	mysql_get_proto_info()${0}
 
 snippet mysql_get_server_info
-	mysql_get_server_info()
+	mysql_get_server_info()${0}
 
 snippet mysql_info
-	mysql_info()
+	mysql_info()${0}
 
 snippet mysql_insert_id
-	mysql_insert_id()
+	mysql_insert_id()${0}
 
 snippet mysql_list_dbs
-	mysql_list_dbs()
+	mysql_list_dbs()${0}
 
 snippet mysql_list_fields
-	mysql_list_fields(${1:string $database_name}, ${2:string $table_name})
+	mysql_list_fields(${1:string $database_name}, ${2:string $table_name})${0}
 
 snippet mysql_list_processes
-	mysql_list_processes()
+	mysql_list_processes()${0}
 
 snippet mysql_list_tables
-	mysql_list_tables(${1:string $database})
+	mysql_list_tables(${1:string $database})${0}
 
 snippet mysql_num_fields
-	mysql_num_fields(${1:resource $result})
+	mysql_num_fields(${1:resource $result})${0}
 
 snippet mysql_num_rows
-	mysql_num_rows(${1:resource $result})
-
-snippet mysql_pconnect
-	mysql_pconnect(${1:~})
+	mysql_num_rows(${1:resource $result})${0}
 
 snippet mysql_ping
-	mysql_ping()
+	mysql_ping()${0}
 
 snippet mysql_query
-	mysql_query(${1:string $query})
+	mysql_query(${1:string $query})${0}
 
 snippet mysql_real_escape_string
-	mysql_real_escape_string(${1:string $unescaped_string})
+	mysql_real_escape_string(${1:string $unescaped_string})${0}
 
 snippet mysql_result
-	mysql_result(${1:resource $result}, ${2:int $row})
+	mysql_result(${1:resource $result}, ${2:int $row})${0}
 
 snippet mysql_select_db
-	mysql_select_db(${1:string $database_name})
+	mysql_select_db(${1:string $database_name})${0}
 
 snippet mysql_set_charset
-	mysql_set_charset(${1:string $charset})
+	mysql_set_charset(${1:string $charset})${0}
 
 snippet mysql_stat
-	mysql_stat()
+	mysql_stat()${0}
 
 snippet mysql_tablename
-	mysql_tablename(${1:resource $result}, ${2:int $i})
+	mysql_tablename(${1:resource $result}, ${2:int $i})${0}
 
 snippet mysql_thread_id
-	mysql_thread_id()
+	mysql_thread_id()${0}
 
 snippet mysql_unbuffered_query
-	mysql_unbuffered_query(${1:string $query})
+	mysql_unbuffered_query(${1:string $query})${0}
 
 snippet mysqli_disable_reads_from_master
-	mysqli_disable_reads_from_master(${1:void})
+	mysqli_disable_reads_from_master(${1:void})${0}
 
 snippet mysqli_disable_rpl_parse
-	mysqli_disable_rpl_parse(${1:mysqli $link})
+	mysqli_disable_rpl_parse(${1:mysqli $link})${0}
 
 snippet mysqli_enable_reads_from_master
-	mysqli_enable_reads_from_master(${1:mysqli $link})
+	mysqli_enable_reads_from_master(${1:mysqli $link})${0}
 
 snippet mysqli_enable_rpl_parse
-	mysqli_enable_rpl_parse(${1:mysqli $link})
+	mysqli_enable_rpl_parse(${1:mysqli $link})${0}
 
 snippet mysqli_get_cache_stats
-	mysqli_get_cache_stats(${1:void})
+	mysqli_get_cache_stats(${1:void})${0}
 
 snippet mysqli_get_links_stats
-	mysqli_get_links_stats(${1:void})
+	mysqli_get_links_stats(${1:void})${0}
 
 snippet mysqli_master_query
-	mysqli_master_query(${1:mysqli $link}, ${2:string $query})
+	mysqli_master_query(${1:mysqli $link}, ${2:string $query})${0}
 
 snippet mysqli_rpl_parse_enabled
-	mysqli_rpl_parse_enabled(${1:mysqli $link})
+	mysqli_rpl_parse_enabled(${1:mysqli $link})${0}
 
 snippet mysqli_rpl_probe
-	mysqli_rpl_probe(${1:mysqli $link})
+	mysqli_rpl_probe(${1:mysqli $link})${0}
 
 snippet mysqli_slave_query
-	mysqli_slave_query(${1:mysqli $link}, ${2:string $query})
+	mysqli_slave_query(${1:mysqli $link}, ${2:string $query})${0}
 
 snippet natcasesort
-	natcasesort(${1:array &$array})
+	natcasesort(${1:array &$array})${0}
 
 snippet natsort
-	natsort(${1:array &$array})
+	natsort(${1:array &$array})${0}
 
 snippet next
-	next(${1:array &$array})
+	next(${1:array &$array})${0}
 
 snippet ngettext
-	ngettext(${1:string $msgid1}, ${2:string $msgid2}, ${3:int $n})
+	ngettext(${1:string $msgid1}, ${2:string $msgid2}, ${3:int $n})${0}
 
 snippet nl_langinfo
-	nl_langinfo(${1:int $item})
+	nl_langinfo(${1:int $item})${0}
 
 snippet nl2br
-	nl2br(${1:string $string})
+	nl2br(${1:string $string})${0}
 
 snippet nsapi_request_headers
-	nsapi_request_headers(${1:void})
+	nsapi_request_headers(${1:void})${0}
 
 snippet nsapi_response_headers
-	nsapi_response_headers(${1:void})
+	nsapi_response_headers(${1:void})${0}
 
 snippet nsapi_virtual
-	nsapi_virtual(${1:string $uri})
+	nsapi_virtual(${1:string $uri})${0}
 
 snippet nthmac
-	nthmac(${1:string $clent}, ${2:string $data})
+	nthmac(${1:string $clent}, ${2:string $data})${0}
 
 snippet number_format
-	number_format(${1:float $number})
+	number_format(${1:float $number})${0}
 
 snippet oauth_get_sbs
-	oauth_get_sbs(${1:string $http_method}, ${2:string $uri})
+	oauth_get_sbs(${1:string $http_method}, ${2:string $uri})${0}
 
 snippet oauth_urlencode
-	oauth_urlencode(${1:string $uri})
+	oauth_urlencode(${1:string $uri})${0}
 
 snippet octdec
-	octdec(${1:string $octal_string})
+	octdec(${1:string $octal_string})${0}
 
 snippet opendir
-	opendir(${1:string $path})
+	opendir(${1:string $path})${0}
 
 snippet openlog
-	openlog(${1:string $ident}, ${2:int $option}, ${3:int $facility})
+	openlog(${1:string $ident}, ${2:int $option}, ${3:int $facility})${0}
 
 snippet ord
-	ord(${1:string $string})
+	ord(${1:string $string})${0}
 
 snippet output_add_rewrite_var
-	output_add_rewrite_var(${1:string $name}, ${2:string $value})
+	output_add_rewrite_var(${1:string $name}, ${2:string $value})${0}
 
 snippet output_reset_rewrite_vars
-	output_reset_rewrite_vars(${1:void})
+	output_reset_rewrite_vars(${1:void})${0}
 
 snippet override_function
-	override_function(${1:string $function_name}, ${2:string $function_args}, ${3:string $function_code})
+	override_function(${1:string $function_name}, ${2:string $function_args}, ${3:string $function_code})${0}
 
 snippet pack
-	pack(${1:string $format})
+	pack(${1:string $format})${0}
 
 snippet parse_ini_file
-	parse_ini_file(${1:string $filename})
+	parse_ini_file(${1:string $filename})${0}
 
 snippet parse_ini_string
-	parse_ini_string(${1:string $ini})
+	parse_ini_string(${1:string $ini})${0}
 
 snippet parse_str
-	parse_str(${1:string $encoded_string})
+	parse_str(${1:string $encoded_string})${0}
 
 snippet parse_url
-	parse_url(${1:string $url})
+	parse_url(${1:string $url})${0}
 
 snippet parsekit_compile_file
-	parsekit_compile_file(${1:string $filename})
+	parsekit_compile_file(${1:string $filename})${0}
 
 snippet parsekit_compile_string
-	parsekit_compile_string(${1:string $phpcode})
+	parsekit_compile_string(${1:string $phpcode})${0}
 
 snippet parsekit_func_arginfo
-	parsekit_func_arginfo(${1:mixed $function})
+	parsekit_func_arginfo(${1:mixed $function})${0}
 
 snippet passthru
-	passthru(${1:string $command})
+	passthru(${1:string $command})${0}
 
 snippet password_get_info
-	password_get_info(${1:string $hash})
+	password_get_info(${1:string $hash})${0}
 
 snippet password_hash
-	password_hash(${1:string $password}, ${2:integer $algo})
+	password_hash(${1:string $password}, ${2:integer $algo})${0}
 
 snippet password_needs_rehash
-	password_needs_rehash(${1:string $hash}, ${2:integer $algo})
+	password_needs_rehash(${1:string $hash}, ${2:integer $algo})${0}
 
 snippet password_verify
-	password_verify(${1:string $password}, ${2:string $hash})
+	password_verify(${1:string $password}, ${2:string $hash})${0}
 
 snippet pathinfo
-	pathinfo(${1:string $path})
+	pathinfo(${1:string $path})${0}
 
 snippet pclose
-	pclose(${1:resource $handle})
+	pclose(${1:resource $handle})${0}
 
 snippet pcntl_alarm
-	pcntl_alarm(${1:int $seconds})
+	pcntl_alarm(${1:int $seconds})${0}
 
 snippet pcntl_exec
-	pcntl_exec(${1:string $path})
+	pcntl_exec(${1:string $path})${0}
 
 snippet pcntl_fork
-	pcntl_fork(${1:void})
+	pcntl_fork(${1:void})${0}
 
 snippet pcntl_get_last_error
-	pcntl_get_last_error(${1:void})
-
-snippet pcntl_getpriority
-	pcntl_getpriority()
-
-snippet pcntl_setpriority
-	pcntl_setpriority(${1:int $priority})
+	pcntl_get_last_error(${1:void})${0}
 
 snippet pcntl_signal_dispatch
-	pcntl_signal_dispatch(${1:void})
+	pcntl_signal_dispatch(${1:void})${0}
 
 snippet pcntl_signal_get_handler
-	pcntl_signal_get_handler(${1:int $signo})
+	pcntl_signal_get_handler(${1:int $signo})${0}
 
 snippet pcntl_signal
-	pcntl_signal(${1:int $signo}, ${2:callable|int $handler})
+	pcntl_signal(${1:int $signo}, ${2:callable|int $handler})${0}
 
 snippet pcntl_sigprocmask
-	pcntl_sigprocmask(${1:int $how}, ${2:array $set})
+	pcntl_sigprocmask(${1:int $how}, ${2:array $set})${0}
 
 snippet pcntl_sigtimedwait
-	pcntl_sigtimedwait(${1:array $set})
+	pcntl_sigtimedwait(${1:array $set})${0}
 
 snippet pcntl_sigwaitinfo
-	pcntl_sigwaitinfo(${1:array $set})
+	pcntl_sigwaitinfo(${1:array $set})${0}
 
 snippet pcntl_strerror
-	pcntl_strerror(${1:int $errno})
+	pcntl_strerror(${1:int $errno})${0}
 
 snippet pcntl_wait
-	pcntl_wait(${1:int &$status})
+	pcntl_wait(${1:int &$status})${0}
 
 snippet pcntl_waitpid
-	pcntl_waitpid(${1:int $pid}, ${2:int &$status})
+	pcntl_waitpid(${1:int $pid}, ${2:int &$status})${0}
 
 snippet pcntl_wexitstatus
-	pcntl_wexitstatus(${1:int $status})
+	pcntl_wexitstatus(${1:int $status})${0}
 
 snippet pcntl_wifexited
-	pcntl_wifexited(${1:int $status})
+	pcntl_wifexited(${1:int $status})${0}
 
 snippet pcntl_wifsignaled
-	pcntl_wifsignaled(${1:int $status})
+	pcntl_wifsignaled(${1:int $status})${0}
 
 snippet pcntl_wifstopped
-	pcntl_wifstopped(${1:int $status})
+	pcntl_wifstopped(${1:int $status})${0}
 
 snippet pcntl_wstopsig
-	pcntl_wstopsig(${1:int $status})
+	pcntl_wstopsig(${1:int $status})${0}
 
 snippet pcntl_wtermsig
-	pcntl_wtermsig(${1:int $status})
-
-snippet pfsockopen
-	pfsockopen(${1:string $hostname})
+	pcntl_wtermsig(${1:int $status})${0}
 
 snippet php_check_syntax
-	php_check_syntax(${1:string $filename})
+	php_check_syntax(${1:string $filename})${0}
 
 snippet php_ini_loaded_file
-	php_ini_loaded_file(${1:void})
+	php_ini_loaded_file(${1:void})${0}
 
 snippet php_ini_scanned_files
-	php_ini_scanned_files(${1:void})
+	php_ini_scanned_files(${1:void})${0}
 
 snippet php_logo_guid
-	php_logo_guid(${1:void})
+	php_logo_guid(${1:void})${0}
 
 snippet php_sapi_name
-	php_sapi_name(${1:void})
+	php_sapi_name(${1:void})${0}
 
 snippet php_strip_whitespace
-	php_strip_whitespace(${1:string $filename})
+	php_strip_whitespace(${1:string $filename})${0}
 
 snippet php_uname
-	php_uname()
+	php_uname()${0}
 
 snippet phpcredits
-	phpcredits()
+	phpcredits()${0}
 
 snippet phpinfo
-	phpinfo()
+	phpinfo()${0}
 
 snippet phpversion
-	phpversion()
+	phpversion()${0}
 
 snippet pi
-	pi(${1:void})
+	pi(${1:void})${0}
 
 snippet png2wbmp
-	png2wbmp(${1:string $pngname}, ${2:string $wbmpname}, ${3:int $dest_height}, ${4:int $dest_width}, ${5:int $threshold})
+	png2wbmp(${1:string $pngname}, ${2:string $wbmpname}, ${3:int $dest_height}, ${4:int $dest_width}, ${5:int $threshold})${0}
 
 snippet popen
-	popen(${1:string $command}, ${2:string $mode})
+	popen(${1:string $command}, ${2:string $mode})${0}
 
 snippet pow
-	pow(${1:number $base}, ${2:number $exp})
+	pow(${1:number $base}, ${2:number $exp})${0}
 
 snippet preg_filter
-	preg_filter(${1:mixed $pattern}, ${2:mixed $replacement}, ${3:mixed $subject})
+	preg_filter(${1:mixed $pattern}, ${2:mixed $replacement}, ${3:mixed $subject})${0}
 
 snippet preg_grep
-	preg_grep(${1:string $pattern}, ${2:array $input})
+	preg_grep(${1:string $pattern}, ${2:array $input})${0}
 
 snippet preg_last_error
-	preg_last_error(${1:void})
+	preg_last_error(${1:void})${0}
 
 snippet preg_match_all
-	preg_match_all(${1:string $pattern}, ${2:string $subject})
+	preg_match_all(${1:string $pattern}, ${2:string $subject})${0}
 
 snippet preg_match
-	preg_match(${1:string $pattern}, ${2:string $subject})
+	preg_match(${1:string $pattern}, ${2:string $subject})${0}
 
 snippet preg_quote
-	preg_quote(${1:string $str})
+	preg_quote(${1:string $str})${0}
 
 snippet preg_replace_callback_array
-	preg_replace_callback_array(${1:array $patterns_and_callbacks}, ${2:mixed$subject})
+	preg_replace_callback_array(${1:array $patterns_and_callbacks}, ${2:mixed    $subject})${0}
 
 snippet preg_replace_callback
-	preg_replace_callback(${1:mixed $pattern}, ${2:callable $callback}, ${3:mixed$subject})
+	preg_replace_callback(${1:mixed $pattern}, ${2:callable $callback}, ${3:mixed    $subject})${0}
 
 snippet preg_replace
-	preg_replace(${1:mixed $pattern}, ${2:mixed $replacement}, ${3:mixed $subject})
+	preg_replace(${1:mixed $pattern}, ${2:mixed $replacement}, ${3:mixed $subject})${0}
 
 snippet preg_split
-	preg_split(${1:string $pattern}, ${2:string $subject})
+	preg_split(${1:string $pattern}, ${2:string $subject})${0}
 
 snippet prev
-	prev(${1:array &$array})
+	prev(${1:array &$array})${0}
 
 snippet print_r
-	print_r(${1:mixed $expression})
+	print_r(${1:mixed $expression})${0}
 
 snippet print
-	print(${1:string $arg})
+	print(${1:string $arg})${0}
 
 snippet printf
-	printf(${1:string $format})
+	printf(${1:string $format})${0}
 
 snippet proc_close
-	proc_close(${1:resource $process})
+	proc_close(${1:resource $process})${0}
 
 snippet proc_get_status
-	proc_get_status(${1:resource $process})
+	proc_get_status(${1:resource $process})${0}
 
 snippet proc_nice
-	proc_nice(${1:int $increment})
+	proc_nice(${1:int $increment})${0}
 
 snippet proc_open
-	proc_open(${1:string $cmd}, ${2:array $descriptorspec}, ${3:array &$pipes})
+	proc_open(${1:string $cmd}, ${2:array $descriptorspec}, ${3:array &$pipes})${0}
 
 snippet proc_terminate
-	proc_terminate(${1:resource $process})
+	proc_terminate(${1:resource $process})${0}
 
 snippet property_exists
-	property_exists(${1:mixed $class}, ${2:string $property})
+	property_exists(${1:mixed $class}, ${2:string $property})${0}
 
 snippet putenv
-	putenv(${1:string $setting})
+	putenv(${1:string $setting})${0}
 
 snippet quoted_printable_decode
-	quoted_printable_decode(${1:string $str})
+	quoted_printable_decode(${1:string $str})${0}
 
 snippet quoted_printable_encode
-	quoted_printable_encode(${1:string $str})
+	quoted_printable_encode(${1:string $str})${0}
 
 snippet quotemeta
-	quotemeta(${1:string $str})
+	quotemeta(${1:string $str})${0}
 
 snippet rad2deg
-	rad2deg(${1:float $number})
+	rad2deg(${1:float $number})${0}
 
 snippet rand
-	rand(${1:void})
+	rand(${1:void})${0}
 
 snippet random_bytes
-	random_bytes(${1:int $length})
+	random_bytes(${1:int $length})${0}
 
 snippet random_int
-	random_int(${1:int $min}, ${2:int $max})
+	random_int(${1:int $min}, ${2:int $max})${0}
 
 snippet range
-	range(${1:mixed $start}, ${2:mixed $end})
+	range(${1:mixed $start}, ${2:mixed $end})${0}
 
 snippet rar_wrapper_cache_stats
-	rar_wrapper_cache_stats(${1:void})
+	rar_wrapper_cache_stats(${1:void})${0}
 
 snippet rawurldecode
-	rawurldecode(${1:string $str})
+	rawurldecode(${1:string $str})${0}
 
 snippet rawurlencode
-	rawurlencode(${1:string $str})
+	rawurlencode(${1:string $str})${0}
 
 snippet readdir
-	readdir()
+	readdir()${0}
 
 snippet readfile
-	readfile(${1:string $filename})
+	readfile(${1:string $filename})${0}
 
 snippet readgzfile
-	readgzfile(${1:string $filename})
+	readgzfile(${1:string $filename})${0}
 
 snippet readline
-	readline()
+	readline()${0}
 
 snippet readlink
-	readlink(${1:string $path})
+	readlink(${1:string $path})${0}
 
 snippet realpath_cache_get
-	realpath_cache_get(${1:void})
+	realpath_cache_get(${1:void})${0}
 
 snippet realpath_cache_size
-	realpath_cache_size(${1:void})
+	realpath_cache_size(${1:void})${0}
 
 snippet realpath
-	realpath(${1:string $path})
+	realpath(${1:string $path})${0}
 
 snippet recode_file
-	recode_file(${1:string $request}, ${2:resource $input}, ${3:resource $output})
+	recode_file(${1:string $request}, ${2:resource $input}, ${3:resource $output})${0}
 
 snippet recode_string
-	recode_string(${1:string $request}, ${2:string $string})
+	recode_string(${1:string $request}, ${2:string $string})${0}
 
 snippet register_shutdown_function
-	register_shutdown_function(${1:callable $callback})
+	register_shutdown_function(${1:callable $callback})${0}
 
 snippet register_tick_function
-	register_tick_function(${1:callable $function})
+	register_tick_function(${1:callable $function})${0}
 
 snippet rename_function
-	rename_function(${1:string $original_name}, ${2:string $new_name})
+	rename_function(${1:string $original_name}, ${2:string $new_name})${0}
 
 snippet rename
-	rename(${1:string $oldname}, ${2:string $newname})
+	rename(${1:string $oldname}, ${2:string $newname})${0}
 
 snippet reset
-	reset(${1:array &$array})
+	reset(${1:array &$array})${0}
 
 snippet restore_error_handler
-	restore_error_handler(${1:void})
+	restore_error_handler(${1:void})${0}
 
 snippet restore_exception_handler
-	restore_exception_handler(${1:void})
+	restore_exception_handler(${1:void})${0}
 
 snippet restore_include_path
-	restore_include_path(${1:void})
+	restore_include_path(${1:void})${0}
 
 snippet rewind
-	rewind(${1:resource $handle})
+	rewind(${1:resource $handle})${0}
 
 snippet rewinddir
-	rewinddir()
+	rewinddir()${0}
 
 snippet rmdir
-	rmdir(${1:string $dirname})
+	rmdir(${1:string $dirname})${0}
 
 snippet round
-	round(${1:float $val})
+	round(${1:float $val})${0}
 
 snippet rrdc_disconnect
-	rrdc_disconnect(${1:void})
+	rrdc_disconnect(${1:void})${0}
 
 snippet rsort
-	rsort(${1:array &$array})
+	rsort(${1:array &$array})${0}
 
 snippet rtrim
-	rtrim(${1:string $str})
+	rtrim(${1:string $str})${0}
 
 snippet scandir
-	scandir(${1:string $directory})
+	scandir(${1:string $directory})${0}
 
 snippet sem_acquire
-	sem_acquire(${1:resource $sem_identifier})
+	sem_acquire(${1:resource $sem_identifier})${0}
 
 snippet sem_get
-	sem_get(${1:int $key})
+	sem_get(${1:int $key})${0}
 
 snippet sem_release
-	sem_release(${1:resource $sem_identifier})
+	sem_release(${1:resource $sem_identifier})${0}
 
 snippet sem_remove
-	sem_remove(${1:resource $sem_identifier})
+	sem_remove(${1:resource $sem_identifier})${0}
 
 snippet serialize
-	serialize(${1:mixed $value})
+	serialize(${1:mixed $value})${0}
 
 snippet session_abort
-	session_abort(${1:void})
+	session_abort(${1:void})${0}
 
 snippet session_cache_expire
-	session_cache_expire()
+	session_cache_expire()${0}
 
 snippet session_cache_limiter
-	session_cache_limiter()
+	session_cache_limiter()${0}
 
 snippet session_create_id
-	session_create_id()
+	session_create_id()${0}
 
 snippet session_decode
-	session_decode(${1:string $data})
+	session_decode(${1:string $data})${0}
 
 snippet session_destroy
-	session_destroy(${1:void})
+	session_destroy(${1:void})${0}
 
 snippet session_encode
-	session_encode(${1:void})
+	session_encode(${1:void})${0}
 
 snippet session_gc
-	session_gc(${1:void})
+	session_gc(${1:void})${0}
 
 snippet session_get_cookie_params
-	session_get_cookie_params(${1:void})
+	session_get_cookie_params(${1:void})${0}
 
 snippet session_id
-	session_id()
+	session_id()${0}
 
 snippet session_is_registered
-	session_is_registered(${1:string $name})
+	session_is_registered(${1:string $name})${0}
 
 snippet session_module_name
-	session_module_name()
+	session_module_name()${0}
 
 snippet session_name
-	session_name()
+	session_name()${0}
 
 snippet session_pgsql_add_error
-	session_pgsql_add_error(${1:int $error_level})
+	session_pgsql_add_error(${1:int $error_level})${0}
 
 snippet session_pgsql_get_error
-	session_pgsql_get_error()
+	session_pgsql_get_error()${0}
 
 snippet session_pgsql_get_field
-	session_pgsql_get_field(${1:void})
+	session_pgsql_get_field(${1:void})${0}
 
 snippet session_pgsql_reset
-	session_pgsql_reset(${1:void})
+	session_pgsql_reset(${1:void})${0}
 
 snippet session_pgsql_set_field
-	session_pgsql_set_field(${1:string $value})
+	session_pgsql_set_field(${1:string $value})${0}
 
 snippet session_pgsql_status
-	session_pgsql_status(${1:void})
+	session_pgsql_status(${1:void})${0}
 
 snippet session_regenerate_id
-	session_regenerate_id()
+	session_regenerate_id()${0}
 
 snippet session_register_shutdown
-	session_register_shutdown(${1:void})
+	session_register_shutdown(${1:void})${0}
 
 snippet session_register
-	session_register(${1:mixed $name})
+	session_register(${1:mixed $name})${0}
 
 snippet session_reset
-	session_reset(${1:void})
+	session_reset(${1:void})${0}
 
 snippet session_save_path
-	session_save_path()
+	session_save_path()${0}
 
 snippet session_set_cookie_params
-	session_set_cookie_params(${1:int $lifetime})
+	session_set_cookie_params(${1:int $lifetime})${0}
 
 snippet session_set_save_handler
-	session_set_save_handler(${1:callable $open}, ${2:callable $close}, ${3:callable $read}, ${4:callable $write}, ${5:callable $destroy}, ${6:callable $gc})
+	session_set_save_handler(${1:callable $open}, ${2:callable $close}, ${3:callable $read}, ${4:callable $write}, ${5:callable $destroy}, ${6:callable $gc})${0}
 
 snippet session_start
-	session_start()
+	session_start()${0}
 
 snippet session_status
-	session_status(${1:void})
+	session_status(${1:void})${0}
 
 snippet session_unregister
-	session_unregister(${1:string $name})
+	session_unregister(${1:string $name})${0}
 
 snippet session_unset
-	session_unset(${1:void})
+	session_unset(${1:void})${0}
 
 snippet session_write_close
-	session_write_close(${1:void})
+	session_write_close(${1:void})${0}
 
 snippet set_error_handler
-	set_error_handler(${1:callable $error_handler})
+	set_error_handler(${1:callable $error_handler})${0}
 
 snippet set_exception_handler
-	set_exception_handler(${1:callable $exception_handler})
+	set_exception_handler(${1:callable $exception_handler})${0}
 
 snippet set_include_path
-	set_include_path(${1:string $new_include_path})
+	set_include_path(${1:string $new_include_path})${0}
 
 snippet set_magic_quotes_runtime
-	set_magic_quotes_runtime(${1:bool $new_setting})
+	set_magic_quotes_runtime(${1:bool $new_setting})${0}
 
 snippet set_time_limit
-	set_time_limit(${1:int $seconds})
+	set_time_limit(${1:int $seconds})${0}
 
 snippet setcookie
-	setcookie(${1:string $name})
+	setcookie(${1:string $name})${0}
 
 snippet setlocale
-	setlocale(${1:int $category}, ${2:string $locale})
+	setlocale(${1:int $category}, ${2:string $locale})${0}
 
 snippet setproctitle
-	setproctitle(${1:string $title})
+	setproctitle(${1:string $title})${0}
 
 snippet setrawcookie
-	setrawcookie(${1:string $name})
+	setrawcookie(${1:string $name})${0}
 
 snippet setthreadtitle
-	setthreadtitle(${1:string $title})
+	setthreadtitle(${1:string $title})${0}
 
 snippet settype
-	settype(${1:mixed &$var}, ${2:string $type})
+	settype(${1:mixed &$var}, ${2:string $type})${0}
 
 snippet sha1_file
-	sha1_file(${1:string $filename})
+	sha1_file(${1:string $filename})${0}
 
 snippet sha1
-	sha1(${1:string $str})
+	sha1(${1:string $str})${0}
 
 snippet shell_exec
-	shell_exec(${1:string $cmd})
+	shell_exec(${1:string $cmd})${0}
 
 snippet shuffle
-	shuffle(${1:array &$array})
+	shuffle(${1:array &$array})${0}
 
 snippet signeurlpaiement
-	signeurlpaiement(${1:string $clent}, ${2:string $data})
+	signeurlpaiement(${1:string $clent}, ${2:string $data})${0}
 
 snippet similar_text
-	similar_text(${1:string $first}, ${2:string $second})
+	similar_text(${1:string $first}, ${2:string $second})${0}
 
 snippet simplexml_import_dom
-	simplexml_import_dom(${1:DOMNode $node})
+	simplexml_import_dom(${1:DOMNode $node})${0}
 
 snippet simplexml_load_file
-	simplexml_load_file(${1:string $filename})
+	simplexml_load_file(${1:string $filename})${0}
 
 snippet simplexml_load_string
-	simplexml_load_string(${1:string $data})
+	simplexml_load_string(${1:string $data})${0}
 
 snippet sin
-	sin(${1:float $arg})
+	sin(${1:float $arg})${0}
 
 snippet sinh
-	sinh(${1:float $arg})
+	sinh(${1:float $arg})${0}
 
 snippet sleep
-	sleep(${1:int $seconds})
+	sleep(${1:int $seconds})${0}
 
 snippet socket_accept
-	socket_accept(${1:resource $socket})
+	socket_accept(${1:resource $socket})${0}
 
 snippet socket_bind
-	socket_bind(${1:resource $socket}, ${2:string $address ~})
+	socket_bind(${1:resource $socket}, ${2:string $address})${0}
 
 snippet socket_clear_error
-	socket_clear_error()
+	socket_clear_error()${0}
 
 snippet socket_close
-	socket_close(${1:resource $socket})
+	socket_close(${1:resource $socket})${0}
 
 snippet socket_cmsg_space
-	socket_cmsg_space(${1:int $level}, ${2:int $type})
+	socket_cmsg_space(${1:int $level}, ${2:int $type})${0}
 
 snippet socket_connect
-	socket_connect(${1:resource $socket}, ${2:string $address})
+	socket_connect(${1:resource $socket}, ${2:string $address})${0}
 
 snippet socket_create_listen
-	socket_create_listen(${1:int $port})
+	socket_create_listen(${1:int $port})${0}
 
 snippet socket_create_pair
-	socket_create_pair(${1:int $domain}, ${2:int $type}, ${3:int $protocol}, ${4:array&$fd})
+	socket_create_pair(${1:int $domain}, ${2:int $type}, ${3:int $protocol}, ${4:array    &$fd})${0}
 
 snippet socket_create
-	socket_create(${1:int $domain}, ${2:int $type}, ${3:int $protocol})
+	socket_create(${1:int $domain}, ${2:int $type}, ${3:int $protocol})${0}
 
 snippet socket_get_option
-	socket_get_option(${1:resource $socket}, ${2:int $level}, ${3:int $optname})
+	socket_get_option(${1:resource $socket}, ${2:int $level}, ${3:int $optname})${0}
 
 snippet socket_getpeername
-	socket_getpeername(${1:resource $socket}, ${2:string &$address})
+	socket_getpeername(${1:resource $socket}, ${2:string &$address})${0}
 
 snippet socket_getsockname
-	socket_getsockname(${1:resource $socket}, ${2:string &$addr})
+	socket_getsockname(${1:resource $socket}, ${2:string &$addr})${0}
 
 snippet socket_import_stream
-	socket_import_stream(${1:resource $stream})
+	socket_import_stream(${1:resource $stream})${0}
 
 snippet socket_last_error
-	socket_last_error()
+	socket_last_error()${0}
 
 snippet socket_listen
-	socket_listen(${1:resource $socket})
+	socket_listen(${1:resource $socket})${0}
 
 snippet socket_read
-	socket_read(${1:resource $socket}, ${2:int $length})
+	socket_read(${1:resource $socket}, ${2:int $length})${0}
 
 snippet socket_recv
-	socket_recv(${1:resource $socket}, ${2:string &$buf}, ${3:int $len}, ${4:int $flags~})
+	socket_recv(${1:resource $socket}, ${2:string &$buf}, ${3:int $len}, ${4:int $flags})${0}
 
 snippet socket_recvfrom
-	socket_recvfrom(${1:resource $socket}, ${2:string &$buf}, ${3:int $len}, ${4:int$flags}, ${5:string &$name})
+	socket_recvfrom(${1:resource $socket}, ${2:string &$buf}, ${3:int $len}, ${4:int    $flags}, ${5:string &$name})${0}
 
 snippet socket_recvmsg
-	socket_recvmsg(${1:resource $socket}, ${2:string $message})
+	socket_recvmsg(${1:resource $socket}, ${2:string $message})${0}
 
 snippet socket_select
-	socket_select(${1:array &$read}, ${2:array &$write}, ${3:array &$except}, ${4:int$tv_sec})
+	socket_select(${1:array &$read}, ${2:array &$write}, ${3:array &$except}, ${4:int    $tv_sec})${0}
 
 snippet socket_send
-	socket_send(${1:resource $socket}, ${2:string $buf}, ${3:int $len}, ${4:int $flags~})
+	socket_send(${1:resource $socket}, ${2:string $buf}, ${3:int $len}, ${4:int $flags})${0}
 
 snippet socket_sendmsg
-	socket_sendmsg(${1:resource $socket}, ${2:array $message}, ${3:int $flags})
+	socket_sendmsg(${1:resource $socket}, ${2:array $message}, ${3:int $flags})${0}
 
 snippet socket_sendto
-	socket_sendto(${1:resource $socket}, ${2:string $buf}, ${3:int $len}, ${4:int$flags}, ${5:string $addr})
+	socket_sendto(${1:resource $socket}, ${2:string $buf}, ${3:int $len}, ${4:int    $flags}, ${5:string $addr})${0}
 
 snippet socket_set_block
-	socket_set_block(${1:resource $socket})
+	socket_set_block(${1:resource $socket})${0}
 
 snippet socket_set_nonblock
-	socket_set_nonblock(${1:resource $socket})
+	socket_set_nonblock(${1:resource $socket})${0}
 
 snippet socket_set_option
-	socket_set_option(${1:resource $socket}, ${2:int $level}, ${3:int $optname}, ${4:mixed $optval})
+	socket_set_option(${1:resource $socket}, ${2:int $level}, ${3:int $optname}, ${4:mixed $optval})${0}
 
 snippet socket_shutdown
-	socket_shutdown(${1:resource $socket})
+	socket_shutdown(${1:resource $socket})${0}
 
 snippet socket_strerror
-	socket_strerror(${1:int $errno})
+	socket_strerror(${1:int $errno})${0}
 
 snippet socket_write
-	socket_write(${1:resource $socket}, ${2:string $buffer})
+	socket_write(${1:resource $socket}, ${2:string $buffer})${0}
 
 snippet solr_get_version
-	solr_get_version(${1:void})
+	solr_get_version(${1:void})${0}
 
 snippet sort
-	sort(${1:array &$array})
+	sort(${1:array &$array})${0}
 
 snippet soundex
-	soundex(${1:string $str})
+	soundex(${1:string $str})${0}
 
 snippet spl_autoload_call
-	spl_autoload_call(${1:string $class_name})
+	spl_autoload_call(${1:string $class_name})${0}
 
 snippet spl_autoload_extensions
-	spl_autoload_extensions()
+	spl_autoload_extensions()${0}
 
 snippet spl_autoload_functions
-	spl_autoload_functions(${1:void})
+	spl_autoload_functions(${1:void})${0}
 
 snippet spl_autoload_register
-	spl_autoload_register()
+	spl_autoload_register()${0}
 
 snippet spl_autoload_unregister
-	spl_autoload_unregister(${1:mixed $autoload_function})
-
-snippet spl_autoload
-	spl_autoload(${1:string $class_name})
+	spl_autoload_unregister(${1:mixed $autoload_function})${0}
 
 snippet spl_classes
-	spl_classes(${1:void})
+	spl_classes(${1:void})${0}
 
 snippet spl_object_hash
-	spl_object_hash(${1:object $obj})
+	spl_object_hash(${1:object $obj})${0}
 
 snippet split
-	split(${1:string $pattern}, ${2:string $string})
+	split(${1:string $pattern}, ${2:string $string})${0}
 
 snippet spliti
-	spliti(${1:string $pattern}, ${2:string $string})
+	spliti(${1:string $pattern}, ${2:string $string})${0}
 
 snippet sprintf
-	sprintf(${1:string $format})
+	sprintf(${1:string $format})${0}
 
 snippet sql_regcase
-	sql_regcase(${1:string $string})
+	sql_regcase(${1:string $string})${0}
 
 snippet sqrt
-	sqrt(${1:float $arg})
+	sqrt(${1:float $arg})${0}
 
 snippet srand
-	srand()
+	srand()${0}
 
 snippet sscanf
-	sscanf(${1:string $str}, ${2:string $format})
+	sscanf(${1:string $str}, ${2:string $format})${0}
 
 snippet stat
-	stat(${1:string $filename})
+	stat(${1:string $filename})${0}
 
 snippet stomp_connect_error
-	stomp_connect_error(${1:void})
+	stomp_connect_error(${1:void})${0}
 
 snippet stomp_version
-	stomp_version(${1:void})
+	stomp_version(${1:void})${0}
 
 snippet str_getcsv
-	str_getcsv(${1:string $input})
+	str_getcsv(${1:string $input})${0}
 
 snippet str_ireplace
-	str_ireplace(${1:mixed $search}, ${2:mixed $replace}, ${3:mixed $subject})
+	str_ireplace(${1:mixed $search}, ${2:mixed $replace}, ${3:mixed $subject})${0}
 
 snippet str_pad
-	str_pad(${1:string $input}, ${2:int $pad_length})
+	str_pad(${1:string $input}, ${2:int $pad_length})${0}
 
 snippet str_repeat
-	str_repeat(${1:string $input}, ${2:int $multiplier})
+	str_repeat(${1:string $input}, ${2:int $multiplier})${0}
 
 snippet str_replace
-	str_replace(${1:mixed $search}, ${2:mixed $replace}, ${3:mixed $subject})
+	str_replace(${1:mixed $search}, ${2:mixed $replace}, ${3:mixed $subject})${0}
 
 snippet str_rot13
-	str_rot13(${1:string $str})
+	str_rot13(${1:string $str})${0}
 
 snippet str_shuffle
-	str_shuffle(${1:string $str})
+	str_shuffle(${1:string $str})${0}
 
 snippet str_split
-	str_split(${1:string $string})
+	str_split(${1:string $string})${0}
 
 snippet str_word_count
-	str_word_count(${1:string $string})
+	str_word_count(${1:string $string})${0}
 
 snippet strcasecmp
-	strcasecmp(${1:string $str1}, ${2:string $str2})
+	strcasecmp(${1:string $str1}, ${2:string $str2})${0}
 
 snippet strcmp
-	strcmp(${1:string $str1}, ${2:string $str2})
+	strcmp(${1:string $str1}, ${2:string $str2})${0}
 
 snippet strcoll
-	strcoll(${1:string $str1}, ${2:string $str2})
+	strcoll(${1:string $str1}, ${2:string $str2})${0}
 
 snippet strcspn
-	strcspn(${1:string $subject}, ${2:string $mask})
+	strcspn(${1:string $subject}, ${2:string $mask})${0}
 
 snippet stream_bucket_append
-	stream_bucket_append(${1:resource $brigade}, ${2:object $bucket})
+	stream_bucket_append(${1:resource $brigade}, ${2:object $bucket})${0}
 
 snippet stream_bucket_make_writeable
-	stream_bucket_make_writeable(${1:resource $brigade})
+	stream_bucket_make_writeable(${1:resource $brigade})${0}
 
 snippet stream_bucket_new
-	stream_bucket_new(${1:resource $stream}, ${2:string $buffer})
+	stream_bucket_new(${1:resource $stream}, ${2:string $buffer})${0}
 
 snippet stream_bucket_prepend
-	stream_bucket_prepend(${1:resource $brigade}, ${2:object $bucket})
+	stream_bucket_prepend(${1:resource $brigade}, ${2:object $bucket})${0}
 
 snippet stream_context_create
-	stream_context_create()
+	stream_context_create()${0}
 
 snippet stream_context_get_default
-	stream_context_get_default()
+	stream_context_get_default()${0}
 
 snippet stream_context_get_options
-	stream_context_get_options(${1:resource $stream_or_context})
+	stream_context_get_options(${1:resource $stream_or_context})${0}
 
 snippet stream_context_get_params
-	stream_context_get_params(${1:resource $stream_or_context})
+	stream_context_get_params(${1:resource $stream_or_context})${0}
 
 snippet stream_context_set_default
-	stream_context_set_default(${1:array $options})
+	stream_context_set_default(${1:array $options})${0}
 
 snippet stream_context_set_option
-	stream_context_set_option(${1:resource $stream_or_context}, ${2:string$wrapper}, ${3:string $option}, ${4:mixed $value})
+	stream_context_set_option(${1:resource $stream_or_context}, ${2:string    $wrapper}, ${3:string $option}, ${4:mixed $value})${0}
 
 snippet stream_context_set_params
-	stream_context_set_params(${1:resource $stream_or_context}, ${2:array$params})
+	stream_context_set_params(${1:resource $stream_or_context}, ${2:array    $params})${0}
 
 snippet stream_copy_to_stream
-	stream_copy_to_stream(${1:resource $source}, ${2:resource $dest})
+	stream_copy_to_stream(${1:resource $source}, ${2:resource $dest})${0}
 
 snippet stream_encoding
-	stream_encoding(${1:resource $stream})
+	stream_encoding(${1:resource $stream})${0}
 
 snippet stream_filter_append
-	stream_filter_append(${1:resource $stream}, ${2:string $filtername})
+	stream_filter_append(${1:resource $stream}, ${2:string $filtername})${0}
 
 snippet stream_filter_prepend
-	stream_filter_prepend(${1:resource $stream}, ${2:string $filtername})
+	stream_filter_prepend(${1:resource $stream}, ${2:string $filtername})${0}
 
 snippet stream_filter_register
-	stream_filter_register(${1:string $filtername}, ${2:string $classname})
+	stream_filter_register(${1:string $filtername}, ${2:string $classname})${0}
 
 snippet stream_filter_remove
-	stream_filter_remove(${1:resource $stream_filter})
+	stream_filter_remove(${1:resource $stream_filter})${0}
 
 snippet stream_get_contents
-	stream_get_contents(${1:resource $handle})
+	stream_get_contents(${1:resource $handle})${0}
 
 snippet stream_get_filters
-	stream_get_filters(${1:void})
+	stream_get_filters(${1:void})${0}
 
 snippet stream_get_line
-	stream_get_line(${1:resource $handle}, ${2:int $length})
+	stream_get_line(${1:resource $handle}, ${2:int $length})${0}
 
 snippet stream_get_meta_data
-	stream_get_meta_data(${1:resource $stream})
+	stream_get_meta_data(${1:resource $stream})${0}
 
 snippet stream_get_transports
-	stream_get_transports(${1:void})
+	stream_get_transports(${1:void})${0}
 
 snippet stream_get_wrappers
-	stream_get_wrappers(${1:void})
+	stream_get_wrappers(${1:void})${0}
 
 snippet stream_is_local
-	stream_is_local(${1:mixed $stream_or_url})
+	stream_is_local(${1:mixed $stream_or_url})${0}
 
 snippet stream_notification_callback
-	stream_notification_callback(${1:int $notification_code}, ${2:int$severity}, ${3:string $message}, ${4:int $message_code}, ${5:int $bytes_transferred}, ${6:int $bytes_max})
+	stream_notification_callback(${1:int $notification_code}, ${2:int    $severity}, ${3:string $message}, ${4:int $message_code}, ${5:int $bytes_transferred}, ${6:int $bytes_max})${0}
 
 snippet stream_resolve_include_path
-	stream_resolve_include_path(${1:string $filename})
+	stream_resolve_include_path(${1:string $filename})${0}
 
 snippet stream_select
-	stream_select(${1:array &$read}, ${2:array &$write}, ${3:array &$except}, ${4:int$tv_sec})
+	stream_select(${1:array &$read}, ${2:array &$write}, ${3:array &$except}, ${4:int    $tv_sec})${0}
 
 snippet stream_set_blocking
-	stream_set_blocking(${1:resource $stream}, ${2:bool $mode})
+	stream_set_blocking(${1:resource $stream}, ${2:bool $mode})${0}
 
 snippet stream_set_chunk_size
-	stream_set_chunk_size(${1:resource $fp}, ${2:int $chunk_size})
+	stream_set_chunk_size(${1:resource $fp}, ${2:int $chunk_size})${0}
 
 snippet stream_set_read_buffer
-	stream_set_read_buffer(${1:resource $stream}, ${2:int $buffer})
+	stream_set_read_buffer(${1:resource $stream}, ${2:int $buffer})${0}
 
 snippet stream_set_timeout
-	stream_set_timeout(${1:resource $stream}, ${2:int $seconds})
+	stream_set_timeout(${1:resource $stream}, ${2:int $seconds})${0}
 
 snippet stream_set_write_buffer
-	stream_set_write_buffer(${1:resource $stream}, ${2:int $buffer})
-
-snippet stream_socket_accept
-	stream_socket_accept(${1:resource $server_socket})
-
-snippet stream_socket_client
-	stream_socket_client(${1:string $remote_socket})
+	stream_set_write_buffer(${1:resource $stream}, ${2:int $buffer})${0}
 
 snippet stream_socket_enable_crypto
-	stream_socket_enable_crypto(${1:resource $stream}, ${2:bool $enable})
+	stream_socket_enable_crypto(${1:resource $stream}, ${2:bool $enable})${0}
 
 snippet stream_socket_get_name
-	stream_socket_get_name(${1:resource $handle}, ${2:bool $want_peer})
+	stream_socket_get_name(${1:resource $handle}, ${2:bool $want_peer})${0}
 
 snippet stream_socket_pair
-	stream_socket_pair(${1:int $domain}, ${2:int $type}, ${3:int $protocol})
+	stream_socket_pair(${1:int $domain}, ${2:int $type}, ${3:int $protocol})${0}
 
 snippet stream_socket_recvfrom
-	stream_socket_recvfrom(${1:resource $socket}, ${2:int $length})
+	stream_socket_recvfrom(${1:resource $socket}, ${2:int $length})${0}
 
 snippet stream_socket_sendto
-	stream_socket_sendto(${1:resource $socket}, ${2:string $data})
+	stream_socket_sendto(${1:resource $socket}, ${2:string $data})${0}
 
 snippet stream_socket_server
-	stream_socket_server(${1:string $local_socket})
+	stream_socket_server(${1:string $local_socket})${0}
 
 snippet stream_socket_shutdown
-	stream_socket_shutdown(${1:resource $stream}, ${2:int $how})
+	stream_socket_shutdown(${1:resource $stream}, ${2:int $how})${0}
 
 snippet stream_supports_lock
-	stream_supports_lock(${1:resource $stream})
+	stream_supports_lock(${1:resource $stream})${0}
 
 snippet stream_wrapper_register
-	stream_wrapper_register(${1:string $protocol}, ${2:string $classname})
+	stream_wrapper_register(${1:string $protocol}, ${2:string $classname})${0}
 
 snippet stream_wrapper_restore
-	stream_wrapper_restore(${1:string $protocol})
+	stream_wrapper_restore(${1:string $protocol})${0}
 
 snippet stream_wrapper_unregister
-	stream_wrapper_unregister(${1:string $protocol})
-
-snippet strftime
-	strftime(${1:string $format})
+	stream_wrapper_unregister(${1:string $protocol})${0}
 
 snippet strip_tags
-	strip_tags(${1:string $str})
+	strip_tags(${1:string $str})${0}
 
 snippet stripcslashes
-	stripcslashes(${1:string $str})
+	stripcslashes(${1:string $str})${0}
 
 snippet stripos
-	stripos(${1:string $haystack}, ${2:string $needle})
+	stripos(${1:string $haystack}, ${2:string $needle})${0}
 
 snippet stripslashes
-	stripslashes(${1:string $str})
+	stripslashes(${1:string $str})${0}
 
 snippet stristr
-	stristr(${1:string $haystack}, ${2:mixed $needle})
+	stristr(${1:string $haystack}, ${2:mixed $needle})${0}
 
 snippet strlen
-	strlen(${1:string $string})
+	strlen(${1:string $string})${0}
 
 snippet strnatcasecmp
-	strnatcasecmp(${1:string $str1}, ${2:string $str2})
+	strnatcasecmp(${1:string $str1}, ${2:string $str2})${0}
 
 snippet strnatcmp
-	strnatcmp(${1:string $str1}, ${2:string $str2})
+	strnatcmp(${1:string $str1}, ${2:string $str2})${0}
 
 snippet strncasecmp
-	strncasecmp(${1:string $str1}, ${2:string $str2}, ${3:int $len})
+	strncasecmp(${1:string $str1}, ${2:string $str2}, ${3:int $len})${0}
 
 snippet strncmp
-	strncmp(${1:string $str1}, ${2:string $str2}, ${3:int $len})
+	strncmp(${1:string $str1}, ${2:string $str2}, ${3:int $len})${0}
 
 snippet strpbrk
-	strpbrk(${1:string $haystack}, ${2:string $char_list})
+	strpbrk(${1:string $haystack}, ${2:string $char_list})${0}
 
 snippet strpos
-	strpos(${1:string $haystack}, ${2:mixed $needle})
+	strpos(${1:string $haystack}, ${2:mixed $needle})${0}
 
 snippet strptime
-	strptime(${1:string $date}, ${2:string $format})
+	strptime(${1:string $date}, ${2:string $format})${0}
 
 snippet strrchr
-	strrchr(${1:string $haystack}, ${2:mixed $needle})
+	strrchr(${1:string $haystack}, ${2:mixed $needle})${0}
 
 snippet strrev
-	strrev(${1:string $string})
+	strrev(${1:string $string})${0}
 
 snippet strripos
-	strripos(${1:string $haystack}, ${2:string $needle})
+	strripos(${1:string $haystack}, ${2:string $needle})${0}
 
 snippet strrpos
-	strrpos(${1:string $haystack}, ${2:string $needle})
+	strrpos(${1:string $haystack}, ${2:string $needle})${0}
 
 snippet strspn
-	strspn(${1:string $subject}, ${2:string $mask})
+	strspn(${1:string $subject}, ${2:string $mask})${0}
 
 snippet strstr
-	strstr(${1:string $haystack}, ${2:mixed $needle})
+	strstr(${1:string $haystack}, ${2:mixed $needle})${0}
 
 snippet strtok
-	strtok(${1:string $str}, ${2:string $token})
+	strtok(${1:string $str}, ${2:string $token})${0}
 
 snippet strtolower
-	strtolower(${1:string $string})
-
-snippet strtotime
-	strtotime(${1:string $time})
+	strtolower(${1:string $string})${0}
 
 snippet strtoupper
-	strtoupper(${1:string $string})
+	strtoupper(${1:string $string})${0}
 
 snippet strtr
-	strtr(${1:string $str}, ${2:string $from}, ${3:string $to})
+	strtr(${1:string $str}, ${2:string $from}, ${3:string $to})${0}
 
 snippet strval
-	strval(${1:mixed $var})
+	strval(${1:mixed $var})${0}
 
 snippet substr_compare
-	substr_compare(${1:string $main_str}, ${2:string $str}, ${3:int $offset})
+	substr_compare(${1:string $main_str}, ${2:string $str}, ${3:int $offset})${0}
 
 snippet substr_count
-	substr_count(${1:string $haystack}, ${2:string $needle})
+	substr_count(${1:string $haystack}, ${2:string $needle})${0}
 
 snippet substr_replace
-	substr_replace(${1:mixed $string}, ${2:mixed $replacement}, ${3:mixed $start})
+	substr_replace(${1:mixed $string}, ${2:mixed $replacement}, ${3:mixed $start})${0}
 
 snippet substr
-	substr(${1:string $string}, ${2:int $start})
+	substr(${1:string $string}, ${2:int $start})${0}
 
 snippet symlink
-	symlink(${1:string $target}, ${2:string $link})
+	symlink(${1:string $target}, ${2:string $link})${0}
 
 snippet sys_get_temp_dir
-	sys_get_temp_dir(${1:void})
+	sys_get_temp_dir(${1:void})${0}
 
 snippet sys_getloadavg
-	sys_getloadavg(${1:void})
+	sys_getloadavg(${1:void})${0}
 
 snippet syslog
-	syslog(${1:int $priority}, ${2:string $message})
+	syslog(${1:int $priority}, ${2:string $message})${0}
 
 snippet system
-	system(${1:string $command})
+	system(${1:string $command})${0}
 
 snippet taint
-	taint(${1:string &$string})
+	taint(${1:string &$string})${0}
 
 snippet tan
-	tan(${1:float $arg})
+	tan(${1:float $arg})${0}
 
 snippet tanh
-	tanh(${1:float $arg})
+	tanh(${1:float $arg})${0}
 
 snippet tcpwrap_check
-	tcpwrap_check(${1:string $daemon}, ${2:string $address})
+	tcpwrap_check(${1:string $daemon}, ${2:string $address})${0}
 
 snippet tempnam
-	tempnam(${1:string $dir}, ${2:string $prefix})
+	tempnam(${1:string $dir}, ${2:string $prefix})${0}
 
 snippet textdomain
-	textdomain(${1:string $text_domain = NULL})
+	textdomain(${1:string $text_domain = NULL})${0}
 
 snippet tidy_access_count
-	tidy_access_count(${1:tidy $object})
+	tidy_access_count(${1:tidy $object})${0}
 
 snippet tidy_config_count
-	tidy_config_count(${1:tidy $object})
+	tidy_config_count(${1:tidy $object})${0}
 
 snippet tidy_error_count
-	tidy_error_count(${1:tidy $object})
+	tidy_error_count(${1:tidy $object})${0}
 
 snippet tidy_get_output
-	tidy_get_output(${1:tidy $object})
+	tidy_get_output(${1:tidy $object})${0}
 
 snippet tidy_load_config
-	tidy_load_config(${1:string $filename}, ${2:string $encoding})
+	tidy_load_config(${1:string $filename}, ${2:string $encoding})${0}
 
 snippet tidy_reset_config
-	tidy_reset_config(${1:void})
+	tidy_reset_config(${1:void})${0}
 
 snippet tidy_save_config
-	tidy_save_config(${1:string $filename})
+	tidy_save_config(${1:string $filename})${0}
 
 snippet tidy_set_encoding
-	tidy_set_encoding(${1:string $encoding})
+	tidy_set_encoding(${1:string $encoding})${0}
 
 snippet tidy_setopt
-	tidy_setopt(${1:string $option}, ${2:mixed $value})
+	tidy_setopt(${1:string $option}, ${2:mixed $value})${0}
 
 snippet tidy_warning_count
-	tidy_warning_count(${1:tidy $object})
+	tidy_warning_count(${1:tidy $object})${0}
 
 snippet time_nanosleep
-	time_nanosleep(${1:int $seconds}, ${2:int $nanoseconds})
+	time_nanosleep(${1:int $seconds}, ${2:int $nanoseconds})${0}
 
 snippet time_sleep_until
-	time_sleep_until(${1:float $timestamp})
+	time_sleep_until(${1:float $timestamp})${0}
 
 snippet time
-	time(${1:void})
+	time(${1:void})${0}
 
 snippet timezone_name_from_abbr
-	timezone_name_from_abbr(${1:string $abbr})
+	timezone_name_from_abbr(${1:string $abbr})${0}
 
 snippet timezone_version_get
-	timezone_version_get(${1:void})
+	timezone_version_get(${1:void})${0}
 
 snippet tmpfile
-	tmpfile(${1:void})
+	tmpfile(${1:void})${0}
 
 snippet token_get_all
-	token_get_all(${1:string $source})
+	token_get_all(${1:string $source})${0}
 
 snippet token_name
-	token_name(${1:int $token})
-
-snippet touch
-	touch(${1:string $filename})
+	token_name(${1:int $token})${0}
 
 snippet trait_exists
-	trait_exists(${1:string $traitname})
+	trait_exists(${1:string $traitname})${0}
 
 snippet trigger_error
-	trigger_error(${1:string $error_msg})
+	trigger_error(${1:string $error_msg})${0}
 
 snippet trim
-	trim(${1:string $str})
+	trim(${1:string $str})${0}
 
 snippet uasort
-	uasort(${1:array &$array}, ${2:callable $value_compare_func})
+	uasort(${1:array &$array}, ${2:callable $value_compare_func})${0}
 
 snippet ucfirst
-	ucfirst(${1:string $str})
+	ucfirst(${1:string $str})${0}
 
 snippet ucwords
-	ucwords(${1:string $str})
+	ucwords(${1:string $str})${0}
 
 snippet ui_draw_text_font_fontfamilies
-	ui_draw_text_font_fontfamilies(${1:void})
+	ui_draw_text_font_fontfamilies(${1:void})${0}
 
 snippet ui_quit
-	ui_quit(${1:void})
+	ui_quit(${1:void})${0}
 
 snippet ui_run
-	ui_run()
+	ui_run()${0}
 
 snippet uksort
-	uksort(${1:array &$array}, ${2:callable $key_compare_func})
+	uksort(${1:array &$array}, ${2:callable $key_compare_func})${0}
 
 snippet umask
-	umask()
+	umask()${0}
 
 snippet uniqid
-	uniqid()
-
-snippet unixtojd
-	unixtojd()
+	uniqid()${0}
 
 snippet unlink
-	unlink(${1:string $filename})
+	unlink(${1:string $filename})${0}
 
 snippet unpack
-	unpack(${1:string $format}, ${2:string $data})
+	unpack(${1:string $format}, ${2:string $data})${0}
 
 snippet unregister_tick_function
-	unregister_tick_function(${1:string $function_name})
+	unregister_tick_function(${1:string $function_name})${0}
 
 snippet unserialize
-	unserialize(${1:string $str})
+	unserialize(${1:string $str})${0}
 
 snippet unset
-	unset(${1:mixed $var})
+	unset(${1:mixed $var})${0}
 
 snippet untaint
-	untaint(${1:string &$string})
+	untaint(${1:string &$string})${0}
 
 snippet urldecode
-	urldecode(${1:string $str})
+	urldecode(${1:string $str})${0}
 
 snippet urlencode
-	urlencode(${1:string $str})
+	urlencode(${1:string $str})${0}
 
 snippet use_soap_error_handler
-	use_soap_error_handler()
+	use_soap_error_handler()${0}
 
 snippet usleep
-	usleep(${1:int $micro_seconds})
+	usleep(${1:int $micro_seconds})${0}
 
 snippet usort
-	usort(${1:array &$array}, ${2:callable $value_compare_func})
+	usort(${1:array &$array}, ${2:callable $value_compare_func})${0}
 
 snippet utf8_decode
-	utf8_decode(${1:string $data})
+	utf8_decode(${1:string $data})${0}
 
 snippet utf8_encode
-	utf8_encode(${1:string $data})
+	utf8_encode(${1:string $data})${0}
 
 snippet var_dump
-	var_dump(${1:mixed $expression})
+	var_dump(${1:mixed $expression})${0}
 
 snippet var_export
-	var_export(${1:mixed $expression})
+	var_export(${1:mixed $expression})${0}
 
 snippet version_compare
-	version_compare(${1:string $version1}, ${2:string $version2})
+	version_compare(${1:string $version1}, ${2:string $version2})${0}
 
 snippet vfprintf
-	vfprintf(${1:resource $handle}, ${2:string $format}, ${3:array $args})
+	vfprintf(${1:resource $handle}, ${2:string $format}, ${3:array $args})${0}
 
 snippet virtual
-	virtual(${1:string $filename})
+	virtual(${1:string $filename})${0}
 
 snippet vprintf
-	vprintf(${1:string $format}, ${2:array $args})
+	vprintf(${1:string $format}, ${2:array $args})${0}
 
 snippet vsprintf
-	vsprintf(${1:string $format}, ${2:array $args})
+	vsprintf(${1:string $format}, ${2:array $args})${0}
 
 snippet wordwrap
-	wordwrap(${1:string $str})
+	wordwrap(${1:string $str})${0}
 
 snippet xhprof_disable
-	xhprof_disable(${1:void})
+	xhprof_disable(${1:void})${0}
 
 snippet xhprof_enable
-	xhprof_enable()
+	xhprof_enable()${0}
 
 snippet xhprof_sample_disable
-	xhprof_sample_disable(${1:void})
+	xhprof_sample_disable(${1:void})${0}
 
 snippet xhprof_sample_enable
-	xhprof_sample_enable(${1:void})
+	xhprof_sample_enable(${1:void})${0}
 
 snippet xml_error_string
-	xml_error_string(${1:int $code})
+	xml_error_string(${1:int $code})${0}
 
 snippet xml_get_current_byte_index
-	xml_get_current_byte_index(${1:resource $parser})
+	xml_get_current_byte_index(${1:resource $parser})${0}
 
 snippet xml_get_current_column_number
-	xml_get_current_column_number(${1:resource $parser})
+	xml_get_current_column_number(${1:resource $parser})${0}
 
 snippet xml_get_current_line_number
-	xml_get_current_line_number(${1:resource $parser})
+	xml_get_current_line_number(${1:resource $parser})${0}
 
 snippet xml_get_error_code
-	xml_get_error_code(${1:resource $parser})
+	xml_get_error_code(${1:resource $parser})${0}
 
 snippet xml_parse_into_struct
-	xml_parse_into_struct(${1:resource $parser}, ${2:string $data}, ${3:array&$values})
+	xml_parse_into_struct(${1:resource $parser}, ${2:string $data}, ${3:array    &$values})${0}
 
 snippet xml_parse
-	xml_parse(${1:resource $parser}, ${2:string $data})
+	xml_parse(${1:resource $parser}, ${2:string $data})${0}
 
 snippet xml_parser_create_ns
-	xml_parser_create_ns()
+	xml_parser_create_ns()${0}
 
 snippet xml_parser_create
-	xml_parser_create()
+	xml_parser_create()${0}
 
 snippet xml_parser_free
-	xml_parser_free(${1:resource $parser})
+	xml_parser_free(${1:resource $parser})${0}
 
 snippet xml_parser_get_option
-	xml_parser_get_option(${1:resource $parser}, ${2:int $option})
+	xml_parser_get_option(${1:resource $parser}, ${2:int $option})${0}
 
 snippet xml_parser_set_option
-	xml_parser_set_option(${1:resource $parser}, ${2:int $option}, ${3:mixed$value})
+	xml_parser_set_option(${1:resource $parser}, ${2:int $option}, ${3:mixed    $value})${0}
 
 snippet xml_set_character_data_handler
-	xml_set_character_data_handler(${1:resource $parser}, ${2:callable$handler})
+	xml_set_character_data_handler(${1:resource $parser}, ${2:callable    $handler})${0}
 
 snippet xml_set_default_handler
-	xml_set_default_handler(${1:resource $parser}, ${2:callable $handler})
+	xml_set_default_handler(${1:resource $parser}, ${2:callable $handler})${0}
 
 snippet xml_set_element_handler
-	xml_set_element_handler(${1:resource $parser}, ${2:callable$start_element_handler}, ${3:callable $end_element_handler})
+	xml_set_element_handler(${1:resource $parser}, ${2:callable    $start_element_handler}, ${3:callable $end_element_handler})${0}
 
 snippet xml_set_end_namespace_decl_handler
-	xml_set_end_namespace_decl_handler(${1:resource $parser}, ${2:callable$handler})
+	xml_set_end_namespace_decl_handler(${1:resource $parser}, ${2:callable    $handler})${0}
 
 snippet xml_set_external_entity_ref_handler
-	xml_set_external_entity_ref_handler(${1:resource $parser}, ${2:callable$handler})
+	xml_set_external_entity_ref_handler(${1:resource $parser}, ${2:callable    $handler})${0}
 
 snippet xml_set_notation_decl_handler
-	xml_set_notation_decl_handler(${1:resource $parser}, ${2:callable $handler~})
+	xml_set_notation_decl_handler(${1:resource $parser}, ${2:callable $handler})${0}
 
 snippet xml_set_object
-	xml_set_object(${1:resource $parser}, ${2:object &$object})
+	xml_set_object(${1:resource $parser}, ${2:object &$object})${0}
 
 snippet xml_set_processing_instruction_handler
-	xml_set_processing_instruction_handler(${1:resource $parser}, ${2:callable$handler})
+	xml_set_processing_instruction_handler(${1:resource $parser}, ${2:callable    $handler})${0}
 
 snippet xml_set_start_namespace_decl_handler
-	xml_set_start_namespace_decl_handler(${1:resource $parser}, ${2:callable$handler})
+	xml_set_start_namespace_decl_handler(${1:resource $parser}, ${2:callable    $handler})${0}
 
 snippet xml_set_unparsed_entity_decl_handler
-	xml_set_unparsed_entity_decl_handler(${1:resource $parser}, ${2:callable$handler})
+	xml_set_unparsed_entity_decl_handler(${1:resource $parser}, ${2:callable    $handler})${0}
 
 snippet xmlrpc_decode_request
-	xmlrpc_decode_request(${1:string $xml}, ${2:string &$method})
+	xmlrpc_decode_request(${1:string $xml}, ${2:string &$method})${0}
 
 snippet xmlrpc_decode
-	xmlrpc_decode(${1:string $xml})
+	xmlrpc_decode(${1:string $xml})${0}
 
 snippet xmlrpc_encode_request
-	xmlrpc_encode_request(${1:string $method}, ${2:mixed $params})
+	xmlrpc_encode_request(${1:string $method}, ${2:mixed $params})${0}
 
 snippet xmlrpc_encode
-	xmlrpc_encode(${1:mixed $value})
+	xmlrpc_encode(${1:mixed $value})${0}
 
 snippet xmlrpc_get_type
-	xmlrpc_get_type(${1:mixed $value})
+	xmlrpc_get_type(${1:mixed $value})${0}
 
 snippet xmlrpc_is_fault
-	xmlrpc_is_fault(${1:array $arg})
+	xmlrpc_is_fault(${1:array $arg})${0}
 
 snippet xmlrpc_parse_method_descriptions
-	xmlrpc_parse_method_descriptions(${1:string $xml})
+	xmlrpc_parse_method_descriptions(${1:string $xml})${0}
 
 snippet xmlrpc_server_add_introspection_data
-	xmlrpc_server_add_introspection_data(${1:resource $server}, ${2:array $desc~})
+	xmlrpc_server_add_introspection_data(${1:resource $server}, ${2:array $desc})${0}
 
 snippet xmlrpc_server_call_method
-	xmlrpc_server_call_method(${1:resource $server}, ${2:string $xml}, ${3:mixed$user_data})
+	xmlrpc_server_call_method(${1:resource $server}, ${2:string $xml}, ${3:mixed    $user_data})${0}
 
 snippet xmlrpc_server_create
-	xmlrpc_server_create(${1:void})
+	xmlrpc_server_create(${1:void})${0}
 
 snippet xmlrpc_server_destroy
-	xmlrpc_server_destroy(${1:resource $server})
+	xmlrpc_server_destroy(${1:resource $server})${0}
 
 snippet xmlrpc_server_register_introspection_callback
-	xmlrpc_server_register_introspection_callback(${1:resource $server}, ${2:string $function})
+	xmlrpc_server_register_introspection_callback(${1:resource $server}, ${2:string $function})${0}
 
 snippet xmlrpc_server_register_method
-	xmlrpc_server_register_method(${1:resource $server}, ${2:string$method_name}, ${3:string $function})
+	xmlrpc_server_register_method(${1:resource $server}, ${2:string    $method_name}, ${3:string $function})${0}
 
 snippet xmlrpc_set_type
-	xmlrpc_set_type(${1:string &$value}, ${2:string $type})
+	xmlrpc_set_type(${1:string &$value}, ${2:string $type})${0}
 
 snippet yaml_emit_file
-	yaml_emit_file(${1:string $filename}, ${2:mixed $data})
+	yaml_emit_file(${1:string $filename}, ${2:mixed $data})${0}
 
 snippet yaml_emit
-	yaml_emit(${1:mixed $data})
+	yaml_emit(${1:mixed $data})${0}
 
 snippet yaml_parse_file
-	yaml_parse_file(${1:string $filename})
+	yaml_parse_file(${1:string $filename})${0}
 
 snippet yaml_parse_url
-	yaml_parse_url(${1:string $url})
+	yaml_parse_url(${1:string $url})${0}
 
 snippet yaml_parse
-	yaml_parse(${1:string $input})
+	yaml_parse(${1:string $input})${0}
 

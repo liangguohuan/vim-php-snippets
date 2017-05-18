@@ -17,6 +17,7 @@ $arr_rule = preg_split('/[\r\n]/', $str_rules);
 // scan files to handle
 $count = 0;
 foreach ( scandir(DIR_SRC) as $file ) {
+    // if (strpos($file, 'in-array') === false) continue;
     if (in_array($file, ['.', '..']) || strrchr($file, '.') !== '.txt') continue;
     if (check_rule($file, $arr_rule)) continue; 
 
